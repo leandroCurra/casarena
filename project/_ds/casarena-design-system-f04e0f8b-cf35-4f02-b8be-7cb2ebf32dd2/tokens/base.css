@@ -1,0 +1,4 @@
+a{color:var(--text-accent);text-decoration:none;border-bottom:1px solid rgba(14,119,119,.34);transition:var(--motion-hover)}
+a:hover{color:var(--casarena-dark-teal);border-bottom-color:var(--casarena-dark-teal)}
+::selection{background:var(--casarena-sand);color:var(--casarena-deep-green)}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}

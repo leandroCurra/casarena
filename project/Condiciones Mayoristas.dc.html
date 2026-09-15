@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/colors.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/typography.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/shape.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/motion.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/base.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/styles.css">
+<style>
+doc-page:not(:defined){visibility:hidden}
+body{margin:0;font-family:var(--font-core);color:var(--casarena-dark-teal)}
+</style>
+<script>window.CASARENA_ASSET_BASE="assets/";window.CASARENA_ICON_BASE="assets/icons/";</script>
+<script src="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/_ds_bundle.js"></script>
+<script src="./doc-page.js"></script>
+</helmet>
+
+<doc-page margin="0.75in">
+  <div slot="header" style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding-bottom:10px;border-bottom:1px solid rgba(6,53,49,.14)">
+    <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Logo" width="{{ 150 }}" tone="ink" hint-size="150px,16px"></x-import>
+    <span style="font-size:8pt;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-sea-mist)">Mayorista · Temporada 2027</span>
+  </div>
+
+  <span style="display:block;font-size:8pt;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--casarena-sea-mist)">Documento para revendedoras</span>
+  <h1 style="margin:10pt 0 0;font-size:24pt;font-weight:300;letter-spacing:.06em;line-height:1.2;color:var(--casarena-deep-green)">Condiciones de venta mayorista y planilla de pedido</h1>
+  <p style="margin:14pt 0 0;font-size:11pt;font-weight:300;line-height:1.6;max-width:52ch">Casarena existe solo en temporada. Este documento resume cómo comprar por mayor y sirve de planilla para armar tu pedido: anotá las cantidades por talle y color y mandanos la hoja completa.</p>
+
+  <h2 style="margin:26pt 0 0;font-size:13pt;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-deep-green)">Monto mínimo de compra</h2>
+  <p style="margin:8pt 0 0;font-size:11pt;line-height:1.6">El pedido mínimo para compras mayoristas es de $200.000.</p>
+
+  <h2 style="margin:22pt 0 0;font-size:13pt;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-deep-green)">Medios de pago</h2>
+  <p style="margin:8pt 0 0;font-size:11pt;line-height:1.6">Aceptamos efectivo, transferencia bancaria y depósito bancario.</p>
+
+  <h2 style="margin:22pt 0 0;font-size:13pt;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-deep-green)">Procesamiento del pedido</h2>
+  <p style="margin:8pt 0 0;font-size:11pt;line-height:1.6">El armado del pedido comienza una vez acreditado el pago. Con la acreditación despachamos en 48 horas hábiles por el método de transporte que hayas seleccionado.</p>
+
+  <h2 style="margin:22pt 0 0;font-size:13pt;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-deep-green)">Envíos</h2>
+  <p style="margin:8pt 0 0;font-size:11pt;line-height:1.6">Enviamos a todo el país por el transporte que elijas, con flete a cargo de la compradora.</p>
+
+  <h2 style="margin:22pt 0 0;font-size:13pt;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-deep-green)">Armado de packs</h2>
+  <p style="margin:8pt 0 0;font-size:11pt;line-height:1.6">Podés combinar modelos, colores y talles como quieras hasta llegar al mínimo.</p>
+
+  <h2 style="margin:28pt 0 0;font-size:13pt;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-deep-green)">Planilla de pedido</h2>
+  <p style="margin:8pt 0 12pt;font-size:9.5pt;line-height:1.5;color:var(--casarena-ocean-green)">{{ intro }} Completá las cantidades por talle y mandanos la hoja.</p>
+  <table style="width:100%;border-collapse:collapse;font-size:9pt">
+    <thead>
+      <tr>
+        <th style="text-align:left;padding:7pt 6pt;border-bottom:1px solid var(--casarena-dark-teal);font-size:7.5pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">Modelo</th>
+        <th style="text-align:left;padding:7pt 6pt;border-bottom:1px solid var(--casarena-dark-teal);font-size:7.5pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">Art. / línea</th>
+        <th style="text-align:left;padding:7pt 6pt;border-bottom:1px solid var(--casarena-dark-teal);font-size:7.5pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">Colores</th>
+        <th style="text-align:right;padding:7pt 6pt;border-bottom:1px solid var(--casarena-dark-teal);font-size:7.5pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">Precio</th>
+        <th style="text-align:center;padding:7pt 6pt;border-bottom:1px solid var(--casarena-dark-teal);font-size:7.5pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">T1</th>
+        <th style="text-align:center;padding:7pt 6pt;border-bottom:1px solid var(--casarena-dark-teal);font-size:7.5pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">T2</th>
+        <th style="text-align:center;padding:7pt 6pt;border-bottom:1px solid var(--casarena-dark-teal);font-size:7.5pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">T3</th>
+        <th style="text-align:center;padding:7pt 6pt;border-bottom:1px solid var(--casarena-dark-teal);font-size:7.5pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">T4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <sc-for list="{{ rows }}" as="r" hint-placeholder-count="12">
+        <tr>
+          <td style="padding:6pt;border-bottom:1px solid rgba(6,53,49,.14);font-weight:500;color:var(--casarena-deep-green)">{{ r.name }}</td>
+          <td style="padding:6pt;border-bottom:1px solid rgba(6,53,49,.14);color:var(--casarena-sea-mist)">{{ r.sub }}</td>
+          <td style="padding:6pt;border-bottom:1px solid rgba(6,53,49,.14);color:var(--casarena-ocean-green)">{{ r.colors }}</td>
+          <td style="padding:6pt;border-bottom:1px solid rgba(6,53,49,.14);text-align:right;white-space:nowrap">{{ r.price }}</td>
+          <td style="padding:6pt;border-bottom:1px solid rgba(6,53,49,.14);border-left:1px solid rgba(6,53,49,.14)"></td>
+          <td style="padding:6pt;border-bottom:1px solid rgba(6,53,49,.14);border-left:1px solid rgba(6,53,49,.14)"></td>
+          <td style="padding:6pt;border-bottom:1px solid rgba(6,53,49,.14);border-left:1px solid rgba(6,53,49,.14)"></td>
+          <td style="padding:6pt;border-bottom:1px solid rgba(6,53,49,.14);border-left:1px solid rgba(6,53,49,.14)"></td>
+        </tr>
+      </sc-for>
+    </tbody>
+  </table>
+
+  <div style="margin-top:24pt;padding:14pt 16pt;background:var(--casarena-sand);display:flex;flex-direction:column;gap:6pt">
+    <span style="font-size:8pt;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-dark-teal)">Datos del pedido</span>
+    <span style="font-size:10pt;line-height:1.8;color:var(--casarena-deep-green)">Tienda: ____________________________  ·  Ciudad: ____________________________<br>Contacto: __________________________  ·  Transporte: __________________________</span>
+  </div>
+
+  <div slot="footer" style="display:flex;justify-content:space-between;gap:24px;padding-top:8px;border-top:1px solid rgba(6,53,49,.14);font-size:7.5pt;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--casarena-sea-mist)">
+    <span>Casarena · Made for summer</span>
+    <span>@casarena_ar</span>
+  </div>
+</doc-page>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  state = { items: [] };
+
+  componentDidMount() {
+    fetch("catalogo.json").then(r => r.json()).then(d => this.setState({ items: d.items || [] })).catch(() => {});
+  }
+
+  renderVals() {
+    const items = this.state.items;
+    const bikinis = items.filter(i => i.rubro === "Bikinis" && !i.pack);
+    const lenceria = items.filter(i => i.rubro === "Lencería" && !i.pack);
+    const packs = items.filter(i => i.pack);
+    const rows = [];
+    [["Bikinis", bikinis], ["Lencería", lenceria], ["Packs y docenas", packs]].forEach(([grupo, arr]) => {
+      arr.slice().sort((a, b) => (a.name || a.label).localeCompare(b.name || b.label)).forEach(i => {
+        rows.push({
+          name: i.name || i.label,
+          sub: i.name ? i.label : (i.temporada || grupo),
+          grupo,
+          colors: i.colors.length > 6 ? i.colors.length + " colores · " + i.colors.slice(0, 5).join(", ") + "…" : i.colors.join(", "),
+          price: "$" + Number(i.price || 0).toLocaleString("es-AR")
+        });
+      });
+    });
+    return {
+      rows,
+      intro: items.length
+        ? items.length + " artículos vigentes: " + bikinis.length + " bikinis, " + lenceria.length + " de lencería y " + packs.length + " packs y docenas. Los precios son mayoristas por unidad."
+        : "Cargando la lista vigente."
+    };
+  }
+}
+</script>
+</body>
+</html>
