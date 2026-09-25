@@ -28,8 +28,16 @@ const MIME_TYPES = {
 function createServer() {
   return http.createServer((req, res) => {
     let reqPath = decodeURIComponent(req.url.split('?')[0]);
+
+    // Redirigir la ruta vieja al index limpio
+    if (reqPath === '/Casarena Mayorista.dc.html') {
+      res.writeHead(301, { 'Location': '/' });
+      res.end();
+      return;
+    }
+
     if (reqPath === '/' || reqPath === '') {
-      reqPath = '/Casarena Mayorista.dc.html';
+      reqPath = '/index.html';
     }
 
     const safePath = path.normalize(path.join(ROOT, reqPath));
@@ -49,7 +57,7 @@ function createServer() {
 
       let filePath = safePath;
       if (stats.isDirectory()) {
-        filePath = path.join(safePath, 'Casarena Mayorista.dc.html');
+        filePath = path.join(safePath, 'index.html');
       }
 
       const ext = path.extname(filePath).toLowerCase();
@@ -88,8 +96,8 @@ function startServer(port) {
     const url = `http://localhost:${port}/`;
     console.log(`====================================================`);
     console.log(`  Casarena Mayorista - Servidor Web Activo`);
-    console.log(`  URL: ${url}`);
-    console.log(`  Condiciones: ${url}Condiciones%20Mayoristas.dc.html`);
+    console.log(`  URL principal: ${url}`);
+    console.log(`  Condiciones:   ${url}condiciones.html`);
     console.log(`====================================================`);
     console.log(`Presioná Ctrl + C para detener el servidor.\n`);
 
