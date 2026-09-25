@@ -1,0 +1,689 @@
+{
+ "items": [
+  {
+   "id": "304779673",
+   "art": "",
+   "label": "ACCESORIO",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Plateado",
+    "Dorado"
+   ],
+   "price": 2700,
+   "url": "https://fridastore.com.ar/productos/accesorio/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "118164438",
+   "art": "1736",
+   "label": "Art - 1736",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "85",
+    "90",
+    "95",
+    "100"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-1736/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "242236046",
+   "art": "1736",
+   "label": "ART - 1736 COLORES PASTELES",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Aqua",
+    "Lila",
+    "Salmon"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-1736-colores-pasteles/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "284668026",
+   "art": "1737",
+   "label": "ART - 1737",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Negro",
+    "Rojo",
+    "Blanco"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-1737/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "234577282",
+   "art": "6005",
+   "label": "Art - 6005 JACQUARD",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2024-2025",
+   "pack": false,
+   "colors": [
+    "Negro",
+    "Blanco optico",
+    "Aqua",
+    "Verde pastel",
+    "Rosa"
+   ],
+   "price": 14760,
+   "url": "https://fridastore.com.ar/productos/art-6005-jacquard/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "255927665",
+   "art": "6071",
+   "label": "ART - 6071 TRICOT",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Negro",
+    "Fucsia",
+    "Verde lima",
+    "Lila",
+    "Celeste"
+   ],
+   "price": 23400,
+   "url": "https://fridastore.com.ar/productos/art-6071-tricot/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "309979179",
+   "art": "",
+   "label": "ART - 65",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Negro"
+   ],
+   "price": 25200,
+   "url": "https://fridastore.com.ar/productos/art-65-07z7a/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "216523166",
+   "art": "706",
+   "label": "Art - 706",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Negro"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-706/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "214116982",
+   "art": "707",
+   "label": "ART - 707",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Animal print negro"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-707/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "203541663",
+   "art": "708",
+   "label": "Art - 708",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Animal print negro beige",
+    "Animal print negro ocre",
+    "Animal print negro verde"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-708/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "164179627",
+   "art": "709",
+   "label": "Art - 709",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Rojo",
+    "Negro",
+    "Blanco"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-709/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "214427903",
+   "art": "713",
+   "label": "Art - 713",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Animal print cebra negro"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-713/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "158111716",
+   "art": "715",
+   "label": "Art - 715",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Negro",
+    "Rojo",
+    "Blanco"
+   ],
+   "price": 9180,
+   "url": "https://fridastore.com.ar/productos/art-715/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "263920039",
+   "art": "756",
+   "label": "ART - 756",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Negro",
+    "Rojo",
+    "Blanco"
+   ],
+   "price": 9180,
+   "url": "https://fridastore.com.ar/productos/art-756/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "237766163",
+   "art": "8000",
+   "label": "ART - 8000",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2024-2025",
+   "pack": false,
+   "colors": [
+    "Celeste",
+    "Negro",
+    "Ciruela",
+    "Aqua",
+    "Azul francia"
+   ],
+   "price": 13860,
+   "url": "https://fridastore.com.ar/productos/art-8000/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "117096783",
+   "art": "840",
+   "label": "ART - 840",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Lila",
+    "Gris",
+    "Verde menta"
+   ],
+   "price": 9360,
+   "url": "https://fridastore.com.ar/productos/art-840/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "121359052",
+   "art": "840",
+   "label": "Art - 840 Estampado",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Ondas abstractas aqua verde",
+    "Ondas abstractas naranja bordo",
+    "Ondas abstractas natural negro",
+    "Ondas abstractas beige negro",
+    "Cebra 3 marron natural",
+    "Cebra 3 azul pastel rosa",
+    "Cebra 3 bordo rosa viejo",
+    "Print marron hoja natural",
+    "Print rosa viejo hoja crema",
+    "Print negro hoja natural"
+   ],
+   "price": 9360,
+   "url": "https://fridastore.com.ar/productos/art-840-estampado/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "42313442",
+   "art": "841",
+   "label": "ART - 841",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Blanco",
+    "Negro",
+    "Rojo",
+    "Beige"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-841/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "82760856",
+   "art": "940",
+   "label": "Art - 940 Morley",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Mostaza",
+    "Negro",
+    "Gris",
+    "Rosa",
+    "Lila",
+    "Verde militar",
+    "Terracota",
+    "Gris oscuro",
+    "Blanco",
+    "Nude"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-940-morley-tnbbs/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "115211920",
+   "art": "600",
+   "label": "Art -600 SET ARNES",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Blanco",
+    "Rojo",
+    "Blanco optico",
+    "Hueso",
+    "Vison"
+   ],
+   "price": 23760,
+   "url": "https://fridastore.com.ar/productos/art-600-set-arnes/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "238910784",
+   "art": "4775",
+   "label": "ART 4775 TRICOT",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2024-2025",
+   "pack": false,
+   "colors": [
+    "Mostaza",
+    "Cobre",
+    "Azul fluor",
+    "Fucsia",
+    "Celeste",
+    "Lavanda",
+    "Verde oliva",
+    "Azul francia",
+    "Negro"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-4775-tricot/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "244805058",
+   "art": "6075",
+   "label": "Art 6075 - Jacquard Malibú",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2024-2025",
+   "pack": false,
+   "colors": [
+    "Nude",
+    "Negro",
+    "Coral",
+    "Verde esmeralda",
+    "Fucsia lila",
+    "Rosa"
+   ],
+   "price": 15480,
+   "url": "https://fridastore.com.ar/productos/art-6075-jacquard-malibu/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "86036114",
+   "art": "830",
+   "label": "Art 830",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "85",
+    "90",
+    "95",
+    "100"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-830/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "54320978",
+   "art": "940",
+   "label": "Art 940 Microfibra",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Negro",
+    "Blanco",
+    "Chocolate",
+    "Nude"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-940-microfibra/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "304787401",
+   "art": "725",
+   "label": "Art- 725",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Negro",
+    "Blanco",
+    "Rojo",
+    "Beige"
+   ],
+   "price": 7560,
+   "url": "https://fridastore.com.ar/productos/art-725/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "78213543",
+   "art": "745",
+   "label": "Art. 745",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "95"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/art-745/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "294882001",
+   "art": "4737",
+   "label": "Bikini Art - 4737 Foil Lurex",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Lila",
+    "Verde menta",
+    "Coral",
+    "Natural"
+   ],
+   "price": 14580,
+   "url": "https://fridastore.com.ar/productos/bikini-art-4737-foil-lurex/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "307818327",
+   "art": "4750",
+   "label": "Bikini Art - 4750 con accesorio dorado Bambula",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Chocolate",
+    "Verde militar",
+    "Nude",
+    "Fucsia",
+    "Rosa",
+    "Verde"
+   ],
+   "price": 15300,
+   "url": "https://fridastore.com.ar/productos/bikini-art-4750-con-accesorio-dorado-bambula-4orvn/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "306531322",
+   "art": "4840",
+   "label": "Bikini Art - 4840",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Negro borde blanco",
+    "Blanco borde negro"
+   ],
+   "price": 11880,
+   "url": "https://fridastore.com.ar/productos/bikini-art-4840-zpnih/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "177912803",
+   "art": "4752",
+   "label": "Bikini Cabo - Art 4752 (Estampado Vaca)",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Vaca marron"
+   ],
+   "price": 11160,
+   "url": "https://fridastore.com.ar/productos/bikini-cabo-art-4752-estampado-vaca/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "310031852",
+   "art": "",
+   "label": "Body Aurora",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Negro"
+   ],
+   "price": 17640,
+   "url": "https://fridastore.com.ar/productos/body-aurora-p59s1/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "297647685",
+   "art": "",
+   "label": "Body Niza",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Negro"
+   ],
+   "price": 17280,
+   "url": "https://fridastore.com.ar/productos/body-niza/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "57019842",
+   "art": "950",
+   "label": "Conjunto Acacia - Art 950",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Blanco"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/conjunto-acacia-art-950/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "294940972",
+   "art": "705",
+   "label": "Conjunto Art - 705",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Mariposas",
+    "Estrellas",
+    "Lunares"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/conjunto-art-705/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "201076799",
+   "art": "860",
+   "label": "Conjunto Art - 860",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Rojo",
+    "Blanco",
+    "Negro",
+    "Nude"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/conjunto-art-860/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "325276027",
+   "art": "714",
+   "label": "Conjunto lenceria ART 714 - Bicolor",
+   "name": null,
+   "rubro": "Lencería",
+   "temporada": "",
+   "pack": false,
+   "colors": [
+    "Negro / rojo",
+    "Negro / azul",
+    "Negro / plata"
+   ],
+   "price": 9000,
+   "url": "https://fridastore.com.ar/productos/conjunto-lenceria-art-714-bicolor-19t6q/",
+   "photos": {},
+   "hasPhotos": false
+  },
+  {
+   "id": "290000916",
+   "art": "130",
+   "label": "Enteriza ART - 130",
+   "name": null,
+   "rubro": "Bikinis",
+   "temporada": "2025-2026",
+   "pack": false,
+   "colors": [
+    "Negro"
+   ],
+   "price": 18900,
+   "url": "https://fridastore.com.ar/productos/enteriza-art-130/",
+   "photos": {},
+   "hasPhotos": false
+  }
+ ]
+}

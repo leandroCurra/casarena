@@ -1,0 +1,12 @@
+:root{
+--radius-none:0px;--radius-xs:2px;--radius-sm:4px;--radius-md:8px;--radius-lg:16px;--radius-pill:999px;
+--border-w-hair:1px;--border-w-strong:2px;
+--shadow-none:none;
+--shadow-low:0 1px 2px rgba(6,53,49,.06);
+--shadow-lift:0 8px 24px -12px rgba(6,53,49,.22);
+--shadow-float:0 24px 60px -28px rgba(6,53,49,.34);
+--shadow-inset-hairline:inset 0 0 0 1px var(--border-hairline);
+--blur-veil:14px;
+--scrim-bottom:linear-gradient(to top,rgba(6,53,49,.78) 0%,rgba(6,53,49,.36) 42%,rgba(6,53,49,0) 100%); /* @kind other */
+--scrim-full:linear-gradient(to bottom,rgba(6,53,49,.28),rgba(6,53,49,.55)); /* @kind other */
+}
