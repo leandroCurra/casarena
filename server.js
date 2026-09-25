@@ -29,9 +29,14 @@ function createServer() {
   return http.createServer((req, res) => {
     let reqPath = decodeURIComponent(req.url.split('?')[0]);
 
-    // Redirigir la ruta vieja al index limpio
+    // Redirigir temporalmente (302 para evitar loops de caché permanente) las rutas viejas
     if (reqPath === '/Casarena Mayorista.dc.html') {
-      res.writeHead(301, { 'Location': '/' });
+      res.writeHead(302, { 'Location': '/' });
+      res.end();
+      return;
+    }
+    if (reqPath === '/Condiciones Mayoristas.dc.html') {
+      res.writeHead(302, { 'Location': '/condiciones.html' });
       res.end();
       return;
     }

@@ -1,14 +1,1048 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=./">
-  <title>Casarena · Bikinis mayorista</title>
-  <script>
-    window.location.replace("./");
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+if (window.history && window.history.replaceState) {
+  window.history.replaceState(null, "", "./");
+}
+</script>
+<script src="./support.js"></script>
 </head>
 <body>
-  <p>Redirigiendo a <a href="./">Inicio</a>...</p>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casarena · Bikinis mayorista</title>
+<link rel="icon" type="image/png" sizes="64x64" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="256x256" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta name="theme-color" content="#064E4A">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/colors.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/typography.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/shape.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/motion.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/tokens/base.css">
+<link rel="stylesheet" href="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/styles.css">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font-family:var(--font-core);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+button{font-family:var(--font-core)}
+button,input,select,textarea{border-radius:6px !important}
+a{border-bottom:none}
+a:hover{color:var(--casarena-deep-turquoise)}
+[data-hairgrid]{display:grid;gap:clamp(22px,3vw,44px)}
+[data-hairgrid] > * + *{padding-left:clamp(22px,3vw,44px);border-left:1px solid var(--border-hairline)}
+[data-hairgrid="4"]{grid-template-columns:repeat(4,minmax(0,1fr))}
+[data-hairgrid="2"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:1023px){
+  [data-hairgrid="4"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+  [data-hairgrid="4"] > *:nth-child(2n+1){padding-left:0;border-left:none}
+  [data-hairgrid="4"] > *:nth-child(n+3){padding-top:clamp(20px,3vw,32px);border-top:1px solid var(--border-hairline)}
+}
+@media (max-width:599px){
+  [data-hairgrid]{grid-template-columns:minmax(0,1fr) !important}
+  [data-hairgrid] > *{padding-left:0 !important;border-left:none !important}
+  [data-hairgrid] > * + *{padding-top:clamp(20px,3vw,32px);border-top:1px solid var(--border-hairline)}
+}
+@media (max-width:767px){
+  [data-footer-cols]{flex-direction:column;gap:34px !important}
+  [data-footer-cols] > *{max-width:none !important;width:100%}
+  [data-footer-bar]{flex-direction:column;gap:8px !important;padding-bottom:108px !important}
+}
+[data-burger]{display:none}
+@media (max-width:1023px){
+  [data-desktop-nav]{display:none !important}
+  [data-burger]{display:inline-flex !important}
+  header{flex-wrap:nowrap !important;padding:14px clamp(18px,4vw,32px) !important}
+  table{font-size:12px !important}
+}
+@media (max-width:767px){
+  header{padding:12px 18px !important}
+  [data-kicker]{display:none !important}
+}
+@media (max-width:480px){
+  [data-cta-row]{flex-direction:column;align-items:stretch}
+  [data-cta-row] > *{width:100%}
+  [data-cta-row] button{width:100% !important}
+}
+</style>
+<script>window.CASARENA_ASSET_BASE="assets/";window.CASARENA_ICON_BASE="assets/icons/";</script>
+<script src="_ds/casarena-design-system-f04e0f8b-cf35-4f02-b8be-7cb2ebf32dd2/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+</helmet>
+
+<div style="min-height:100vh;display:flex;flex-direction:column;background:var(--surface-page)">
+
+<header style="position:sticky;top:0;z-index:40;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 28px;padding:16px clamp(20px,5vw,48px);background:rgba(247,245,239,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--border-hairline)">
+  <div onClick="{{ goHome }}" style="cursor:pointer;display:flex;align-items:center;gap:14px">
+    <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Logo" width="{{ 168 }}" tone="ink" hint-size="168px,18px"></x-import>
+    <span data-kicker="1" style="font-size:9px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--text-muted);border-left:1px solid var(--border-hairline);padding-left:14px">Mayorista</span>
+  </div>
+  <div data-burger="1" style="align-items:center;gap:10px">
+    <a href="#" onClick="{{ goPedidoLink }}" style="display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border-radius:6px;background:var(--casarena-dark-teal);color:var(--casarena-warm-white);font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;text-decoration:none">Pedido
+      <sc-if value="{{ hasCart }}" hint-placeholder-val="{{ false }}">
+        <span style="min-width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:var(--casarena-warm-white);color:var(--casarena-dark-teal);font-size:11px;font-weight:700;letter-spacing:0">{{ cartCount }}</span>
+      </sc-if>
+    </a>
+    <span onClick="{{ toggleMenu }}" aria-label="Menú" style="cursor:pointer;width:44px;height:44px;flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;border:1px solid var(--border-hairline);border-radius:6px">
+      <span style="width:20px;height:1.5px;background:var(--casarena-dark-teal)"></span>
+      <span style="width:20px;height:1.5px;background:var(--casarena-dark-teal)"></span>
+      <span style="width:20px;height:1.5px;background:var(--casarena-dark-teal)"></span>
+    </span>
+  </div>
+  <nav data-desktop-nav="1" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px">
+    <sc-for list="{{ navItems }}" as="item" hint-placeholder-count="5">
+      <a href="#" onClick="{{ item.onClick }}" style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-dark-teal);text-decoration:none;padding-bottom:4px">{{ item.label }}<sc-if value="{{ item.active }}" hint-placeholder-val="{{ true }}"><span style="display:block;height:1px;margin-top:5px;background:var(--casarena-dark-teal)"></span></sc-if></a>
+    </sc-for>
+    <a href="#" onClick="{{ goPedidoLink }}" style="display:inline-flex;align-items:center;gap:9px;font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-warm-white);background:var(--casarena-dark-teal);text-decoration:none;padding:10px 16px;border-radius:6px" style-hover="background:var(--casarena-deep-turquoise);color:var(--casarena-warm-white)">Mi pedido
+      <sc-if value="{{ hasCart }}" hint-placeholder-val="{{ false }}">
+        <span style="min-width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:var(--casarena-warm-white);color:var(--casarena-dark-teal);font-size:11px;font-weight:700;letter-spacing:0">{{ cartCount }}</span>
+      </sc-if>
+    </a>
+  </nav>
+</header>
+
+<sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+  <div onClick="{{ closeMenu }}" style="position:fixed;inset:0;z-index:50;background:rgba(6,53,49,.62);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)"></div>
+  <div style="position:fixed;top:0;right:0;bottom:0;z-index:51;width:min(320px,86vw);display:flex;flex-direction:column;background:var(--casarena-deep-green);padding:22px 26px 34px;overflow-y:auto">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:26px;border-bottom:1px solid var(--border-on-dark)">
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Logo" width="{{ 150 }}" tone="light" hint-size="150px,16px"></x-import>
+      <span onClick="{{ closeMenu }}" aria-label="Cerrar" style="cursor:pointer;width:44px;height:44px;flex:none;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:200;color:var(--casarena-sand)">×</span>
+    </div>
+    <div style="display:flex;flex-direction:column;padding-top:10px">
+      <sc-for list="{{ navItems }}" as="item" hint-placeholder-count="5">
+        <a href="#" onClick="{{ item.onClickClose }}" style="display:flex;align-items:center;min-height:52px;font-size:12px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--casarena-sand);text-decoration:none;border-bottom:1px solid var(--border-on-dark)">{{ item.label }}</a>
+      </sc-for>
+      <a href="#" onClick="{{ goPedidoClose }}" style="display:flex;align-items:center;gap:10px;min-height:52px;font-size:12px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--casarena-warm-white);text-decoration:none">Mi pedido
+        <sc-if value="{{ hasCart }}" hint-placeholder-val="{{ false }}">
+          <span style="min-width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:var(--casarena-sand);color:var(--casarena-deep-green);font-size:11px;font-weight:700;letter-spacing:0">{{ cartCount }}</span>
+        </sc-if>
+      </a>
+    </div>
+    <a href="https://wa.me/message/LQLQ5UPNX3CAC1" style="margin-top:28px;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;border-radius:8px;background:var(--casarena-sand);color:var(--casarena-deep-green);font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;text-decoration:none">Escribinos</a>
+  </div>
+</sc-if>
+
+<main style="flex:1;padding-bottom:84px">
+
+<!-- ============ HOME ============ -->
+<sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+<div>
+  <section style="position:relative;min-height:clamp(520px,84vh,760px);display:flex;align-items:flex-end;overflow:hidden">
+    <img src="assets/imagery/shoreline-aerial.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+    <div style="position: absolute; inset: 0; background: var(--scrim-full); left: -122px; top: 8px"></div>
+    
+    <div style="position:relative;width:100%;max-width:1280px;margin:0 auto;padding:0 clamp(20px,5vw,48px) clamp(48px,8vw,88px);display:flex;flex-direction:column;gap:26px">
+      
+      
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="lighthouse" size="{{ 96 }}" color="var(--casarena-warm-white)" hint-size="96px,96px"></x-import><span style="font-size: 11px; font-weight: 600; letter-spacing: .34em; text-transform: uppercase; color: var(--casarena-white)">Temporada 2027 · Venta mayorista</span><x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Logo" width="{{ 300 }}" tone="light" hint-size="300px,31px"></x-import><h1 style="margin:0;font-size:clamp(26px,6.2vw,60px);font-weight:200;line-height:1.06;letter-spacing:.24em;text-transform:uppercase;color:var(--casarena-warm-white)">Made for summer</h1>
+      <p style="margin: 0; max-width: 44ch; font-size: clamp(16px,2.2vw,20px); font-weight: 300; line-height: 1.7; color: var(--casarena-white); text-wrap: pretty; font-family: Montserrat">Bikinis diseñados y producidos en Buenos Aires. Vendemos solo por mayor, solo en temporada.</p>
+      <div data-cta-row="1" style="display:flex;flex-wrap:wrap;gap:14px;margin-top:6px">
+        
+        
+      </div>
+    <div style="position: absolute; top: 48px; opacity: .5; left: 1056px; flex-grow: 2">
+      
+    </div></div>
+  </section>
+
+  <section style="max-width:1280px;margin:0 auto;padding:clamp(56px,9vw,96px) clamp(20px,5vw,48px)">
+    <div style="display:flex;align-items:center;gap:clamp(14px,3vw,28px);margin-bottom:clamp(32px,5vw,56px)">
+      
+      <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="scallop-shell" size="{{ 34 }}" color="var(--icon-muted)" hint-size="34px,34px"></x-import>
+      <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+      <h2 style="margin:0;font-size:clamp(14px,2.4vw,22px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">La colección</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:clamp(20px,3vw,32px)">
+      <sc-for list="{{ featured }}" as="p" hint-placeholder-count="3">
+        <article onClick="{{ p.onOpen }}" style="cursor:pointer;display:flex;flex-direction:column;background:var(--casarena-white);border:1px solid var(--border-hairline)">
+          <div style="position:relative;width:100%;aspect-ratio:3/4;background:var(--casarena-sand)">
+            {{ p.photo }}
+          </div>
+          <div style="display:flex;flex-direction:column;gap:9px;padding:20px 20px 24px">
+            
+            <h3 style="margin:0;font-size:22px;font-weight:500;letter-spacing:.06em;color:var(--text-strong)">{{ p.title }}</h3>
+            <span style="font-size:13px;font-weight:300;color:var(--casarena-ocean-green)">{{ p.colorLine }}</span>
+            <span style="font-size:16px;font-weight:400;letter-spacing:.04em;color:var(--text-strong)">{{ p.priceLabel }}</span>
+          </div>
+        </article>
+      </sc-for>
+    </div>
+    <div style="display:flex;justify-content:center;margin-top:clamp(32px,5vw,48px)">
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="secondary" size="md" onClick="{{ goCatalogo }}" hint-size="auto,46px">Ver la colección completa</x-import>
+    </div>
+  </section>
+
+  <section style="position:relative;overflow:hidden">
+    <img src="assets/imagery/palm-shadow-teal.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+    <div style="position:absolute;inset:0;background:rgba(6,53,49,.62)"></div>
+    <div style="position:relative;max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,120px) clamp(20px,5vw,48px);display:flex;flex-direction:column;gap:28px;align-items:flex-start">
+      <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--casarena-sand)">La marca</span>
+      <p style="margin:0;max-width:24ch;font-size:clamp(22px,4.4vw,40px);font-weight:200;line-height:1.24;letter-spacing:.06em;color:var(--casarena-warm-white);text-wrap:pretty">Existimos solo en verano, y por eso no perdemos un día.</p>
+      <p style="margin:0;max-width:52ch;font-size:16px;font-weight:300;line-height:1.7;color:var(--casarena-sand)">Producimos por tanda corta, respondemos el mismo día y enviamos a todo el país. Atrás de cada pedido hay una comunidad que hace del verano su negocio.</p>
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="inverse" size="md" onClick="{{ goMarca }}" hint-size="auto,46px">Conocer Casarena</x-import>
+    </div>
+  </section>
+
+  <section style="max-width:1280px;margin:0 auto;padding:clamp(56px,9vw,96px) clamp(20px,5vw,48px)">
+    <div style="display:flex;align-items:center;gap:clamp(14px,3vw,28px);margin-bottom:clamp(32px,5vw,56px)">
+      
+      <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="compass-rose" size="{{ 34 }}" color="var(--icon-muted)" hint-size="34px,34px"></x-import>
+      <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+      <h2 style="margin:0;font-size:clamp(14px,2.4vw,22px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">Comprar por mayor</h2>
+    </div>
+    <div data-hairgrid="2">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-size:clamp(28px,4vw,44px);font-weight:200;letter-spacing:.04em;color:var(--text-strong)">$200.000</span>
+        <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--text-muted)">Pedido mínimo</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-size:clamp(28px,4vw,44px);font-weight:200;letter-spacing:.04em;color:var(--text-strong)">Envíos</span>
+        <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--text-muted)">A todo el país</span>
+      </div>
+    </div>
+  </section>
+</div>
+</sc-if>
+
+<!-- ============ CATÁLOGO ============ -->
+<sc-if value="{{ isCatalogo }}" hint-placeholder-val="{{ true }}">
+<div style="max-width:1280px;margin:0 auto;padding:clamp(40px,7vw,80px) clamp(20px,5vw,48px) clamp(56px,9vw,96px)">
+  <div style="display:flex;align-items:center;gap:clamp(14px,3vw,28px);margin-bottom:clamp(28px,4vw,44px)">
+    
+    <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+    <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="sea-turtle" size="{{ 34 }}" color="var(--icon-muted)" hint-size="34px,34px"></x-import>
+    <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+    <h1 style="margin:0;font-size:clamp(14px,2.4vw,22px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">Catálogo 2027</h1>
+  </div>
+  
+
+  <div style="display:flex;flex-direction:column;gap:22px;padding-bottom:clamp(28px,4vw,40px);border-bottom:1px solid var(--border-hairline);margin-bottom:clamp(32px,5vw,48px)">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      
+      <div style="display:flex;flex-wrap:wrap;gap:10px">
+        <sc-for list="{{ rubroFilters }}" as="f" hint-placeholder-count="4">
+          
+        </sc-for>
+      </div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:28px;align-items:flex-end">
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Input" label="Buscar" placeholder="Artículo, nombre o color" value="{{ q }}" onChange="{{ onQuery }}" style="min-width:260px;flex:1" hint-size="260px,64px"></x-import>
+      
+    </div>
+  </div>
+
+  <div style="margin-bottom:24px">
+    <span style="font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted)">{{ resultLabel }}</span>
+  </div>
+
+  <div style="position:sticky;top:72px;z-index:20;display:flex;flex-wrap:wrap;gap:12px;padding:14px 0;margin-bottom:clamp(20px,3vw,32px);background:rgba(247,245,239,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--border-hairline)">
+    <sc-for list="{{ jumpButtons }}" as="j" hint-placeholder-count="2">
+      <span onClick="{{ j.onClick }}" style="cursor:pointer;display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:6px;font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-warm-white);background:var(--casarena-dark-teal)" style-hover="background:var(--casarena-deep-turquoise)">{{ j.label }}</span>
+    </sc-for>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:clamp(48px,7vw,80px)">
+    <sc-for list="{{ productGroups }}" as="grp" hint-placeholder-count="2">
+      <section id="{{ grp.anchor }}" style="display:flex;flex-direction:column;gap:clamp(20px,3vw,28px);scroll-margin-top:150px">
+        <div style="display:flex;align-items:baseline;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--border-hairline)">
+          <h2 style="margin:0;font-size:clamp(18px,2.6vw,26px);font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">{{ grp.title }}</h2>
+          <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--text-muted)">{{ grp.count }}</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:clamp(20px,3vw,32px)">
+          <sc-for list="{{ grp.items }}" as="p" hint-placeholder-count="6">
+      <article onClick="{{ p.onOpen }}" style="cursor:pointer;display:flex;flex-direction:column;background:var(--casarena-white);border:1px solid var(--border-hairline)">
+        <div style="position:relative;width:100%;aspect-ratio:3/4;background:var(--casarena-sand);display:flex;align-items:center;justify-content:center">
+          {{ p.photo }}
+          <sc-if value="{{ p.noPhoto }}" hint-placeholder-val="{{ false }}">
+            <span style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--casarena-warm-stone)">Foto en camino</span>
+          </sc-if>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:9px;padding:20px 20px 24px">
+          
+          <h3 style="margin:0;font-size:22px;font-weight:500;letter-spacing:.06em;color:var(--text-strong)">{{ p.title }}</h3>
+          <span style="font-size:13px;font-weight:300;line-height:1.5;color:var(--casarena-ocean-green)">{{ p.colorLine }}</span>
+          <span style="font-size:16px;font-weight:400;letter-spacing:.04em;color:var(--text-strong)">{{ p.priceLabel }}</span>
+          <span style="margin-top:6px;font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--casarena-dark-teal);border:1px solid var(--casarena-dark-teal);border-radius:6px;align-self:flex-start;padding:7px 13px">Ver detalle</span>
+        </div>
+      </article>
+          </sc-for>
+        </div>
+      </section>
+    </sc-for>
+  </div>
+
+  <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
+    <p style="margin:48px 0 0;font-size:16px;font-weight:300;color:var(--text-muted)">No hay modelos con esa combinación. Probá limpiar los filtros o escribinos y te decimos qué hay en stock.</p>
+  </sc-if>
+</div>
+</sc-if>
+
+<!-- ============ DETALLE ============ -->
+<sc-if value="{{ isProducto }}" hint-placeholder-val="{{ false }}">
+<div style="max-width:1280px;margin:0 auto;padding:clamp(28px,5vw,56px) clamp(20px,5vw,48px) clamp(56px,9vw,96px)">
+  <a href="#" onClick="{{ goCatalogo }}" style="display:inline-block;margin-bottom:clamp(24px,4vw,40px);font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--text-muted);text-decoration:none">← Catálogo</a>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(28px,5vw,64px);align-items:start">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="position:relative;width:100%;aspect-ratio:3/4;background:var(--casarena-sand)">
+        {{ p.photoLarge }}
+        <sc-if value="{{ p.noPhoto }}" hint-placeholder-val="{{ false }}">
+          <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--casarena-warm-stone)">Foto en camino</span>
+        </sc-if>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:10px">
+        <sc-for list="{{ p.variants }}" as="v" hint-placeholder-count="4">
+          <div onClick="{{ v.onPick }}" title="{{ v.name }}" style="cursor:pointer;position:relative;width:100%;aspect-ratio:3/4;background:var(--casarena-sand);border:1px solid var(--border-hairline)">
+            {{ v.photo }}
+            <sc-if value="{{ v.active }}" hint-placeholder-val="{{ false }}">
+              <span style="position:absolute;inset:0;border:2px solid var(--casarena-dark-teal)"></span>
+            </sc-if>
+          </div>
+        </sc-for>
+        <sc-for list="{{ p.gallery }}" as="g" hint-placeholder-count="0">
+          <div onClick="{{ g.onPick }}" style="cursor:pointer;position:relative;width:100%;aspect-ratio:3/4;background:var(--casarena-sand);border:1px solid var(--border-hairline)">
+            {{ g.photo }}
+            <sc-if value="{{ g.active }}" hint-placeholder-val="{{ false }}">
+              <span style="position:absolute;inset:0;border:2px solid var(--casarena-dark-teal)"></span>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:26px;padding-bottom:96px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        
+        <h1 style="margin:0;font-size:clamp(28px,5vw,48px);font-weight:300;line-height:1.18;letter-spacing:.06em;color:var(--text-strong)">{{ p.title }}</h1>
+        <p style="margin:0;max-width:46ch;font-size:clamp(15px,2vw,20px);font-weight:300;line-height:1.7;color:var(--text-body)">{{ p.desc }}</p>
+        <sc-if value="{{ p.hasTela }}" hint-placeholder-val="{{ false }}">
+          <p style="margin:0;max-width:52ch;font-size:15px;font-weight:500;line-height:1.6;color:var(--casarena-dark-teal)">{{ p.telaLine }}</p>
+        </sc-if>
+        <p style="margin:0;max-width:52ch;font-size:13px;font-weight:400;line-height:1.55;color:var(--text-muted)">{{ p.aviso }}</p>
+        <p style="margin:0;max-width:52ch;font-size:13px;font-weight:400;line-height:1.55;color:var(--text-muted)"><strong style="font-weight:700;letter-spacing:.08em;color:var(--casarena-deep-turquoise)">IMPORTANTE:</strong> {{ p.aviso2 }}</p>
+      </div>
+      <div style="height:1px;background:var(--border-hairline)"></div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">{{ p.colorCount }} · {{ p.colorName }}</span>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <sc-for list="{{ p.colorChips }}" as="c" hint-placeholder-count="4">
+            <sc-if value="{{ c.active }}" hint-placeholder-val="{{ false }}">
+              <span onClick="{{ c.onPick }}" style="cursor:pointer;font-size:13px;font-weight:500;color:var(--casarena-warm-white);background:var(--casarena-dark-teal);border:1px solid var(--casarena-dark-teal);border-radius:999px;padding:5px 12px">{{ c.name }}</span>
+            </sc-if>
+            <sc-if value="{{ c.idle }}" hint-placeholder-val="{{ true }}">
+              <span onClick="{{ c.onPick }}" style="cursor:pointer;font-size:13px;font-weight:400;color:var(--text-body);border:1px solid var(--border-hairline);border-radius:999px;padding:5px 12px;transition:background 90ms var(--ease-shore)" style-hover="background:var(--casarena-sand)">{{ c.name }}</span>
+            </sc-if>
+          </sc-for>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">Precio mayorista</span>
+        <span style="font-size:24px;font-weight:300;letter-spacing:.04em;color:var(--text-strong)">{{ p.priceLabel }}</span>
+        <span style="font-size:13px;font-weight:400;color:var(--text-muted)">{{ p.priceNote }}</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;padding:22px 24px;background:var(--casarena-sand)">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--casarena-dark-teal)">Mínimo de compra</span>
+        <span style="font-size:16px;font-weight:400;line-height:1.5;color:var(--casarena-deep-green)">{{ p.packLine }}</span>
+        <span style="font-size:13px;font-weight:400;line-height:1.5;color:var(--casarena-ocean-green)">{{ p.minNote }}</span>
+        <span style="font-size:13px;font-weight:500;line-height:1.5;color:var(--casarena-dark-teal)">Los precios no incluyen IVA. El envío corre por cuenta del comprador.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px;padding-top:26px;border-top:1px solid var(--border-hairline)">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">Tabla de talles</span>
+        <div style="display:flex;flex-wrap:wrap;gap:clamp(20px,3vw,36px);align-items:flex-start">
+          <div style="flex:1;min-width:260px;overflow-x:auto">
+            <table style="width:100%;border-collapse:collapse;font-size:13px">
+              <thead>
+                <tr>
+                  <th style="text-align:left;padding:9px 10px 9px 0;border-bottom:1px solid var(--casarena-dark-teal);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-dark-teal)">Parte</th>
+                  <th style="text-align:center;padding:9px 8px;border-bottom:1px solid var(--casarena-dark-teal);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-dark-teal)">85</th>
+                  <th style="text-align:center;padding:9px 8px;border-bottom:1px solid var(--casarena-dark-teal);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-dark-teal)">90</th>
+                  <th style="text-align:center;padding:9px 8px;border-bottom:1px solid var(--casarena-dark-teal);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-dark-teal)">95</th>
+                  <th style="text-align:center;padding:9px 8px;border-bottom:1px solid var(--casarena-dark-teal);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-dark-teal)">100</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="padding:11px 10px 11px 0;border-bottom:1px solid var(--border-hairline);color:var(--text-strong)"><span style="display:inline-block;width:18px;font-weight:600;color:var(--casarena-deep-turquoise)">A</span>Contorno de busto</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">85</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">90</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">95</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">100</td>
+                </tr>
+                <tr>
+                  <td style="padding:11px 10px 11px 0;border-bottom:1px solid var(--border-hairline);color:var(--text-strong)"><span style="display:inline-block;width:18px;font-weight:600;color:var(--casarena-deep-turquoise)">B</span>Cintura (tiro bajo)</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">68–74</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">74–80</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">80–86</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">86–92</td>
+                </tr>
+                <tr>
+                  <td style="padding:11px 10px 11px 0;border-bottom:1px solid var(--border-hairline);color:var(--text-strong)"><span style="display:inline-block;width:18px;font-weight:600;color:var(--casarena-deep-turquoise)">C</span>Contorno de cadera</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">84–92</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">92–100</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">98–108</td>
+                  <td style="padding:11px 8px;border-bottom:1px solid var(--border-hairline);text-align:center;color:var(--text-body)">108–116</td>
+                </tr>
+              </tbody>
+            </table>
+            <span style="display:block;margin-top:12px;font-size:12px;font-weight:400;line-height:1.5;color:var(--text-muted)">Medidas del cuerpo en centímetros. Si estás entre dos talles, elegí el mayor.</span>
+          </div>
+          
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px;padding:26px 0;border-top:1px solid var(--border-hairline);border-bottom:1px solid var(--border-hairline)">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">Sumar al pedido</span>
+        <div style="display:flex;flex-wrap:wrap;gap:22px;align-items:flex-end">
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <span style="font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-ocean-green)">Talle</span>
+            <div style="display:flex;gap:8px">
+              <sc-for list="{{ p.sizeChips }}" as="s" hint-placeholder-count="4">
+                <sc-if value="{{ s.active }}" hint-placeholder-val="{{ false }}">
+                  <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:500;color:var(--casarena-warm-white);background:var(--casarena-dark-teal);border:1px solid var(--casarena-dark-teal);border-radius:6px;padding:11px 12px">{{ s.name }}</span>
+                </sc-if>
+                <sc-if value="{{ s.idle }}" hint-placeholder-val="{{ true }}">
+                  <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:400;color:var(--text-body);border:1px solid var(--border-hairline);border-radius:6px;padding:11px 12px;transition:background 90ms var(--ease-shore)" style-hover="background:var(--casarena-sand)">{{ s.name }}</span>
+                </sc-if>
+              </sc-for>
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <span style="font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-ocean-green)">Cantidad</span>
+            <div style="display:flex;align-items:stretch;border:1px solid var(--border-hairline);border-radius:6px;overflow:hidden">
+              <span onClick="{{ qtyDown }}" style="cursor:pointer;user-select:none;width:44px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--casarena-dark-teal);border-right:1px solid var(--border-hairline)" style-hover="background:var(--casarena-sand)">−</span>
+              <span style="min-width:56px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:500;color:var(--text-strong)">{{ qty }}</span>
+              <span onClick="{{ qtyUp }}" style="cursor:pointer;user-select:none;width:44px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--casarena-dark-teal);border-left:1px solid var(--border-hairline)" style-hover="background:var(--casarena-sand)">+</span>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+          <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="primary" size="lg" onClick="{{ addToCart }}" hint-size="auto,56px">Agregar al pedido</x-import>
+          <sc-if value="{{ justAdded }}" hint-placeholder-val="{{ false }}">
+            <span style="font-size:13px;font-weight:500;color:var(--casarena-deep-turquoise)">Agregado. Ya está en tu pedido.</span>
+          </sc-if>
+        </div>
+      </div>
+      <div data-cta-row="1" style="display:flex;flex-wrap:wrap;gap:14px">
+        <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="secondary" size="lg" onClick="{{ goPedido }}" hint-size="auto,56px">Ver mi pedido</x-import>
+        <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="ghost" size="lg" onClick="{{ goCatalogo }}" hint-size="auto,56px">Seguir viendo</x-import>
+      </div>
+    </div>
+  </div>
+</div>
+</sc-if>
+
+<!-- ============ MI PEDIDO ============ -->
+<sc-if value="{{ isPedido }}" hint-placeholder-val="{{ false }}">
+<div style="max-width:1280px;margin:0 auto;padding:clamp(40px,7vw,80px) clamp(20px,5vw,48px) clamp(56px,9vw,96px)">
+  <div style="display:flex;align-items:center;gap:clamp(14px,3vw,28px);margin-bottom:clamp(32px,5vw,56px)">
+    <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+    <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="rope-knot" size="{{ 34 }}" color="var(--icon-muted)" hint-size="34px,34px"></x-import>
+    <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+    <h1 style="margin:0;font-size:clamp(14px,2.4vw,22px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">Mi pedido</h1>
+  </div>
+
+  <sc-if value="{{ cartEmpty }}" hint-placeholder-val="{{ true }}">
+    <div style="display:flex;flex-direction:column;gap:22px;align-items:flex-start;max-width:46ch">
+      <p style="margin:0;font-size:clamp(16px,2.2vw,20px);font-weight:300;line-height:1.7;color:var(--text-body)">Todavía no sumaste nada. Elegí modelos del catálogo, con su color y talle, y armá el pedido acá.</p>
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="primary" size="lg" onClick="{{ goCatalogo }}" hint-size="auto,56px">Ver catálogo</x-import>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ hasCart }}" hint-placeholder-val="{{ false }}">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(28px,5vw,64px);align-items:start">
+    <div style="display:flex;flex-direction:column">
+      <sc-for list="{{ cartLines }}" as="l" hint-placeholder-count="2">
+        <div style="display:flex;gap:18px;padding:20px 0;border-bottom:1px solid var(--border-hairline)">
+          <div style="position:relative;width:84px;flex:none;aspect-ratio:3/4;background:var(--casarena-sand)">
+            {{ l.photo }}
+          </div>
+          <div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:7px">
+            <span style="font-size:18px;font-weight:500;letter-spacing:.04em;color:var(--text-strong)">{{ l.name }}</span>
+            <span style="font-size:13px;font-weight:400;color:var(--casarena-ocean-green)">{{ l.detail }}</span>
+            <span style="font-size:14px;font-weight:400;color:var(--text-body)">{{ l.lineTotal }}</span>
+            <div style="display:flex;align-items:center;gap:14px;margin-top:4px">
+              <div style="display:flex;align-items:stretch;border:1px solid var(--border-hairline);border-radius:6px;overflow:hidden">
+                <span onClick="{{ l.dec }}" style="cursor:pointer;user-select:none;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--casarena-dark-teal);border-right:1px solid var(--border-hairline)" style-hover="background:var(--casarena-sand)">−</span>
+                <span style="min-width:42px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:500;color:var(--text-strong)">{{ l.qty }}</span>
+                <span onClick="{{ l.inc }}" style="cursor:pointer;user-select:none;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--casarena-dark-teal);border-left:1px solid var(--border-hairline)" style-hover="background:var(--casarena-sand)">+</span>
+              </div>
+              <span onClick="{{ l.remove }}" style="cursor:pointer;font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--text-muted);border-bottom:1px solid var(--border-hairline);padding-bottom:2px" style-hover="color:var(--casarena-deep-turquoise)">Quitar</span>
+            </div>
+          </div>
+        </div>
+      </sc-for>
+      <span onClick="{{ clearCart }}" style="cursor:pointer;align-self:flex-start;margin-top:22px;font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--text-muted)" style-hover="color:var(--casarena-deep-turquoise)">Vaciar pedido</span>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:22px;padding:clamp(24px,4vw,34px);background:var(--casarena-sand)">
+      <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--casarena-dark-teal)">Resumen</span>
+      <div style="display:flex;justify-content:space-between;gap:16px;align-items:baseline">
+        <span style="font-size:14px;color:var(--casarena-ocean-green)">{{ cartUnits }}</span>
+        <span style="font-size:clamp(24px,3.4vw,32px);font-weight:300;letter-spacing:.02em;color:var(--casarena-deep-green)">{{ cartTotal }}</span>
+      </div>
+      <div style="height:1px;background:rgba(6,53,49,.18)"></div>
+      <p style="margin:0;font-size:14px;font-weight:400;line-height:1.6;color:var(--casarena-dark-teal)">{{ minStatus }}</p>
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="primary" size="lg" onClick="{{ sendOrder }}" hint-size="auto,56px">Enviar pedido por WhatsApp</x-import>
+      <p style="margin:0;font-size:12px;font-weight:400;line-height:1.6;color:var(--casarena-ocean-green)">Te abrimos el chat con la lista ya escrita. Confirmamos stock, total final y forma de pago por ahí mismo.</p>
+      <p style="margin:0;font-size:12px;font-weight:500;line-height:1.6;color:var(--casarena-dark-teal)">Los precios no incluyen IVA y el envío corre por cuenta del comprador.</p>
+    </div>
+  </div>
+  </sc-if>
+</div>
+</sc-if>
+
+<!-- ============ LA MARCA ============ -->
+<sc-if value="{{ isMarca }}" hint-placeholder-val="{{ false }}">
+<div>
+  <section style="max-width:1280px;margin:0 auto;padding:clamp(40px,7vw,80px) clamp(20px,5vw,48px) clamp(40px,6vw,64px)">
+    <div style="display:flex;align-items:center;gap:clamp(14px,3vw,28px);margin-bottom:clamp(32px,5vw,56px)">
+      
+      <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="nautilus" size="{{ 34 }}" color="var(--icon-muted)" hint-size="34px,34px"></x-import>
+      <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+      <h1 style="margin:0;font-size:clamp(14px,2.4vw,22px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">Acerca de la marca</h1>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(28px,5vw,64px);align-items:start">
+      <div style="display:flex;flex-direction:column;gap:24px;max-width:62ch">
+        <p style="margin:0;font-size:clamp(18px,2.6vw,24px);font-weight:300;line-height:1.6;letter-spacing:.02em;color:var(--text-strong);text-wrap:pretty">Casarena nace del encuentro entre dos palabras que ya dicen todo: casa y arena. Un lugar donde el mar es el paisaje, el verano es la única regla y la arena marca el ritmo de los días.</p>
+        <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Somos una marca de bikinis pensada para vivir la temporada con intensidad y despedirla sin apuro, para volver a esperarla el año siguiente.</p>
+        <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Elegimos existir solo en verano porque creemos que las mejores cosas se dan una vez al año. Diseñamos y producimos en Buenos Aires, por temporada, en tandas cortas.</p>
+        <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Vendemos solo por mayor, a tiendas, showrooms y distribuidores que conocen a su público y necesitan responder rápido. Nosotros ponemos la tela, el molde y el tiempo de entrega.</p>
+      </div>
+      <div style="position:relative;width:100%;aspect-ratio:4/5;overflow:hidden">
+        <img src="assets/imagery/sand-foam.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div style="max-width:1280px;margin:0 auto;padding:clamp(20px,3vw,32px) clamp(20px,5vw,48px) clamp(56px,9vw,96px)">
+      <div style="display:flex;align-items:center;gap:clamp(14px,3vw,28px);margin-bottom:clamp(32px,5vw,56px)">
+        
+        <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+        <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="starfish" size="{{ 34 }}" color="var(--icon-muted)" hint-size="34px,34px"></x-import>
+        <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+        <h2 style="margin:0;font-size:clamp(14px,2.4vw,22px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">Por qué elegirnos</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:clamp(24px,3vw,40px)">
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <p style="margin:0;font-size:17px;font-weight:400;line-height:1.65;color:var(--text-body)">Existimos solo en verano: la temporada manda el calendario y lo seguimos de punta a punta, sin bajar el ritmo.</p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;padding-left:clamp(24px,3vw,40px);border-left:1px solid var(--border-hairline)">
+          <p style="margin:0;font-size:17px;font-weight:400;line-height:1.65;color:var(--text-body)">Respondemos el mismo día y despachamos tu pedido en 48 horas hábiles, con envíos a todo el país.</p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;padding-left:clamp(24px,3vw,40px);border-left:1px solid var(--border-hairline)">
+          <p style="margin:0;font-size:17px;font-weight:400;line-height:1.65;color:var(--text-body)">Compartimos todo lo que sabemos y te damos nuestro contenido para tus redes, además de la ayuda que necesites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</sc-if>
+
+<!-- ============ MAYORISTAS ============ -->
+<sc-if value="{{ isMayoristas }}" hint-placeholder-val="{{ false }}">
+<div style="max-width:1280px;margin:0 auto;padding:clamp(40px,7vw,80px) clamp(20px,5vw,48px) clamp(56px,9vw,96px)">
+  <div style="display:flex;align-items:center;gap:clamp(14px,3vw,28px);margin-bottom:clamp(32px,5vw,56px)">
+    
+    <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+    <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="anchor-rope" size="{{ 34 }}" color="var(--icon-muted)" hint-size="34px,34px"></x-import>
+    <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+    <h1 style="margin:0;font-size:clamp(14px,2.4vw,22px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">Cómo comprar</h1>
+  </div>
+  <div style="margin:0 0 clamp(40px,6vw,64px);padding:clamp(24px,4vw,40px);background:var(--casarena-white);border:1px solid var(--border-hairline);display:flex;flex-direction:column;gap:18px">
+    <p style="margin:0;max-width:56ch;font-size:clamp(16px,2.2vw,22px);font-weight:300;line-height:1.7;color:var(--text-body)">Cinco pasos, sin checkout y sin vueltas. Armás el pedido en la web y lo cerramos con vos por WhatsApp.</p>
+    <div style="display:flex;flex-direction:column;gap:8px;padding-top:16px;border-top:1px solid var(--border-hairline)">
+      <span style="font-size:14px;font-weight:400;line-height:1.6;color:var(--text-body)"><strong style="font-weight:700;letter-spacing:.06em;color:var(--casarena-deep-turquoise)">IMPORTANTE:</strong> los precios publicados no incluyen IVA.</span>
+      <span style="font-size:14px;font-weight:400;line-height:1.6;color:var(--text-body)">El costo del envío corre siempre por cuenta del comprador, sin excepción.</span>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(16px,3vw,48px);padding:clamp(24px,4vw,40px) 0;border-top:1px solid var(--border-hairline)">
+      <div style="display:flex;align-items:baseline;gap:18px">
+        <span style="font-size:clamp(22px,3vw,32px);font-weight:200;letter-spacing:.06em;color:var(--casarena-deep-turquoise)">01</span>
+        <h3 style="margin:0;font-size:clamp(20px,3vw,28px);font-weight:400;letter-spacing:.06em;color:var(--text-strong)">Armá tu pedido</h3>
+      </div>
+      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Recorré el catálogo: cada modelo tiene su precio mayorista, sus colores y sus talles a la vista. Elegí color, talle y cantidad, y sumá al pedido lo que te interese.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(16px,3vw,48px);padding:clamp(24px,4vw,40px) 0;border-top:1px solid var(--border-hairline)">
+      <div style="display:flex;align-items:baseline;gap:18px">
+        <span style="font-size:clamp(22px,3vw,32px);font-weight:200;letter-spacing:.06em;color:var(--casarena-deep-turquoise)">02</span>
+        <h3 style="margin:0;font-size:clamp(20px,3vw,28px);font-weight:400;letter-spacing:.06em;color:var(--text-strong)">Enviánoslo por WhatsApp</h3>
+      </div>
+      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Cuando termines, tocá "Enviar pedido por WhatsApp": se abre el chat con tu lista ya escrita. El mínimo mayorista es de $200.000 y podés combinar modelos, colores y talles hasta llegarle.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(16px,3vw,48px);padding:clamp(24px,4vw,40px) 0;border-top:1px solid var(--border-hairline)">
+      <div style="display:flex;align-items:baseline;gap:18px">
+        <span style="font-size:clamp(22px,3vw,32px);font-weight:200;letter-spacing:.06em;color:var(--casarena-deep-turquoise)">03</span>
+        <h3 style="margin:0;font-size:clamp(20px,3vw,28px);font-weight:400;letter-spacing:.06em;color:var(--text-strong)">Confirmamos stock</h3>
+      </div>
+      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Revisamos tu lista con vos por WhatsApp, chequeamos stock de cada color y talle, y ajustamos lo que haga falta. Te pasamos el total final.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(16px,3vw,48px);padding:clamp(24px,4vw,40px) 0;border-top:1px solid var(--border-hairline)">
+      <div style="display:flex;align-items:baseline;gap:18px">
+        <span style="font-size:clamp(22px,3vw,32px);font-weight:200;letter-spacing:.06em;color:var(--casarena-deep-turquoise)">04</span>
+        <h3 style="margin:0;font-size:clamp(20px,3vw,28px);font-weight:400;letter-spacing:.06em;color:var(--text-strong)">Pagá el pedido</h3>
+      </div>
+      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Confirmado el pedido te mandamos los datos para pagar, o acordamos la forma juntos. Aceptamos transferencia, depósito bancario y efectivo. El costo del envío corre por tu cuenta y se abona aparte.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(16px,3vw,48px);padding:clamp(24px,4vw,40px) 0;border-top:1px solid var(--border-hairline);border-bottom:1px solid var(--border-hairline)">
+      <div style="display:flex;align-items:baseline;gap:18px">
+        <span style="font-size:clamp(22px,3vw,32px);font-weight:200;letter-spacing:.06em;color:var(--casarena-deep-turquoise)">05</span>
+        <h3 style="margin:0;font-size:clamp(20px,3vw,28px);font-weight:400;letter-spacing:.06em;color:var(--text-strong)">Recibilo en tu casa</h3>
+      </div>
+      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Con el pago acreditado armamos el pedido y despachamos en 48 horas hábiles a todo el país. Trabajamos con Vía Cargo, OCA y Correo Argentino: elegís la que te quede mejor y el envío lo abonás vos.</p>
+    </div>
+  </div>
+
+  <div style="margin-top:clamp(40px,6vw,64px);display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+    <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="primary" size="lg" onClick="{{ goCatalogo }}" hint-size="auto,56px">Ver catálogo</x-import>
+    <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="secondary" size="lg" onClick="{{ goContacto }}" hint-size="auto,56px">Hacer una consulta</x-import>
+  </div>
+</div>
+</sc-if>
+
+<!-- ============ CONTACTO ============ -->
+<sc-if value="{{ isContacto }}" hint-placeholder-val="{{ false }}">
+<div style="max-width:1280px;margin:0 auto;padding:clamp(40px,7vw,80px) clamp(20px,5vw,48px) clamp(56px,9vw,96px)">
+  <div style="display:flex;align-items:center;gap:clamp(14px,3vw,28px);margin-bottom:clamp(32px,5vw,56px)">
+    
+    <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+    <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Icon" name="gull-soaring" size="{{ 34 }}" color="var(--icon-muted)" hint-size="34px,34px"></x-import>
+    <span style="flex:1;height:1px;background:var(--border-hairline)"></span>
+    <h1 style="margin:0;font-size:clamp(14px,2.4vw,22px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--text-strong)">Contacto</h1>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:clamp(32px,5vw,56px)">
+    <div style="display:flex;flex-direction:column;gap:26px;padding:clamp(26px,4vw,44px);background:var(--casarena-white);border:1px solid var(--border-hairline)">
+      <p style="margin:0;max-width:52ch;font-size:clamp(16px,2.2vw,20px);font-weight:300;line-height:1.6;color:var(--text-body)">Completá tus datos y nos ponemos en contacto con vos. <br>Los precios y colores ya están en el catálogo.</p>
+
+      <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:24px;background:var(--casarena-sand);display:flex;flex-direction:column;gap:10px">
+          <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--casarena-dark-teal)">Te abrimos el chat</span>
+          <span style="font-size:16px;font-weight:400;line-height:1.5;color:var(--casarena-deep-green)">Tu consulta ya está escrita en WhatsApp. Mandala y te respondemos hoy mismo.</span>
+          <span onClick="{{ resetForm }}" style="cursor:pointer;align-self:flex-start;margin-top:4px;font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--casarena-dark-teal);border-bottom:1px solid var(--casarena-dark-teal);padding-bottom:2px">Cargar otra consulta</span>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px clamp(20px,3vw,32px);align-items:start">
+          <div style="display:flex;flex-direction:column;gap:9px">
+            <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-ocean-green)">Nombre <span style="color:var(--casarena-deep-turquoise)">*</span></span>
+            <input type="text" placeholder="Tu nombre" value="{{ f.nombre }}" onChange="{{ onNombre }}" style="width:100%;min-height:52px;padding:14px 16px;font-family:var(--font-core);font-size:16px;font-weight:400;color:var(--text-strong);background:var(--casarena-white);border:1px solid var(--border-hairline);outline:none" style-focus="border-color:var(--casarena-deep-turquoise)">
+          </div>
+          <div style="display:flex;flex-direction:column;gap:9px">
+            <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-ocean-green)">Email <span style="color:var(--casarena-deep-turquoise)">*</span></span>
+            <input type="text" placeholder="tumail@ejemplo.com" value="{{ f.email }}" onChange="{{ onEmail }}" style="width:100%;min-height:52px;padding:14px 16px;font-family:var(--font-core);font-size:16px;font-weight:400;color:var(--text-strong);background:var(--casarena-white);border:1px solid var(--border-hairline);outline:none" style-focus="border-color:var(--casarena-deep-turquoise)">
+          </div>
+          <div style="display:flex;flex-direction:column;gap:9px">
+            <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-ocean-green)">Teléfono <span style="color:var(--casarena-deep-turquoise)">*</span></span>
+            <div style="display:flex;align-items:stretch;border:1px solid var(--border-hairline);background:var(--casarena-white)">
+              <span style="display:flex;align-items:center;padding:0 14px;font-size:15px;font-weight:500;color:var(--casarena-ocean-green);background:var(--casarena-sand);border-right:1px solid var(--border-hairline)">+54</span>
+              <input type="tel" placeholder="11 7252 3960" value="{{ f.telefono }}" onChange="{{ onTelefono }}" style="flex:1;min-width:0;min-height:52px;padding:14px 16px;font-family:var(--font-core);font-size:16px;font-weight:400;color:var(--text-strong);background:transparent;border:none;outline:none">
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:9px">
+            <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-ocean-green)">Ciudad</span>
+            <input type="text" placeholder="Ciudad y provincia" value="{{ f.ciudad }}" onChange="{{ onCiudad }}" style="width:100%;min-height:52px;padding:14px 16px;font-family:var(--font-core);font-size:16px;font-weight:400;color:var(--text-strong);background:var(--casarena-white);border:1px solid var(--border-hairline);outline:none" style-focus="border-color:var(--casarena-deep-turquoise)">
+          </div>
+          <div style="grid-column:1/-1;display:flex;flex-direction:column;gap:9px">
+            <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--casarena-ocean-green)">¿Cómo podemos ayudarte? <span style="color:var(--casarena-deep-turquoise)">*</span></span>
+            <textarea rows="4" placeholder="Contanos qué estás buscando" value="{{ f.mensaje }}" onChange="{{ onMensaje }}" style="width:100%;padding:14px 16px;font-family:var(--font-core);font-size:16px;font-weight:400;line-height:1.6;color:var(--text-strong);background:var(--casarena-white);border:1px solid var(--border-hairline);outline:none;resize:vertical" style-focus="border-color:var(--casarena-deep-turquoise)"></textarea>
+          </div>
+          <div style="grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:16px">
+            <sc-if value="{{ formError }}" hint-placeholder-val="{{ false }}">
+              <span style="flex:1;min-width:200px;font-size:13px;font-weight:500;color:var(--casarena-deep-turquoise)">Completá nombre, email, teléfono y tu consulta.</span>
+            </sc-if>
+            <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="primary" size="lg" onClick="{{ submit }}" hint-size="auto,56px">Enviar por WhatsApp</x-import>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+
+    <div data-hairgrid="4">
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">WhatsApp</span>
+        <a href="https://wa.me/message/LQLQ5UPNX3CAC1" style="font-size:18px;font-weight:300;letter-spacing:.04em;color:var(--casarena-dark-teal);text-decoration:none">+54 9 11 7252 3960</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">Mail</span>
+        <a href="mailto:Casarena.ar@gmail.com" style="font-size:16px;font-weight:300;letter-spacing:.02em;color:var(--casarena-dark-teal);text-decoration:none;word-break:break-all">casarena.ar@gmail.com</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">Instagram</span>
+        <a href="https://www.instagram.com/casarena___/" style="font-size:18px;font-weight:300;letter-spacing:.04em;color:var(--casarena-dark-teal);text-decoration:none">@casarena___</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">Atención</span>
+        <span style="font-size:15px;font-weight:400;line-height:1.6;color:var(--text-body)">Lunes a viernes, 10 a 18<br>Envíos a todo el país</span>
+      </div>
+    </div>
+  </div>
+</div>
+</sc-if>
+
+</main>
+
+<footer data-footer="1" style="background:var(--casarena-deep-green);color:var(--casarena-sand)">
+  <div data-footer-cols="1" style="max-width:1280px;margin:0 auto;padding:clamp(48px,7vw,80px) clamp(20px,5vw,48px) clamp(32px,4vw,48px);display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between">
+    <div style="display:flex;flex-direction:column;gap:18px;max-width:38ch">
+      <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Logo" width="{{ 220 }}" tone="light" hint-size="220px,23px"></x-import>
+      <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--casarena-warm-stone)">Made for summer</span>
+      <p style="margin:0;font-size:14px;font-weight:300;line-height:1.7;color:var(--casarena-warm-stone)">Venta exclusivamente mayorista</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--casarena-sea-mist)">Sitio</span>
+      <sc-for list="{{ navItems }}" as="item" hint-placeholder-count="5">
+        <a href="#" onClick="{{ item.onClick }}" style="font-size:14px;font-weight:300;letter-spacing:.04em;color:var(--casarena-sand);text-decoration:none">{{ item.label }}</a>
+      </sc-for>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--casarena-sea-mist)">Contacto</span>
+      <a href="https://wa.me/message/LQLQ5UPNX3CAC1" style="font-size:14px;font-weight:300;color:var(--casarena-sand);text-decoration:none">+54 9 11 7252 3960</a>
+      <a href="mailto:Casarena.ar@gmail.com" style="font-size:14px;font-weight:300;color:var(--casarena-sand);text-decoration:none">Casarena.ar@gmail.com</a>
+      <a href="https://www.instagram.com/casarena___/" style="font-size:14px;font-weight:300;color:var(--casarena-sand);text-decoration:none">@casarena___</a>
+    </div>
+  </div>
+  <div data-footer-bar="1" style="max-width:1280px;margin:0 auto;padding:20px clamp(20px,5vw,48px) clamp(32px,4vw,48px);border-top:1px solid var(--border-on-dark);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between">
+    <span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-sea-mist)">Casarena 2027</span>
+    <span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-sea-mist)">Buenos Aires · Argentina</span>
+  </div>
+</footer>
+
+<sc-if value="{{ showWhatsapp }}" hint-placeholder-val="{{ true }}"><a href="https://wa.me/message/LQLQ5UPNX3CAC1" style="position:fixed;right:clamp(16px,3vw,32px);bottom:clamp(16px,3vw,32px);z-index:60;display:inline-flex;align-items:center;gap:10px;padding:16px 22px;background:var(--casarena-dark-teal);color:var(--casarena-warm-white);font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;text-decoration:none;border-radius:8px;box-shadow:var(--shadow-float)" style-hover="background:var(--casarena-deep-turquoise);color:var(--casarena-warm-white)"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.48-.5-.67-.5h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.86 1.21 3.06c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.13-.27-.2-.57-.35z"></path><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.03h-.01c-1.52 0-3.02-.41-4.32-1.18l-.31-.18-3.21.84.86-3.13-.2-.32a8.22 8.22 0 01-1.26-4.39c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 012.41 5.83c0 4.54-3.7 8.24-8.23 8.24z"></path></svg>Escribinos</a></sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const COLORS = {
+  "Verde petróleo": "#064E4A",
+  "Teal": "#0E7777",
+  "Salvia": "#346A67",
+  "Piedra": "#C1C0B1",
+  "Arena": "#E2DDCE",
+  "Crema": "#F7F5EF",
+  "Violeta": "#5B4FC7",
+  "Azul francia": "#1E3FAF"
+};
+
+const photoEl = (src, pad) => React.createElement("img", {
+  src, alt: "",
+  style: { position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }
+});
+
+class Component extends DCLogic {
+  state = {
+    route: "home",
+    items: [],
+    pid: null,
+    vi: 0,
+    rubro: "Todo",
+    q: "",
+    soloFoto: false,
+    sent: false,
+    formError: false,
+    cart: [],
+    qty: 1,
+    size: "90",
+    justAdded: false,
+    menuOpen: false,
+    f: { nombre: "", email: "", telefono: "", ciudad: "", mensaje: "" }
+  };
+
+  componentDidMount() {
+    fetch("catalogo.json").then(r => r.json()).then(d => this.setState({ items: d.items || [] })).catch(() => {});
+    try {
+      const raw = localStorage.getItem("casarena-pedido");
+      if (raw) this.setState({ cart: JSON.parse(raw) || [] });
+    } catch (e) {}
+  }
+
+  saveCart(cart) {
+    this.setState({ cart });
+    try { localStorage.setItem("casarena-pedido", JSON.stringify(cart)); } catch (e) {}
+  }
+
+  addLine(item, color, size, qty) {
+    const key = item.id + "|" + color + "|" + size;
+    const cart = this.state.cart.map(l => Object.assign({}, l));
+    const found = cart.filter(l => l.key === key)[0];
+    if (found) found.qty += qty;
+    else cart.push({
+      key, id: item.id, name: item.name || item.label, art: item.art,
+      color, size, qty, price: item.price || 0,
+      photo: (item.photos || {})[color] || null
+    });
+    this.saveCart(cart);
+    this.setState({ justAdded: true });
+    clearTimeout(this._addTimer);
+    this._addTimer = setTimeout(() => this.setState({ justAdded: false }), 2600);
+  }
+
+  bumpLine(key, delta) {
+    const cart = this.state.cart
+      .map(l => l.key === key ? Object.assign({}, l, { qty: Math.max(1, l.qty + delta) }) : l);
+    this.saveCart(cart);
+  }
+
+  orderText() {
+    const lines = this.state.cart.map(l =>
+      "• " + l.name + " — " + l.color + " · talle " + l.size + " · " + l.qty + " u." +
+      (l.price ? " · " + this.money(l.price * l.qty) : "")
+    );
+    const total = this.cartTotal();
+    return "Hola Casarena, quiero hacer este pedido mayorista:\n\n" + lines.join("\n") +
+      "\n\nTotal de unidades: " + this.cartUnits() +
+      (total ? "\nTotal estimado: " + this.money(total) : "") +
+      "\n\n¿Me confirmás stock y forma de pago?";
+  }
+
+  cartUnits() {
+    return this.state.cart.reduce((n, l) => n + l.qty, 0);
+  }
+
+  cartTotal() {
+    return this.state.cart.reduce((n, l) => n + (l.price || 0) * l.qty, 0);
+  }
+
+  go(route) {
+    this.setState({ route });
+    if (typeof window !== "undefined") window.scrollTo(0, 0);
+  }
+
+  open(id) {
+    this.setState({ route: "producto", pid: id, vi: 0, gi: null });
+    if (typeof window !== "undefined") window.scrollTo(0, 0);
+  }
+
+  set(key, v) {
+    this.setState(s => ({ f: Object.assign({}, s.f, { [key]: v }) }));
+  }
+
+  money(n) {
+    return n ? "$" + Number(n).toLocaleString("es-AR") : "Precio a confirmar";
+  }
+
+  tela(label) {
+    let t = String(label || "")
+      .replace(/^\s*(bikini|conjunto|malla)?\s*art\s*-?\s*/i, "")
+      .replace(/^\s*\d{3,4}\s*/, "")
+      .replace(/\(|\)/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (!t) return "Lycra lisa.";
+    t = t.charAt(0).toUpperCase() + t.slice(1).toLowerCase();
+    return t + ".";
+  }
+
+  filtered() {
+    const { items, rubro, q, soloFoto } = this.state;
+    const t = q.trim().toLowerCase();
+    return items.filter(i => {
+      if (i.pack) return false;
+      if (rubro !== "Todo" && i.rubro !== rubro) return false;
+      if (soloFoto && !i.hasPhotos) return false;
+      if (t && (i.label + " " + (i.name || "") + " " + i.colors.join(" ")).toLowerCase().indexOf(t) < 0) return false;
+      return true;
+    });
+  }
+
+  card(i) {
+    const cols = Object.keys(i.photos || {});
+    const img = cols.length ? i.photos[cols[0]] : null;
+    return {
+      id: i.id,
+      title: i.name || i.label,
+      sub: i.name ? i.label : (i.temporada ? i.rubro + " · " + i.temporada : i.rubro),
+      priceLabel: this.money(i.price),
+      colorLine: i.colors.length === 1 ? i.colors[0] : i.colors.length + " colores",
+      photo: img ? photoEl(img, 18) : null,
+      hasPhoto: !!img,
+      noPhoto: !img,
+      onOpen: () => this.open(i.id)
+    };
+  }
+
+  renderVals() {
+    const st = this.state;
+    const r = st.route;
+    const nav = [
+      ["Inicio", "home"],
+      ["Catálogo", "catalogo"],
+      ["La marca", "marca"],
+      ["Cómo comprar", "mayoristas"],
+      ["Contacto", "contacto"]
+    ];
+    const list = this.filtered();
+    const withPhotos = st.items.filter(i => i.hasPhotos);
+    const cur = st.items.filter(x => x.id === st.pid)[0] || withPhotos[0] || st.items[0];
+    let det = { variants: [], colorChips: [], sizeChips: [], title: "", sub: "", priceLabel: "", packLine: "", minNote: "", photoLarge: null, hasPhoto: false, noPhoto: true, colorCount: "" };
+    if (cur) {
+      const cols = Object.keys(cur.photos || {});
+      const vi = Math.min(st.vi, Math.max(cols.length - 1, 0));
+      const colorSrcs = cols.map(k => cur.photos[k]);
+      const gal = (cur.gallery || []).filter(src => colorSrcs.indexOf(src) < 0);
+      const mainImg = (st.gi && gal.indexOf(st.gi) >= 0) ? st.gi : (cols.length ? cur.photos[cols[vi]] : null);
+      det = {
+        title: cur.name || cur.label,
+        sub: cur.name ? cur.label + " · " + cur.rubro : cur.rubro,
+        desc: cur.descripcion || this.tela(cur.label),
+        telaLine: cur.tela ? "Tela: " + cur.tela : "",
+        hasTela: !!cur.tela,
+        aviso: "La imagen corresponde al modelo. Tené en cuenta que los tonos pueden variar según la iluminación del momento.",
+        aviso2: "debido al proceso de confección, pueden presentarse leves variaciones en las medidas dentro de un mismo talle.",
+        priceLabel: this.money(cur.price),
+        priceNote: "Precio mayorista por unidad",
+        colorCount: cols.length === 1 ? "Un solo color" : cols.length + " colores",
+        colorName: cols.length ? cols[vi] : (cur.colors[0] || ""),
+        sizeChips: ["85", "90", "95", "100"].map(s => ({
+          name: s, active: st.size === s, idle: st.size !== s,
+          onPick: () => this.setState({ size: s })
+        })),
+        colorChips: cols.map((c, i) => ({
+          name: c, active: i === vi, idle: i !== vi,
+          onPick: () => this.setState({ vi: i, gi: null })
+        })),
+        hasGallery: gal.length > 0,
+        galleryCount: gal.length + " fotos",
+        gallery: gal.map(src => ({
+          photo: photoEl(src, 0), active: src === mainImg,
+          onPick: () => this.setState({ gi: src })
+        })),
+        variants: cols.map((c, i) => ({
+          name: c, photo: photoEl(cur.photos[c], 6), active: i === vi && !st.gi,
+          onPick: () => this.setState({ vi: i, gi: null })
+        })),
+        photoLarge: mainImg ? photoEl(mainImg, 28) : null,
+        hasPhoto: !!mainImg,
+        noPhoto: !mainImg,
+        minNote: "Podés combinar modelos y colores hasta llegar al mínimo.",
+        packLine: "El pedido mínimo mayorista es de $200.000."
+      };
+    }
+
+    return {
+      navItems: nav.map(([label, route]) => ({
+        label,
+        active: r === route || (route === "catalogo" && r === "producto"),
+        onClick: e => { if (e) e.preventDefault(); this.go(route); },
+        onClickClose: e => { if (e) e.preventDefault(); this.setState({ menuOpen: false }); this.go(route); }
+      })),
+      isHome: r === "home",
+      isCatalogo: r === "catalogo",
+      isProducto: r === "producto",
+      isPedido: r === "pedido",
+      goPedido: () => this.go("pedido"),
+      goPedidoLink: e => { if (e) e.preventDefault(); this.go("pedido"); },
+      menuOpen: st.menuOpen,
+      toggleMenu: () => this.setState(s => ({ menuOpen: !s.menuOpen })),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      goPedidoClose: e => { if (e) e.preventDefault(); this.setState({ menuOpen: false }); this.go("pedido"); },
+      cartCount: this.cartUnits(),
+      hasCart: st.cart.length > 0,
+      cartEmpty: st.cart.length === 0,
+      cartUnits: this.cartUnits() === 1 ? "1 unidad" : this.cartUnits() + " unidades",
+      cartTotal: this.cartTotal() ? this.money(this.cartTotal()) : "A confirmar",
+      minStatus: this.cartTotal() >= 200000
+        ? "Llegás al mínimo mayorista de $200.000. Podés enviarlo."
+        : "Te faltan " + this.money(200000 - this.cartTotal()) + " para el mínimo mayorista de $200.000. Igual podés enviarlo y lo vemos juntos.",
+      cartLines: st.cart.map(l => ({
+        name: l.name,
+        detail: l.color + " · Talle " + l.size,
+        qty: l.qty,
+        lineTotal: l.price ? this.money(l.price * l.qty) + " · " + this.money(l.price) + " c/u" : "Precio a confirmar",
+        photo: l.photo ? photoEl(l.photo, 6) : null,
+        inc: () => this.bumpLine(l.key, 1),
+        dec: () => this.bumpLine(l.key, -1),
+        remove: () => this.saveCart(st.cart.filter(x => x.key !== l.key))
+      })),
+      clearCart: () => this.saveCart([]),
+      qty: st.qty,
+      justAdded: st.justAdded,
+      qtyUp: () => this.setState(s => ({ qty: s.qty + 1 })),
+      qtyDown: () => this.setState(s => ({ qty: Math.max(1, s.qty - 1) })),
+      addToCart: () => {
+        if (!cur) return;
+        const cols = Object.keys(cur.photos || {});
+        const color = cols.length ? cols[Math.min(st.vi, cols.length - 1)] : (cur.colors[0] || "A definir");
+        this.addLine(cur, color, st.size, st.qty);
+      },
+      sendOrder: () => {
+        const url = "https://wa.me/5491172523960?text=" + encodeURIComponent(this.orderText());
+        window.open(url, "_blank");
+      },
+      isMarca: r === "marca",
+      isMayoristas: r === "mayoristas",
+      isContacto: r === "contacto",
+      showWhatsapp: r !== "producto" && r !== "pedido" && r !== "contacto" && !st.menuOpen,
+      goHome: () => this.go("home"),
+      goCatalogo: e => { if (e) e.preventDefault(); this.go("catalogo"); },
+      goMarca: () => this.go("marca"),
+      goMayoristas: () => this.go("mayoristas"),
+      goContacto: () => this.go("contacto"),
+      featured: withPhotos.filter(i => ["Mar de las Pampas", "Miramar"].indexOf(i.name) < 0).slice(0, 8).map(i => this.card(i)),
+      products: list.map(i => this.card(i)),
+      productGroups: ["Bikinis", "Lencería"].map(g => {
+        const its = list.filter(i => (i.rubro === "Lencería") === (g === "Lencería"));
+        return { title: g, anchor: g === "Lencería" ? "sec-lenceria" : "sec-bikinis", count: its.length === 1 ? "1 artículo" : its.length + " artículos", items: its.map(i => this.card(i)) };
+      }).filter(g => g.items.length),
+      jumpButtons: [["Bikinis", "sec-bikinis", "Bikinis"], ["Lencería", "sec-lenceria", "Lencería"]].map(([label, id, rub]) => ({
+        label,
+        onClick: () => {
+          const go = () => {
+            const el = document.getElementById(id);
+            if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 150, behavior: "smooth" });
+          };
+          if (st.rubro !== "Todo" && st.rubro !== rub) { this.setState({ rubro: "Todo" }, () => setTimeout(go, 60)); } else go();
+        }
+      })),
+      isEmpty: st.items.length > 0 && list.length === 0,
+      resultLabel: list.length === 1 ? "1 artículo" : list.length + " artículos",
+      totalLabel: st.items.length + " artículos · " + withPhotos.length + " con foto",
+      rubroFilters: ["Todo", "Bikinis", "Lencería"].map(c => ({
+        label: c, selected: st.rubro === c, onSelect: () => this.setState({ rubro: c })
+      })),
+      q: st.q,
+      onQuery: e => this.setState({ q: e.target.value }),
+      soloFoto: st.soloFoto,
+      toggleFoto: v => this.setState({ soloFoto: !!v }),
+      p: det,
+      askAbout: () => { this.set("mensaje", "Quiero consultar por el modelo " + det.title + "."); this.go("contacto"); },
+      f: st.f,
+      sent: st.sent,
+      notSent: !st.sent,
+      onNombre: e => this.set("nombre", e.target.value),
+      onEmail: e => this.set("email", e.target.value),
+      onTelefono: e => this.set("telefono", e.target.value),
+      onMensaje: e => this.set("mensaje", e.target.value),
+      onCiudad: e => this.set("ciudad", e.target.value),
+      submit: () => {
+        const f = st.f;
+        const nombre = (f.nombre || "").trim();
+        const email = (f.email || "").trim();
+        const tel = (f.telefono || "").trim();
+        const mensaje = (f.mensaje || "").trim();
+        if (!nombre || !email || !tel || !mensaje) { this.setState({ formError: true }); return; }
+        const msg = "Hola Casarena, les escribo por una consulta mayorista.\n\n" +
+          "Nombre: " + nombre + "\n" +
+          "Email: " + email + "\n" +
+          "Teléfono: +54 " + tel + "\n" +
+          (f.ciudad ? "Ciudad: " + f.ciudad.trim() + "\n" : "") +
+          "\nConsulta: " + mensaje;
+        window.open("https://wa.me/5491172523960?text=" + encodeURIComponent(msg), "_blank");
+        this.setState({ sent: true, formError: false });
+      },
+      formError: st.formError,
+      resetForm: () => this.setState({
+        sent: false, formError: false,
+        f: { nombre: "", email: "", telefono: "", ciudad: "", mensaje: "" }
+      })
+    };
+  }
+}
+</script>
 </body>
 </html>
