@@ -199,8 +199,8 @@ a:hover{color:var(--casarena-deep-turquoise)}
     </div>
     <div data-hairgrid="2">
       <div style="display:flex;flex-direction:column;gap:12px">
-        <span style="font-size:clamp(28px,4vw,44px);font-weight:200;letter-spacing:.04em;color:var(--text-strong)">$200.000</span>
-        <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--text-muted)">Pedido mínimo</span>
+        <span style="font-size:clamp(28px,4vw,44px);font-weight:200;letter-spacing:.04em;color:var(--text-strong)">$100.000</span>
+        <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--text-muted)">Pedido mínimo · hasta el 18/10</span>
       </div>
       <div style="display:flex;flex-direction:column;gap:12px">
         <span style="font-size:clamp(28px,4vw,44px);font-weight:200;letter-spacing:.04em;color:var(--text-strong)">Envíos</span>
@@ -574,7 +574,7 @@ a:hover{color:var(--casarena-deep-turquoise)}
         <span style="font-size:clamp(22px,3vw,32px);font-weight:200;letter-spacing:.06em;color:var(--casarena-deep-turquoise)">02</span>
         <h3 style="margin:0;font-size:clamp(20px,3vw,28px);font-weight:400;letter-spacing:.06em;color:var(--text-strong)">Enviánoslo por WhatsApp</h3>
       </div>
-      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Cuando termines, tocá "Enviar pedido por WhatsApp": se abre el chat con tu lista ya escrita. El mínimo mayorista es de $200.000 y podés combinar modelos, colores y talles hasta llegarle.</p>
+      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Cuando termines, tocá "Enviar pedido por WhatsApp": se abre el chat con tu lista ya escrita. Hasta el 18 de octubre (promo Día de la Madre) el mínimo mayorista es de $100.000 y podés combinar modelos, colores y talles hasta llegarle.</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(16px,3vw,48px);padding:clamp(24px,4vw,40px) 0;border-top:1px solid var(--border-hairline)">
       <div style="display:flex;align-items:baseline;gap:18px">
@@ -920,7 +920,7 @@ class Component extends DCLogic {
         hasPhoto: !!mainImg,
         noPhoto: !mainImg,
         minNote: "Podés combinar modelos y colores hasta llegar al mínimo.",
-        packLine: "El pedido mínimo mayorista es de $200.000."
+        packLine: "Hasta el 18 de octubre (promo Día de la Madre) el pedido mínimo mayorista es de $100.000."
       };
     }
 
@@ -946,9 +946,9 @@ class Component extends DCLogic {
       cartEmpty: st.cart.length === 0,
       cartUnits: this.cartUnits() === 1 ? "1 unidad" : this.cartUnits() + " unidades",
       cartTotal: this.cartTotal() ? this.money(this.cartTotal()) : "A confirmar",
-      minStatus: this.cartTotal() >= 200000
-        ? "Llegás al mínimo mayorista de $200.000. Podés enviarlo."
-        : "Te faltan " + this.money(200000 - this.cartTotal()) + " para el mínimo mayorista de $200.000. Igual podés enviarlo y lo vemos juntos.",
+      minStatus: this.cartTotal() >= 100000
+        ? "Llegás al mínimo mayorista de $100.000. Podés enviarlo."
+        : "Te faltan " + this.money(100000 - this.cartTotal()) + " para el mínimo mayorista de $100.000. Igual podés enviarlo y lo vemos juntos.",
       cartLines: st.cart.map(l => ({
         name: l.name,
         detail: l.color + " · Talle " + l.size,
