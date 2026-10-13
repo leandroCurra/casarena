@@ -1,47 +1,6 @@
 {
   "items": [
     {
-      "id": "len-753",
-      "art": "753",
-      "label": "Art 753",
-      "name": "Aguas Verdes",
-      "rubro": "Lencería",
-      "temporada": "2026-2027",
-      "pack": false,
-      "descripcion": "",
-      "tela": "",
-      "colors": [
-        "Negro",
-        "Blanco",
-        "Rojo",
-        "Beige"
-      ],
-      "photos": {
-        "Negro": "assets/lenceria/753_10.webp",
-        "Blanco": "assets/lenceria/753_4.webp",
-        "Rojo": "assets/lenceria/753_1.webp",
-        "Beige": "assets/lenceria/753_8.webp"
-      },
-      "gallery": [
-        "assets/lenceria/753_1.webp",
-        "assets/lenceria/753_2.webp",
-        "assets/lenceria/753_3.webp",
-        "assets/lenceria/753_4.webp",
-        "assets/lenceria/753_5.webp",
-        "assets/lenceria/753_6.webp",
-        "assets/lenceria/753_7.webp",
-        "assets/lenceria/753_8.webp",
-        "assets/lenceria/753_9.webp",
-        "assets/lenceria/753_10.webp",
-        "assets/lenceria/753_11.webp",
-        "assets/lenceria/753_12.webp",
-        "assets/lenceria/753_13.webp"
-      ],
-      "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-753/",
-      "hasPhotos": true
-    },
-    {
       "id": "len-708",
       "art": "708",
       "label": "Art - 708",
@@ -268,37 +227,6 @@
       "tela": "Microfibra – Incluye tazas desmontables."
     },
     {
-      "id": "len-757",
-      "art": "757",
-      "label": "Art- 757",
-      "name": "Chapadmalal",
-      "rubro": "Lencería",
-      "temporada": "2026-2027",
-      "pack": false,
-      "descripcion": "Conjunto de dos piezas, con un corpiño que presenta doble tira en la parte frontal y para abrochar, con bombacha colaless doble tira.",
-      "tela": "Tull.",
-      "colors": [
-        "Negro",
-        "Blanco",
-        "Rojo"
-      ],
-      "photos": {
-        "Negro": "assets/lenceria/757_5.webp",
-        "Blanco": "assets/lenceria/757_1.webp",
-        "Rojo": "assets/lenceria/757_3.webp"
-      },
-      "gallery": [
-        "assets/lenceria/757_1.webp",
-        "assets/lenceria/757_2.webp",
-        "assets/lenceria/757_3.webp",
-        "assets/lenceria/757_4.webp",
-        "assets/lenceria/757_5.webp"
-      ],
-      "price": 9180,
-      "url": "https://fridastore.com.ar/productos/art-757-ou3ic/",
-      "hasPhotos": true
-    },
-    {
       "id": "285805785",
       "art": "6071",
       "label": "Art - 6071 Microfibra Bicolor",
@@ -317,50 +245,6 @@
       "hasPhotos": true,
       "descripcion": "Bikini bandeau con aro y breteles al hombro para atar, en bicolor con vivos contrastados, y bombacha colaless de tiro alto al tono.",
       "tela": "Microfibra bicolor – con aro, sin tazas desmontables."
-    },
-    {
-      "id": "len-1760",
-      "art": "1760",
-      "label": "ART - 1760",
-      "name": "Costa del Este",
-      "rubro": "Lencería",
-      "temporada": "2026-2027",
-      "pack": false,
-      "descripcion": "",
-      "tela": "",
-      "colors": [
-        "Negro",
-        "Blanco",
-        "Rojo",
-        "Beige"
-      ],
-      "photos": {
-        "Negro": "assets/lenceria/1760_4.webp",
-        "Blanco": "assets/lenceria/1760_1.webp",
-        "Rojo": "assets/lenceria/1760_8.webp",
-        "Beige": "assets/lenceria/1760_6.webp"
-      },
-      "gallery": [
-        "assets/lenceria/1760_1.webp",
-        "assets/lenceria/1760_2.webp",
-        "assets/lenceria/1760_3.webp",
-        "assets/lenceria/1760_4.webp",
-        "assets/lenceria/1760_5.webp",
-        "assets/lenceria/1760_6.webp",
-        "assets/lenceria/1760_7.webp",
-        "assets/lenceria/1760_8.webp",
-        "assets/lenceria/1760_9.webp",
-        "assets/lenceria/1760_10.webp",
-        "assets/lenceria/1760_11.webp",
-        "assets/lenceria/1760_12.webp",
-        "assets/lenceria/1760_13.webp",
-        "assets/lenceria/1760_14.webp",
-        "assets/lenceria/1760_15.webp",
-        "assets/lenceria/1760_16.webp"
-      ],
-      "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-1760/",
-      "hasPhotos": true
     },
     {
       "id": "art-4825",
@@ -1190,41 +1074,6 @@
         "Chocolate": "assets/products/pinamar-chocolate.png",
         "Negro": "assets/products/pinamar-negro.png"
       },
-      "hasPhotos": true
-    },
-    {
-      "id": "len-860",
-      "art": "860",
-      "label": "Conjunto Art - 860",
-      "name": "Playa Grande",
-      "rubro": "Lencería",
-      "temporada": "2026-2027",
-      "pack": false,
-      "descripcion": "",
-      "tela": "",
-      "colors": [
-        "Blanco",
-        "Rojo",
-        "Nude",
-        "Negro"
-      ],
-      "photos": {
-        "Blanco": "assets/lenceria/860_1.webp",
-        "Rojo": "assets/lenceria/860_3.webp",
-        "Nude": "assets/lenceria/860_4.webp",
-        "Negro": "assets/lenceria/860_6.webp"
-      },
-      "gallery": [
-        "assets/lenceria/860_1.webp",
-        "assets/lenceria/860_2.webp",
-        "assets/lenceria/860_3.webp",
-        "assets/lenceria/860_4.webp",
-        "assets/lenceria/860_5.webp",
-        "assets/lenceria/860_6.webp",
-        "assets/lenceria/860_7.webp"
-      ],
-      "price": 9000,
-      "url": "https://fridastore.com.ar/productos/conjunto-art-860/",
       "hasPhotos": true
     },
     {
