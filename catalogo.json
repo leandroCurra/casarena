@@ -2609,18 +2609,22 @@
       "temporada": "2025-2026",
       "pack": false,
       "colors": [
-        "Violeta y amarillo",
-        "Chocolate y crema",
-        "Verde y crema",
-        "Aqua y petróleo"
+        "Negro",
+        "Chocolate",
+        "Vison",
+        "Blanco",
+        "Pistacho",
+        "Verde militar"
       ],
       "price": 15300,
       "url": "https://fridastore.com.ar/productos/art-6072-brusela-11cgg/",
       "photos": {
-        "Violeta y amarillo": "assets/products/aguila-violeta-amarillo.png",
-        "Chocolate y crema": "assets/products/aguila-chocolate-crema.png",
-        "Verde y crema": "assets/products/aguila-verde-crema.png",
-        "Aqua y petróleo": "assets/products/aguila-aqua-petroleo.png"
+        "Negro": "assets/products/puntarasa-negro-modelo.webp",
+        "Chocolate": "assets/products/puntarasa-chocolate-modelo.webp",
+        "Vison": "assets/products/puntarasa-vison-modelo.webp",
+        "Blanco": "assets/products/puntarasa-blanco-modelo.webp",
+        "Pistacho": "assets/products/puntarasa-pistacho.webp",
+        "Verde militar": "assets/products/puntarasa-verde-militar.webp"
       },
       "hasPhotos": true,
       "descripcion": "Top de un hombro con recorte asimétrico bicolor y bombacha de tiro alto combinada al tono.",
@@ -2632,31 +2636,48 @@
         "100"
       ],
       "stock": {
-        "Violeta y amarillo": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         },
-        "Chocolate y crema": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
+        "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         },
-        "Verde y crema": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
+        "Vison": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         },
-        "Aqua y petróleo": {
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Pistacho": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
           "85": false,
           "90": false,
           "95": false,
-          "100": false
+          "100": true
         }
-      }
+      },
+      "gallery": [
+        "assets/products/puntarasa-negro-modelo-2.webp",
+        "assets/products/puntarasa-vison-modelo-2.webp",
+        "assets/products/puntarasa-vison-modelo-3.webp"
+      ]
     },
     {
       "id": "len-715",
