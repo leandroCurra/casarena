@@ -182,14 +182,10 @@
       "descripcion": "",
       "tela": "",
       "colors": [
-        "Negro",
-        "Rojo",
-        "Blanco"
+        "Negro"
       ],
       "photos": {
-        "Negro": "assets/lenceria/1737_1.webp",
-        "Rojo": "assets/lenceria/1737_2.webp",
-        "Blanco": "assets/lenceria/1737_3.webp"
+        "Negro": "assets/lenceria/1737_1.webp"
       },
       "gallery": [
         "assets/lenceria/1737_1.webp",
@@ -469,14 +465,10 @@
       "descripcion": "",
       "tela": "",
       "colors": [
-        "Negro",
-        "Rojo",
-        "Blanco"
+        "Rojo"
       ],
       "photos": {
-        "Negro": "assets/lenceria/756_1.webp",
-        "Rojo": "assets/lenceria/756_4.webp",
-        "Blanco": "assets/lenceria/756_7.webp"
+        "Rojo": "assets/lenceria/756_4.webp"
       },
       "gallery": [
         "assets/lenceria/756_1.webp",
@@ -909,16 +901,10 @@
       "descripcion": "Conjunto de triángulo soft con puntilla bajo busto y bombacha less entera.",
       "tela": "Microfibra.",
       "colors": [
-        "Negro",
-        "Blanco",
-        "Rojo",
-        "Beige"
+        "Rojo"
       ],
       "photos": {
-        "Negro": "assets/lenceria/1750_5.webp",
-        "Blanco": "assets/lenceria/1750_11.webp",
-        "Rojo": "assets/lenceria/1750_7.webp",
-        "Beige": "assets/lenceria/1750_1.webp"
+        "Rojo": "assets/lenceria/1750_7.webp"
       },
       "gallery": [
         "assets/lenceria/1750_1.webp",
@@ -1108,13 +1094,11 @@
       "descripcion": "",
       "tela": "",
       "colors": [
-        "Beige",
         "Rojo",
         "Blanco",
         "Negro"
       ],
       "photos": {
-        "Beige": "assets/lenceria/841_1.webp",
         "Rojo": "assets/lenceria/841_3.webp",
         "Blanco": "assets/lenceria/841_10.webp",
         "Negro": "assets/lenceria/841_11.webp"
@@ -1332,13 +1316,9 @@
       "descripcion": "",
       "tela": "",
       "colors": [
-        "Rojo",
-        "Negro",
         "Blanco"
       ],
       "photos": {
-        "Rojo": "assets/lenceria/715_1.webp",
-        "Negro": "assets/lenceria/715_4.webp",
         "Blanco": "assets/lenceria/715_5.webp"
       },
       "gallery": [
@@ -1446,12 +1426,10 @@
       "descripcion": "",
       "tela": "",
       "colors": [
-        "Blanco",
-        "Negro"
+        "Blanco"
       ],
       "photos": {
-        "Blanco": "assets/lenceria/745_1.webp",
-        "Negro": "assets/lenceria/745_4.webp"
+        "Blanco": "assets/lenceria/745_1.webp"
       },
       "gallery": [
         "assets/lenceria/745_1.webp",
@@ -1696,7 +1674,6 @@
         "Lila",
         "Nude",
         "Blanco",
-        "Negro",
         "Gris",
         "Verde militar"
       ],
@@ -1708,7 +1685,6 @@
         "Lila": "assets/lenceria/940_8.webp",
         "Nude": "assets/lenceria/940_10.webp",
         "Blanco": "assets/lenceria/940_11.webp",
-        "Negro": "assets/lenceria/940_13.webp",
         "Gris": "assets/lenceria/940_14.webp",
         "Verde militar": "assets/lenceria/940_17.webp"
       },
