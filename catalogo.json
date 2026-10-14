@@ -284,6 +284,7 @@
       "pack": false,
       "colors": [
         "Negro con accesorio dorado",
+        "Negro con accesorio plateado",
         "Fucsia con accesorio plateado",
         "Verde lima con accesorio plateado",
         "Verde esmeralda con accesorio plateado"
@@ -291,10 +292,11 @@
       "price": 23220,
       "url": "https://fridastore.com.ar/productos/bikini-art-4735-jacquard-malibu-con-accesorio-dbkod/",
       "photos": {
-        "Negro con accesorio dorado": "assets/products/querandi-negro-dorado-fit.png",
-        "Fucsia con accesorio plateado": "assets/products/querandi-fucsia-fit.png",
-        "Verde lima con accesorio plateado": "assets/products/querandi-verde-lima-fit.png",
-        "Verde esmeralda con accesorio plateado": "assets/products/querandi-verde-esmeralda-fit.png"
+        "Negro con accesorio dorado": "assets/products/frida-querandi-negro.webp",
+        "Negro con accesorio plateado": "assets/products/frida-querandi-negro.webp",
+        "Fucsia con accesorio plateado": "assets/products/frida-querandi-fucsia.webp",
+        "Verde lima con accesorio plateado": "assets/products/frida-querandi-verde-lima.webp",
+        "Verde esmeralda con accesorio plateado": "assets/products/frida-querandi-verde-esmeralda.webp"
       },
       "hasPhotos": true,
       "descripcion": "Conjunto de dos piezas: corpiño triángulo con accesorio y tiras regulables, y bombacha tipo colaless.",
@@ -433,21 +435,21 @@
       "price": 17100,
       "url": "https://fridastore.com.ar/productos/bikini-art-4735-jacquard-malibu/",
       "photos": {
-        "Amarillo fluor": "assets/products/toninas-25.webp",
-        "Verde fluor": "assets/products/toninas-31.webp",
-        "Verde lima": "assets/products/toninas-21.webp",
-        "Natural": "assets/products/toninas-22.webp",
-        "Negro": "assets/products/toninas-18.webp",
-        "Aqua": "assets/products/toninas-20.webp",
-        "Fucsia": "assets/products/toninas-13.webp",
-        "Durazno": "assets/products/toninas-14.webp",
-        "Golden kiwi": "assets/products/toninas-17.webp",
-        "Rosa lila": "assets/products/toninas-15.webp",
-        "Vino": "assets/products/toninas-35.webp",
-        "Verde esmeralda": "assets/products/toninas-26.webp",
-        "Coral neón": "assets/products/toninas-28.webp",
-        "Cobre": "assets/products/toninas-32.webp",
-        "Chocolate": "assets/products/toninas-34.webp"
+        "Amarillo fluor": "assets/products/frida-toninas-amarillo-fluor.webp",
+        "Verde fluor": "assets/products/frida-toninas-verde-fluor.webp",
+        "Verde lima": "assets/products/frida-toninas-verde-lima.webp",
+        "Natural": "assets/products/frida-toninas-natural.webp",
+        "Negro": "assets/products/frida-toninas-negro.webp",
+        "Aqua": "assets/products/frida-toninas-aqua.webp",
+        "Fucsia": "assets/products/frida-toninas-fucsia.webp",
+        "Durazno": "assets/products/frida-toninas-durazno.webp",
+        "Golden kiwi": "assets/products/frida-toninas-golden-kiwi.webp",
+        "Rosa lila": "assets/products/frida-toninas-rosa-lila.webp",
+        "Vino": "assets/products/frida-toninas-vino.webp",
+        "Verde esmeralda": "assets/products/frida-toninas-verde-esmeralda.webp",
+        "Coral neón": "assets/products/frida-toninas-coral-neon.webp",
+        "Cobre": "assets/products/frida-toninas-cobre.webp",
+        "Chocolate": "assets/products/frida-toninas-chocolate.webp"
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo de tiras finas regulables y bombacha colaless para atar a los costados.",
@@ -1203,13 +1205,15 @@
       "pack": false,
       "colors": [
         "Azul francia",
-        "Lavanda"
+        "Lavanda",
+        "Verde lima"
       ],
       "price": 18000,
       "url": "https://fridastore.com.ar/productos/art-4735-bali/",
       "photos": {
-        "Azul francia": "assets/products/mogotes-azul-francia-fit.png",
-        "Lavanda": "assets/products/mogotes-violeta-fit.png"
+        "Azul francia": "assets/products/frida-mogotes-azul-francia.webp",
+        "Lavanda": "assets/products/frida-mogotes-lavanda.webp",
+        "Verde lima": "assets/products/frida-mogotes-verde-lima.webp"
       },
       "hasPhotos": true,
       "descripcion": "Conjunto de dos piezas: corpiño triángulo con tiras regulables y bombacha tipo colaless.",
