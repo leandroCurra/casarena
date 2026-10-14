@@ -1216,7 +1216,7 @@
       "price": 18000,
       "url": "https://fridastore.com.ar/productos/art-4735-bali/",
       "photos": {
-        "Azul francia": "assets/products/frida-mogotes-azul-francia-modelo-2.webp",
+        "Azul francia": "assets/products/frida-mogotes-azul-francia-modelo.webp",
         "Lavanda": "assets/products/frida-mogotes-lavanda-modelo.webp",
         "Verde lima": "assets/products/frida-mogotes-verde-lima.webp"
       },
@@ -1224,7 +1224,7 @@
       "descripcion": "Conjunto de dos piezas: corpiño triángulo con tiras regulables y bombacha tipo colaless.",
       "tela": "Bali – Tazas desmontables.",
       "gallery": [
-        "assets/products/frida-mogotes-azul-francia-modelo.webp",
+        "assets/products/frida-mogotes-azul-francia-modelo-2.webp",
         "assets/products/frida-mogotes-lavanda-modelo-2.webp",
         "assets/products/frida-mogotes-lavanda-modelo-3.webp",
         "assets/products/frida-mogotes-verde-lima-modelo-2.webp"
