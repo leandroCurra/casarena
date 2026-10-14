@@ -283,20 +283,18 @@
       "temporada": "2025-2026",
       "pack": false,
       "colors": [
-        "Negro con accesorio dorado",
-        "Negro con accesorio plateado",
-        "Fucsia con accesorio plateado",
-        "Verde lima con accesorio plateado",
-        "Verde esmeralda con accesorio plateado"
+        "Negro",
+        "Fucsia",
+        "Verde lima",
+        "Verde esmeralda"
       ],
       "price": 23220,
       "url": "https://fridastore.com.ar/productos/bikini-art-4735-jacquard-malibu-con-accesorio-dbkod/",
       "photos": {
-        "Negro con accesorio dorado": "assets/products/frida-querandi-negro.webp",
-        "Negro con accesorio plateado": "assets/products/frida-querandi-negro.webp",
-        "Fucsia con accesorio plateado": "assets/products/frida-querandi-fucsia.webp",
-        "Verde lima con accesorio plateado": "assets/products/frida-querandi-verde-lima.webp",
-        "Verde esmeralda con accesorio plateado": "assets/products/frida-querandi-verde-esmeralda.webp"
+        "Negro": "assets/products/querandi-negro.jpg",
+        "Fucsia": "assets/products/querandi-fucsia.jpg",
+        "Verde lima": "assets/products/querandi-verde-lima.jpg",
+        "Verde esmeralda": "assets/products/querandi-verde-esmeralda.jpg"
       },
       "hasPhotos": true,
       "descripcion": "Conjunto de dos piezas: corpiño triángulo con accesorio y tiras regulables, y bombacha tipo colaless.",
