@@ -417,10 +417,10 @@
       "pack": false,
       "colors": [
         "Amarillo fluor",
-        "Verde fluor",
-        "Verde lima",
         "Natural",
         "Negro",
+        "Verde fluor",
+        "Verde lima",
         "Aqua",
         "Fucsia",
         "Durazno",
@@ -436,10 +436,10 @@
       "url": "https://fridastore.com.ar/productos/bikini-art-4735-jacquard-malibu/",
       "photos": {
         "Amarillo fluor": "assets/products/frida-toninas-amarillo-fluor.webp",
+        "Natural": "assets/products/frida-toninas-natural-modelo.webp",
+        "Negro": "assets/products/frida-toninas-negro-modelo.webp",
         "Verde fluor": "assets/products/frida-toninas-verde-fluor.webp",
         "Verde lima": "assets/products/frida-toninas-verde-lima.webp",
-        "Natural": "assets/products/frida-toninas-natural.webp",
-        "Negro": "assets/products/frida-toninas-negro.webp",
         "Aqua": "assets/products/frida-toninas-aqua.webp",
         "Fucsia": "assets/products/frida-toninas-fucsia.webp",
         "Durazno": "assets/products/frida-toninas-durazno.webp",
@@ -453,7 +453,12 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo de tiras finas regulables y bombacha colaless para atar a los costados.",
-      "tela": "Jacquard Malibu – Tazas desmontables."
+      "tela": "Jacquard Malibu – Tazas desmontables.",
+      "gallery": [
+        "assets/products/frida-toninas-natural-modelo-2.webp",
+        "assets/products/frida-toninas-negro-modelo-2.webp",
+        "assets/products/frida-toninas-negro-modelo-3.webp"
+      ]
     },
     {
       "id": "len-756",
@@ -1211,13 +1216,19 @@
       "price": 18000,
       "url": "https://fridastore.com.ar/productos/art-4735-bali/",
       "photos": {
-        "Azul francia": "assets/products/frida-mogotes-azul-francia.webp",
-        "Lavanda": "assets/products/frida-mogotes-lavanda.webp",
+        "Azul francia": "assets/products/frida-mogotes-azul-francia-modelo-2.webp",
+        "Lavanda": "assets/products/frida-mogotes-lavanda-modelo.webp",
         "Verde lima": "assets/products/frida-mogotes-verde-lima.webp"
       },
       "hasPhotos": true,
       "descripcion": "Conjunto de dos piezas: corpiño triángulo con tiras regulables y bombacha tipo colaless.",
-      "tela": "Bali – Tazas desmontables."
+      "tela": "Bali – Tazas desmontables.",
+      "gallery": [
+        "assets/products/frida-mogotes-azul-francia-modelo.webp",
+        "assets/products/frida-mogotes-lavanda-modelo-2.webp",
+        "assets/products/frida-mogotes-lavanda-modelo-3.webp",
+        "assets/products/frida-mogotes-verde-lima-modelo-2.webp"
+      ]
     },
     {
       "id": "len-1736",
