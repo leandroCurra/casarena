@@ -36,7 +36,6 @@
         "assets/lenceria/708_13.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-708/",
       "hasPhotos": true,
       "sizes": [
         "Único"
@@ -69,7 +68,6 @@
         "Turquesa capri"
       ],
       "price": 17100,
-      "url": "https://fridastore.com.ar/productos/art-4650-a2t8e/",
       "photos": {
         "Marron coco": "assets/products/bahia-marron-coco.webp",
         "Celeste hielo": "assets/products/bahia-celeste-hielo.webp",
@@ -143,7 +141,6 @@
         "assets/lenceria/940_36.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-940-microfibra/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -193,7 +190,6 @@
         "Turquesa"
       ],
       "price": 16200,
-      "url": "https://fridastore.com.ar/productos/art-4751/",
       "photos": {
         "Negro": "assets/products/corrientes-negro-fit.png",
         "Verde aceituna": "assets/products/corrientes-oliva-fit.png",
@@ -256,7 +252,6 @@
         "Ivory / Lila"
       ],
       "price": 13500,
-      "url": "https://fridastore.com.ar/productos/art-8022-zjlbe/",
       "photos": {
         "Chocolate / Ivory": "assets/products/8022_3.webp",
         "Ivory / Chocolate": "assets/products/8022_4.webp",
@@ -351,7 +346,6 @@
         "assets/lenceria/1737_3.webp"
       ],
       "price": 13500,
-      "url": "https://fridastore.com.ar/productos/art-1737/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -383,7 +377,6 @@
         "Negro borde blanco hueso"
       ],
       "price": 15300,
-      "url": "https://fridastore.com.ar/productos/4800-tela-microfibra-eh8qp/",
       "photos": {
         "Pistacho borde blanco hueso": "assets/products/carilo-salvia-fit.png",
         "Lila borde blanco hueso": "assets/products/carilo-lila-fit.png",
@@ -438,7 +431,6 @@
         "Blanco y negro"
       ],
       "price": 25200,
-      "url": "https://fridastore.com.ar/productos/art-6071-microfibra-bicoloror/",
       "photos": {
         "Blanco y negro": "assets/products/claromeco6071-blanco-negro.png"
       },
@@ -478,7 +470,6 @@
         "Orquídea bombon"
       ],
       "price": 15300,
-      "url": "https://fridastore.com.ar/productos/art-4825-1b7kr/",
       "photos": {
         "Negro": "assets/products/tordillo-negro.png",
         "Chocolate": "assets/products/tordillo-chocolate.png",
@@ -541,7 +532,6 @@
         "Verde esmeralda"
       ],
       "price": 23220,
-      "url": "https://fridastore.com.ar/productos/bikini-art-4735-jacquard-malibu-con-accesorio-dbkod/",
       "photos": {
         "Negro": "assets/products/querandi-negro-fit-v2.png",
         "Fucsia": "assets/products/querandi-fucsia-fit-v2.png",
@@ -610,7 +600,6 @@
         "assets/lenceria/713_7.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-713/",
       "hasPhotos": true,
       "sizes": [
         "Único"
@@ -668,7 +657,6 @@
         "assets/lenceria/714_22.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-714/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -729,31 +717,30 @@
         "Chocolate"
       ],
       "price": 17100,
-      "url": "https://fridastore.com.ar/productos/bikini-art-4735-jacquard-malibu/",
       "photos": {
-        "Amarillo fluor": "assets/products/frida-toninas-amarillo-fluor.webp",
-        "Natural": "assets/products/frida-toninas-natural-modelo.webp",
-        "Negro": "assets/products/frida-toninas-negro-modelo.webp",
-        "Verde fluor": "assets/products/frida-toninas-verde-fluor.webp",
-        "Verde lima": "assets/products/frida-toninas-verde-lima.webp",
-        "Aqua": "assets/products/frida-toninas-aqua.webp",
-        "Fucsia": "assets/products/frida-toninas-fucsia.webp",
-        "Durazno": "assets/products/frida-toninas-durazno.webp",
-        "Golden kiwi": "assets/products/frida-toninas-golden-kiwi.webp",
-        "Rosa lila": "assets/products/frida-toninas-rosa-lila.webp",
-        "Vino": "assets/products/frida-toninas-vino.webp",
-        "Verde esmeralda": "assets/products/frida-toninas-verde-esmeralda.webp",
-        "Coral neón": "assets/products/frida-toninas-coral-neon.webp",
-        "Cobre": "assets/products/frida-toninas-cobre.webp",
-        "Chocolate": "assets/products/frida-toninas-chocolate.webp"
+        "Amarillo fluor": "assets/products/toninas-amarillo-fluor.webp",
+        "Natural": "assets/products/toninas-natural-modelo.webp",
+        "Negro": "assets/products/toninas-negro-modelo.webp",
+        "Verde fluor": "assets/products/toninas-verde-fluor.webp",
+        "Verde lima": "assets/products/toninas-verde-lima.webp",
+        "Aqua": "assets/products/toninas-aqua.webp",
+        "Fucsia": "assets/products/toninas-fucsia.webp",
+        "Durazno": "assets/products/toninas-durazno.webp",
+        "Golden kiwi": "assets/products/toninas-golden-kiwi.webp",
+        "Rosa lila": "assets/products/toninas-rosa-lila.webp",
+        "Vino": "assets/products/toninas-vino.webp",
+        "Verde esmeralda": "assets/products/toninas-verde-esmeralda.webp",
+        "Coral neón": "assets/products/toninas-coral-neon.webp",
+        "Cobre": "assets/products/toninas-cobre.webp",
+        "Chocolate": "assets/products/toninas-chocolate.webp"
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo de tiras finas regulables y bombacha colaless para atar a los costados.",
       "tela": "Jacquard Malibu – Tazas desmontables.",
       "gallery": [
-        "assets/products/frida-toninas-natural-modelo-2.webp",
-        "assets/products/frida-toninas-negro-modelo-2.webp",
-        "assets/products/frida-toninas-negro-modelo-3.webp"
+        "assets/products/toninas-natural-modelo-2.webp",
+        "assets/products/toninas-negro-modelo-2.webp",
+        "assets/products/toninas-negro-modelo-3.webp"
       ],
       "sizes": [
         "85",
@@ -880,7 +867,6 @@
         "assets/lenceria/756_7.webp"
       ],
       "price": 9180,
-      "url": "https://fridastore.com.ar/productos/art-756/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -913,7 +899,6 @@
         "Rosa"
       ],
       "price": 13500,
-      "url": "https://fridastore.com.ar/productos/bikini-art-4736-lurex/",
       "photos": {
         "Negro": "assets/products/marazul-negro-fit.png",
         "Plata": "assets/products/marazul-plata-fit.png",
@@ -992,7 +977,6 @@
         "Chocolate"
       ],
       "price": 16200,
-      "url": "https://fridastore.com.ar/productos/bikini-art-4950-jacquard-malibu/",
       "photos": {
         "Negro": "assets/products/marchiquita-negro-fit.png",
         "Coral neon": "assets/products/marchiquita-coral-neon-fit.png",
@@ -1186,7 +1170,6 @@
         "assets/lenceria/710_28.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-710/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -1239,7 +1222,6 @@
         "Verde manzana"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-6055/",
       "photos": {
         "Verde militar": "assets/products/pampas-verde-militar-fit.png",
         "Azul francia": "assets/products/pampas-azul-francia-fit.png",
@@ -1298,7 +1280,6 @@
         "Obispo imperial"
       ],
       "price": 17100,
-      "url": "https://fridastore.com.ar/productos/art-9032-50zlj/",
       "photos": {
         "Negro": "assets/products/pinamar9032-negro.png",
         "Champagne": "assets/products/pinamar9032-nude.png",
@@ -1375,7 +1356,6 @@
         "Obispo imperial"
       ],
       "price": 14400,
-      "url": "https://fridastore.com.ar/productos/art-4738-1osfm/",
       "photos": {
         "Negro": "assets/products/sud-negro-fit.png",
         "Paprika": "assets/products/sud-paprika-fit.png",
@@ -1486,7 +1466,6 @@
         "assets/lenceria/709_12.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-709/",
       "hasPhotos": true,
       "sizes": [
         "Único"
@@ -1519,7 +1498,6 @@
         "Negro"
       ],
       "price": 18000,
-      "url": "https://fridastore.com.ar/productos/bikini-art-8010-rio/",
       "photos": {
         "Coral": "assets/products/miramar-1.jpg",
         "Aqua": "assets/products/miramar-3.jpg",
@@ -1587,7 +1565,6 @@
         "Verde paraiso"
       ],
       "price": 18180,
-      "url": "https://fridastore.com.ar/productos/bikini-art-8032-maui/",
       "photos": {
         "Blanco": "assets/products/montehermoso-blanco-fit.png",
         "Amarillo": "assets/products/montehermoso-amarillo-fit.png",
@@ -1686,7 +1663,6 @@
         "Verde pastel"
       ],
       "price": 15300,
-      "url": "https://fridastore.com.ar/productos/bikini-art-4800-liso/",
       "photos": {
         "Mostaza": "assets/products/necochea-mostaza-fit.png",
         "Verde aceituna": "assets/products/necochea-verde-aceituna-fit.png",
@@ -1866,7 +1842,6 @@
         "assets/lenceria/1750_17.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-1750/",
       "hasPhotos": true,
       "sizes": [
         "Único"
@@ -1896,7 +1871,6 @@
         "Aqua"
       ],
       "price": 16200,
-      "url": "https://fridastore.com.ar/productos/bikini-art-9040-rio/",
       "photos": {
         "Azul marino": "assets/products/orense-azul-marino-fit.png",
         "Blanco": "assets/products/orense-blanco-fit.png",
@@ -1988,7 +1962,6 @@
         "Fucsia"
       ],
       "price": 13500,
-      "url": "https://fridastore.com.ar/productos/art-4758-0vwv1/",
       "photos": {
         "Verde lima": "assets/products/ostende-lima-fit.png",
         "Ivory": "assets/products/ostende-manteca-fit.png",
@@ -2091,7 +2064,6 @@
         "Verde paraiso"
       ],
       "price": 13500,
-      "url": "https://fridastore.com.ar/productos/bikini-art-8044-maui/",
       "photos": {
         "Amarillo": "assets/products/pehuenco-amarillo-fit.png",
         "Blanco": "assets/products/pehuenco-blanco-fit.png",
@@ -2171,7 +2143,6 @@
         "Negro"
       ],
       "price": 15300,
-      "url": "",
       "photos": {
         "Camel": "assets/products/pinamar-camel.png",
         "Chocolate": "assets/products/pinamar-chocolate.png",
@@ -2220,7 +2191,6 @@
         "Celeste"
       ],
       "price": 18000,
-      "url": "https://fridastore.com.ar/productos/bikini-art-9054-rio/",
       "photos": {
         "Negro": "assets/products/pehuencos-negro-fit.png",
         "Coral": "assets/products/pehuencos-coral-fit.png",
@@ -2312,7 +2282,6 @@
         "assets/lenceria/841_21.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-841/",
       "hasPhotos": true,
       "sizes": [
         "Único"
@@ -2352,7 +2321,6 @@
         "assets/lenceria/706_4.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-706/",
       "hasPhotos": true,
       "sizes": [
         "Único"
@@ -2378,7 +2346,6 @@
         "Rojo"
       ],
       "price": 16200,
-      "url": "https://fridastore.com.ar/productos/bikini-art-4757-f3k2g/",
       "photos": {
         "Negro": "assets/products/medanos-negro-fit.png",
         "Verde aceituna": "assets/products/medanos-verde-aceituna-fit.png",
@@ -2435,20 +2402,19 @@
         "Verde lima"
       ],
       "price": 18000,
-      "url": "https://fridastore.com.ar/productos/art-4735-bali/",
       "photos": {
-        "Azul francia": "assets/products/frida-mogotes-azul-francia-modelo.webp",
-        "Lavanda": "assets/products/frida-mogotes-lavanda-modelo.webp",
-        "Verde lima": "assets/products/frida-mogotes-verde-lima.webp"
+        "Azul francia": "assets/products/mogotes-azul-francia-modelo.webp",
+        "Lavanda": "assets/products/mogotes-lavanda-modelo.webp",
+        "Verde lima": "assets/products/mogotes-verde-lima.webp"
       },
       "hasPhotos": true,
       "descripcion": "Conjunto de dos piezas: corpiño triángulo con tiras regulables y bombacha tipo colaless.",
       "tela": "Bali – Tazas desmontables.",
       "gallery": [
-        "assets/products/frida-mogotes-azul-francia-modelo-2.webp",
-        "assets/products/frida-mogotes-lavanda-modelo-2.webp",
-        "assets/products/frida-mogotes-lavanda-modelo-3.webp",
-        "assets/products/frida-mogotes-verde-lima-modelo-2.webp"
+        "assets/products/mogotes-azul-francia-modelo-2.webp",
+        "assets/products/mogotes-lavanda-modelo-2.webp",
+        "assets/products/mogotes-lavanda-modelo-3.webp",
+        "assets/products/mogotes-verde-lima-modelo-2.webp"
       ],
       "sizes": [
         "85",
@@ -2511,7 +2477,6 @@
         "assets/lenceria/1736_11.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-1736/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -2571,7 +2536,6 @@
         "assets/lenceria/1736_15.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-1736-colores-pasteles/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -2617,7 +2581,6 @@
         "Verde militar"
       ],
       "price": 15300,
-      "url": "https://fridastore.com.ar/productos/art-6072-brusela-11cgg/",
       "photos": {
         "Negro": "assets/products/puntarasa-negro-modelo.webp",
         "Chocolate": "assets/products/puntarasa-chocolate-modelo.webp",
@@ -2708,7 +2671,6 @@
         "assets/lenceria/715_10.webp"
       ],
       "price": 9180,
-      "url": "https://fridastore.com.ar/productos/art-715/",
       "hasPhotos": true,
       "sizes": [
         "Único"
@@ -2734,7 +2696,6 @@
         "Negro-Blanco"
       ],
       "price": 13500,
-      "url": "https://fridastore.com.ar/productos/art-4845-tenerife-copia-6t0tp/",
       "photos": {
         "Blanco-Negro": "assets/products/quequen-blanco.png",
         "Negro-Blanco": "assets/products/quequen-negro.png"
@@ -2777,7 +2738,6 @@
         "Aqua"
       ],
       "price": 15300,
-      "url": "https://fridastore.com.ar/productos/bikini-art-8020-rio/",
       "photos": {
         "Terracota": "assets/products/reta-terracota-fit.png",
         "Blanco": "assets/products/reta-blanco-fit.png",
@@ -2845,7 +2805,6 @@
         "Blanco"
       ],
       "price": 14400,
-      "url": "https://fridastore.com.ar/productos/art-4735-tela-maui-copia-h39k2/",
       "photos": {
         "Verde Oliva": "assets/products/bernardo-verde-oliva-fit.png",
         "Ivory": "assets/products/bernardo-arena-fit.png",
@@ -2908,7 +2867,6 @@
         "Chocolate"
       ],
       "price": 19800,
-      "url": "https://fridastore.com.ar/productos/art-8085-1716z/",
       "photos": {
         "Verde aceituna": "assets/products/sanclemente-verde-militar-fit.png",
         "Chocolate": "assets/products/sanclemente-chocolate-fit.png"
@@ -2951,7 +2909,6 @@
         "Lila tulipan"
       ],
       "price": 13500,
-      "url": "https://fridastore.com.ar/productos/bikini-art-5020-maui/",
       "photos": {
         "Amarillo": "assets/products/santaclara-amarillo-fit.png",
         "Verde paraiso": "assets/products/santaclara-verde-paraiso-fit.png",
@@ -3041,7 +2998,6 @@
         "assets/lenceria/705_17.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/conjunto-art-705/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -3086,7 +3042,6 @@
         "Verde paraiso"
       ],
       "price": 15300,
-      "url": "https://fridastore.com.ar/productos/bikini-art-6005-maui/",
       "photos": {
         "Negro": "assets/products/teresita-8.webp",
         "Lila tulipan": "assets/products/teresita-10.webp",
@@ -3163,7 +3118,6 @@
         "assets/lenceria/830_8.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-830/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -3215,7 +3169,6 @@
         "assets/lenceria/723_10.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-723/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -3265,7 +3218,6 @@
         "Verde menta"
       ],
       "price": 15300,
-      "url": "https://fridastore.com.ar/productos/bikini-art-4737-foil-lurex/",
       "photos": {
         "Natural": "assets/products/valeria-natural-fit.png",
         "Lila": "assets/products/valeria-lavanda-fit.png",
@@ -3363,7 +3315,6 @@
         "assets/lenceria/940_20.webp"
       ],
       "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-940-morley-tnbbs/",
       "hasPhotos": true,
       "sizes": [
         "85",
@@ -3446,7 +3397,6 @@
         "Verde"
       ],
       "price": 18000,
-      "url": "https://fridastore.com.ar/productos/bikini-art-4750-con-accesorio-plateado-bambula-fttzf/",
       "photos": {
         "Negro": "assets/products/gesell-negro-fit.png",
         "Chocolate": "assets/products/gesell-chocolate-fit.png",
@@ -3531,7 +3481,6 @@
         "Blanco / Blanco"
       ],
       "price": 11700,
-      "url": "https://fridastore.com.ar/productos/art-4790-u8wrh/",
       "photos": {
         "Lila / Blanco": "assets/products/carilo4790-lila.png",
         "Fucsia / Rosa bebe": "assets/products/carilo4790-vino.png",
