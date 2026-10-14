@@ -11,10 +11,14 @@
       "descripcion": "",
       "tela": "",
       "colors": [
-        "Animal print"
+        "Animal print negro beige",
+        "Animal print negro ocre",
+        "Animal print negro verde"
       ],
       "photos": {
-        "Animal print": "assets/lenceria/708_3.webp"
+        "Animal print negro beige": "assets/lenceria/708_5.webp",
+        "Animal print negro ocre": "assets/lenceria/708_9.webp",
+        "Animal print negro verde": "assets/lenceria/708_11.webp"
       },
       "gallery": [
         "assets/lenceria/708_1.webp",
@@ -33,7 +37,21 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-708/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "Único"
+      ],
+      "stock": {
+        "Animal print negro beige": {
+          "Único": true
+        },
+        "Animal print negro ocre": {
+          "Único": true
+        },
+        "Animal print negro verde": {
+          "Único": true
+        }
+      }
     },
     {
       "id": "art-4650",
@@ -57,7 +75,33 @@
         "Celeste hielo": "assets/products/bahia-celeste-hielo.webp",
         "Turquesa capri": "assets/products/bahia-turquesa-capri.webp"
       },
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Marron coco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        },
+        "Celeste hielo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Turquesa capri": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-940F",
@@ -100,7 +144,39 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-940-microfibra/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Chocolate": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Nude": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "285608017",
@@ -126,7 +202,39 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo con aro de resina y bombacha colaless para atar.",
-      "tela": "Tricot – Tazas desmontables."
+      "tela": "Tricot – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Verde aceituna": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Durazno": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Turquesa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "art-8022",
@@ -169,7 +277,57 @@
         "assets/products/8022_7.webp",
         "assets/products/8022_8.webp",
         "assets/products/8022_9.webp"
-      ]
+      ],
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Chocolate / Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory / Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde océano / Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde báltico / Aqua": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde pistacho / Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory / Verde pistacho": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory / Lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-1737",
@@ -194,7 +352,21 @@
       ],
       "price": 13500,
       "url": "https://fridastore.com.ar/productos/art-1737/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        }
+      }
     },
     {
       "id": "320260758",
@@ -220,7 +392,39 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini bicolor triángulo con tiras regulables y bombacha colaless regulable.",
-      "tela": "Microfibra – Incluye tazas desmontables."
+      "tela": "Microfibra – Incluye tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Pistacho borde blanco hueso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila borde blanco hueso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ladrillo borde blanco hueso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro borde blanco hueso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "285805785",
@@ -240,7 +444,21 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini bandeau con aro y breteles al hombro para atar, en bicolor con vivos contrastados, y bombacha colaless de tiro alto al tono.",
-      "tela": "Microfibra bicolor – con aro, sin tazas desmontables."
+      "tela": "Microfibra bicolor – con aro, sin tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Blanco y negro": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "art-4825",
@@ -268,7 +486,45 @@
         "Durazno": "assets/products/tordillo-durazno.png",
         "Orquídea bombon": "assets/products/tordillo-fucsia.png"
       },
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Marron coco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Durazno": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Orquídea bombon": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "312772940",
@@ -294,7 +550,39 @@
       },
       "hasPhotos": true,
       "descripcion": "Conjunto de dos piezas: corpiño triángulo con accesorio y tiras regulables, y bombacha tipo colaless.",
-      "tela": "Jacquard Malibu – Tazas desmontables."
+      "tela": "Jacquard Malibu – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Fucsia": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde lima": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde esmeralda": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-713",
@@ -323,7 +611,15 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-713/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "Único"
+      ],
+      "stock": {
+        "Animal print cebra negro": {
+          "Único": true
+        }
+      }
     },
     {
       "id": "len-714",
@@ -373,33 +669,39 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-714/",
-      "hasPhotos": true
-    },
-    {
-      "id": "len-950",
-      "art": "950",
-      "label": "Conjunto Acacia - Art 950",
-      "name": "La Perla",
-      "rubro": "Lencería",
-      "temporada": "2026-2027",
-      "pack": false,
-      "descripcion": "",
-      "tela": "",
-      "colors": [
-        "Blanco"
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
       ],
-      "photos": {
-        "Blanco": "assets/lenceria/950_1.webp"
-      },
-      "gallery": [
-        "assets/lenceria/950_1.webp",
-        "assets/lenceria/950_2.webp",
-        "assets/lenceria/950_3.webp",
-        "assets/lenceria/950_4.webp"
-      ],
-      "price": 9000,
-      "url": "https://fridastore.com.ar/productos/conjunto-acacia-art-950/",
-      "hasPhotos": true
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Rojo": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Beige": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "237767281",
@@ -452,7 +754,105 @@
         "assets/products/frida-toninas-natural-modelo-2.webp",
         "assets/products/frida-toninas-negro-modelo-2.webp",
         "assets/products/frida-toninas-negro-modelo-3.webp"
-      ]
+      ],
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Amarillo fluor": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Natural": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde fluor": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde lima": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Aqua": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Fucsia": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Durazno": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Golden kiwi": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rosa lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Vino": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": false
+        },
+        "Verde esmeralda": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Coral neón": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Cobre": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Chocolate": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-756",
@@ -481,7 +881,21 @@
       ],
       "price": 9180,
       "url": "https://fridastore.com.ar/productos/art-756/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Rojo": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "293153494",
@@ -509,7 +923,45 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo con aro en el medio y tiras regulables, en conjunto con una bombacha tipo colaless.",
-      "tela": "Lurex – Tazas desmontables."
+      "tela": "Lurex – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Plata": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde manzana": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Fucsia": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rosa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "234578916",
@@ -563,7 +1015,123 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini corpiño triángulo con costuras al frente, tiras regulables y bombacha colaless con argollas al costado.",
-      "tela": "Jacquard Malibu – Tazas desmontables."
+      "tela": "Jacquard Malibu – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Coral neon": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde esmeralda": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Natural": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde lima": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Nude": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Rojo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rosa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Durazno": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Azul francia": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde baltico": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Bicolor ( azul francia / azul electrico)": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": false
+        },
+        "Bicolor (azul electrico / azul marino)": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Aqua": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Vino": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Rosa fluor": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-710",
@@ -619,7 +1187,39 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-710/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Rojo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Beige": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "181273533",
@@ -651,7 +1251,33 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini corpiño rectangular, bombacha y corpiño con tiras para atar.",
-      "tela": "Bambula – Tazas desmontables."
+      "tela": "Bambula – Tazas desmontables.",
+      "sizes": [
+        "Único"
+      ],
+      "stock": {
+        "Verde militar": {
+          "Único": true
+        },
+        "Azul francia": {
+          "Único": true
+        },
+        "Negro": {
+          "Único": true
+        },
+        "Camel": {
+          "Único": true
+        },
+        "Chocolate": {
+          "Único": true
+        },
+        "Fucsia": {
+          "Único": true
+        },
+        "Verde manzana": {
+          "Único": true
+        }
+      }
     },
     {
       "id": "art-9032",
@@ -681,7 +1307,51 @@
         "Azul hierro": "assets/products/pinamar9032-azul-marino.png",
         "Obispo imperial": "assets/products/pinamar9032-vino.png"
       },
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Champagne": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rosa humo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde mineral": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Azul hierro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Obispo imperial": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "new-4738",
@@ -717,7 +1387,69 @@
         "Vison cemento": "assets/products/sud-chocolate-fit.png",
         "Obispo imperial": "assets/products/sud-vino-fit.png"
       },
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Paprika": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Champagne": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde mineral": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rosa humo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Azul hierro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Azul petroleo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Vison cemento": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Obispo imperial": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        }
+      }
     },
     {
       "id": "len-709",
@@ -755,30 +1487,21 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-709/",
-      "hasPhotos": true
-    },
-    {
-      "id": "len-707",
-      "art": "707",
-      "label": "ART - 707",
-      "name": "Marisol",
-      "rubro": "Lencería",
-      "temporada": "2026-2027",
-      "pack": false,
-      "descripcion": "",
-      "tela": "",
-      "colors": [
-        "Animal print negro"
+      "hasPhotos": true,
+      "sizes": [
+        "Único"
       ],
-      "photos": {
-        "Animal print negro": "assets/lenceria/707_1.webp"
-      },
-      "gallery": [
-        "assets/lenceria/707_1.webp"
-      ],
-      "price": 11700,
-      "url": "https://fridastore.com.ar/productos/art-707/",
-      "hasPhotos": true
+      "stock": {
+        "Negro": {
+          "Único": true
+        },
+        "Blanco": {
+          "Único": true
+        },
+        "Rojo": {
+          "Único": true
+        }
+      }
     },
     {
       "id": "290002444",
@@ -806,7 +1529,45 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini top sin costura con tira removible y bombacha V colaless.",
-      "tela": "Rio – Tazas desmontables."
+      "tela": "Rio – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Coral": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Aqua": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Azul marino": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        },
+        "Negro": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
+        }
+      }
     },
     {
       "id": "290007373",
@@ -838,7 +1599,65 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini top de un hombro con tira doble y bombacha de tiro alto con recorte al costado.",
-      "tela": "Maui – Tazas desmontables."
+      "tela": "Maui – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "stock": {
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false,
+          "105": false
+        },
+        "Amarillo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false,
+          "105": false
+        },
+        "Lila tulipan": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false,
+          "105": false
+        },
+        "Naranja": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Negro": {
+          "85": false,
+          "90": true,
+          "95": false,
+          "100": false,
+          "105": false
+        },
+        "Rosa chicle": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Verde paraiso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false,
+          "105": false
+        }
+      }
     },
     {
       "id": "293136689",
@@ -888,7 +1707,128 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini unicolor triángulo con tiras regulables y bombacha colaless regulable.",
-      "tela": "Tricot – Incluye tazas desmontables."
+      "tela": "Tricot – Incluye tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "stock": {
+        "Mostaza": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Verde aceituna": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Violeta": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Rosa bb": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": false,
+          "105": false
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Aqua": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": false,
+          "105": false
+        },
+        "Magenta": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false,
+          "105": false
+        },
+        "Rojo": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false,
+          "105": false
+        },
+        "Naranja claro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Nude": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Turquesa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Celeste": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false,
+          "105": false
+        },
+        "Verde": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Verde pastel": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        }
+      }
     },
     {
       "id": "len-1750",
@@ -927,7 +1867,15 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-1750/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "Único"
+      ],
+      "stock": {
+        "Rojo": {
+          "Único": true
+        }
+      }
     },
     {
       "id": "290003804",
@@ -961,7 +1909,63 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini top deportivo de tiras regulables y bombacha de tiro alto.",
-      "tela": "Rio – Tazas desmontables."
+      "tela": "Rio – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Azul marino": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Coral": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Celeste": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Terracota": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": false
+        },
+        "Aqua": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "316400046",
@@ -999,7 +2003,75 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini con corpiño en forma de triángulo con accesorio en el centro y bombacha para atar.",
-      "tela": "Bambula."
+      "tela": "Bambula.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Verde lima": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rosa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Coral": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": false
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Azul francia": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        },
+        "Ciruela": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Naranja": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Fucsia": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "293681317",
@@ -1031,7 +2103,57 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo con argolla corazón al centro, tiras para atar al cuello y bombacha colaless para atar.",
-      "tela": "Maui – Tazas desmontables."
+      "tela": "Maui – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Amarillo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Naranja": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila tulipan": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rosa chicle": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde paraiso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "art-807",
@@ -1055,7 +2177,33 @@
         "Chocolate": "assets/products/pinamar-chocolate.png",
         "Negro": "assets/products/pinamar-negro.png"
       },
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Camel": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "303258918",
@@ -1081,7 +2229,44 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo corredizo con tira al cuello y bombacha de tiro alto con recortes.",
-      "tela": "Rio – Tazas desmontables."
+      "tela": "Rio – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Coral": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Celeste": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        }
+      }
     },
     {
       "id": "len-841",
@@ -1128,7 +2313,21 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-841/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "Único"
+      ],
+      "stock": {
+        "Rojo": {
+          "Único": true
+        },
+        "Blanco": {
+          "Único": true
+        },
+        "Negro": {
+          "Único": true
+        }
+      }
     },
     {
       "id": "len-706",
@@ -1154,7 +2353,15 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-706/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "Único"
+      ],
+      "stock": {
+        "Negro": {
+          "Único": true
+        }
+      }
     },
     {
       "id": "308454830",
@@ -1180,7 +2387,39 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo con accesorio en forma de estrella y bombacha colaless para atar.",
-      "tela": "Tricot – Tazas desmontables."
+      "tela": "Tricot – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Verde aceituna": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Durazno": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rojo": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": false
+        }
+      }
     },
     {
       "id": "281086807",
@@ -1210,7 +2449,33 @@
         "assets/products/frida-mogotes-lavanda-modelo-2.webp",
         "assets/products/frida-mogotes-lavanda-modelo-3.webp",
         "assets/products/frida-mogotes-verde-lima-modelo-2.webp"
-      ]
+      ],
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Azul francia": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lavanda": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde lima": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": false
+        }
+      }
     },
     {
       "id": "len-1736",
@@ -1247,7 +2512,37 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-1736/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "stock": {
+        "Negro": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Rojo": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true,
+          "105": true
+        }
+      }
     },
     {
       "id": "len-1736P",
@@ -1277,7 +2572,33 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-1736-colores-pasteles/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Aqua": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Salmon": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "332526841",
@@ -1303,7 +2624,39 @@
       },
       "hasPhotos": true,
       "descripcion": "Top de un hombro con recorte asimétrico bicolor y bombacha de tiro alto combinada al tono.",
-      "tela": "Brusela."
+      "tela": "Brusela.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Violeta y amarillo": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Chocolate y crema": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Verde y crema": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Aqua y petróleo": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        }
+      }
     },
     {
       "id": "len-715",
@@ -1335,7 +2688,15 @@
       ],
       "price": 9180,
       "url": "https://fridastore.com.ar/productos/art-715/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "Único"
+      ],
+      "stock": {
+        "Blanco": {
+          "Único": true
+        }
+      }
     },
     {
       "id": "art-9120",
@@ -1357,7 +2718,27 @@
         "Blanco-Negro": "assets/products/quequen-blanco.png",
         "Negro-Blanco": "assets/products/quequen-negro.png"
       },
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Blanco-Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro-Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "290040486",
@@ -1385,7 +2766,45 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini de un solo hombro con aro carey al costado y bombacha colaless.",
-      "tela": "RIO. No trae tazas desmontables."
+      "tela": "RIO. No trae tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Terracota": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Aqua": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "new-4845",
@@ -1413,33 +2832,45 @@
         "Verde militar": "assets/products/bernardo-verde-ingles-fit.png",
         "Blanco": "assets/products/bernardo-blanco-fit.png"
       },
-      "hasPhotos": true
-    },
-    {
-      "id": "len-745",
-      "art": "745",
-      "label": "Art. 745",
-      "name": "San Cayetano",
-      "rubro": "Lencería",
-      "temporada": "2026-2027",
-      "pack": false,
-      "descripcion": "",
-      "tela": "",
-      "colors": [
-        "Blanco"
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
       ],
-      "photos": {
-        "Blanco": "assets/lenceria/745_1.webp"
-      },
-      "gallery": [
-        "assets/lenceria/745_1.webp",
-        "assets/lenceria/745_2.webp",
-        "assets/lenceria/745_3.webp",
-        "assets/lenceria/745_4.webp"
-      ],
-      "price": 9000,
-      "url": "https://fridastore.com.ar/productos/art-745/",
-      "hasPhotos": true
+      "stock": {
+        "Verde Oliva": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "new-8085",
@@ -1461,7 +2892,27 @@
         "Verde aceituna": "assets/products/sanclemente-verde-militar-fit.png",
         "Chocolate": "assets/products/sanclemente-chocolate-fit.png"
       },
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Verde aceituna": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "290039547",
@@ -1489,7 +2940,45 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini top con frunce y lazo al frente, tiras regulables y bombacha colaless para atar.",
-      "tela": "Maui – Tazas desmontables."
+      "tela": "Maui – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Amarillo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde paraiso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Naranja": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila tulipan": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-705",
@@ -1502,10 +2991,14 @@
       "descripcion": "",
       "tela": "",
       "colors": [
-        "Negro estampado"
+        "Mariposas",
+        "Estrellas",
+        "Lunares"
       ],
       "photos": {
-        "Negro estampado": "assets/lenceria/705_1.webp"
+        "Mariposas": "assets/lenceria/705_3.webp",
+        "Estrellas": "assets/lenceria/705_6.webp",
+        "Lunares": "assets/lenceria/705_4.webp"
       },
       "gallery": [
         "assets/lenceria/705_1.webp",
@@ -1528,7 +3021,33 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/conjunto-art-705/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Mariposas": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Estrellas": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lunares": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "297492388",
@@ -1556,7 +3075,45 @@
       },
       "hasPhotos": true,
       "descripcion": "Top halter de tiras cruzadas al cuello con cut-out en gota y bombacha colaless de tiro alto.",
-      "tela": "Maui – Tazas desmontables."
+      "tela": "Maui – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila tulipan": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        },
+        "Rosa chicle": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": false
+        },
+        "Blanco": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Verde paraiso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-830",
@@ -1569,14 +3126,10 @@
       "descripcion": "",
       "tela": "",
       "colors": [
-        "Beige",
-        "Negro",
-        "Verde militar"
+        "Nude"
       ],
       "photos": {
-        "Beige": "assets/lenceria/830_1.webp",
-        "Negro": "assets/lenceria/830_4.webp",
-        "Verde militar": "assets/lenceria/830_7.webp"
+        "Nude": "assets/lenceria/830_1.webp"
       },
       "gallery": [
         "assets/lenceria/830_1.webp",
@@ -1590,7 +3143,21 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-830/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Nude": {
+          "85": false,
+          "90": true,
+          "95": false,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-723",
@@ -1628,7 +3195,39 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-723/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Rojo": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": false
+        },
+        "Beige": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "new-4637",
@@ -1654,7 +3253,39 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo con aro en el medio y tiras regulables, en conjunto con una bombacha tipo colaless.",
-      "tela": "Foil Lurex – Tazas desmontables."
+      "tela": "Foil Lurex – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Natural": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Coral": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde menta": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "len-940M",
@@ -1712,7 +3343,69 @@
       ],
       "price": 9000,
       "url": "https://fridastore.com.ar/productos/art-940-morley-tnbbs/",
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Mostaza": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Terracota": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Gris oscuro": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Rosa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": false
+        },
+        "Nude": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Blanco": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": false
+        },
+        "Gris": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": false
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "304522119",
@@ -1744,7 +3437,57 @@
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo con accesorio y bombacha tipo colaless para atar.",
-      "tela": "Bambula – Tazas desmontables."
+      "tela": "Bambula – Tazas desmontables.",
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Chocolate": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Nude": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Fucsia": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Rosa": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Verde": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
     },
     {
       "id": "art-4790",
@@ -1778,7 +3521,63 @@
         "Chocolate / Crema": "assets/products/carilo4790-chocolate-crema.png",
         "Blanco / Blanco": "assets/products/carilo4790-crema.png"
       },
-      "hasPhotos": true
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Lila / Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Fucsia / Rosa bebe": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Camel / Crema": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Azul francia / Celeste bb": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Chocolate / Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Camel / Negro": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": true
+        },
+        "Chocolate / Crema": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Blanco / Blanco": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": false
+        }
+      }
     }
   ]
 }

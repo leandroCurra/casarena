@@ -358,11 +358,17 @@ a:hover{color:var(--casarena-deep-turquoise)}
         <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">{{ p.colorCount }} · {{ p.colorName }}</span>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
           <sc-for list="{{ p.colorChips }}" as="c" hint-placeholder-count="4">
-            <sc-if value="{{ c.active }}" hint-placeholder-val="{{ false }}">
+            <sc-if value="{{ c.activeOk }}" hint-placeholder-val="{{ false }}">
               <span onClick="{{ c.onPick }}" style="cursor:pointer;font-size:13px;font-weight:500;color:var(--casarena-warm-white);background:var(--casarena-dark-teal);border:1px solid var(--casarena-dark-teal);border-radius:999px;padding:5px 12px">{{ c.name }}</span>
             </sc-if>
-            <sc-if value="{{ c.idle }}" hint-placeholder-val="{{ true }}">
+            <sc-if value="{{ c.idleOk }}" hint-placeholder-val="{{ true }}">
               <span onClick="{{ c.onPick }}" style="cursor:pointer;font-size:13px;font-weight:400;color:var(--text-body);border:1px solid var(--border-hairline);border-radius:999px;padding:5px 12px;transition:background 90ms var(--ease-shore)" style-hover="background:var(--casarena-sand)">{{ c.name }}</span>
+            </sc-if>
+            <sc-if value="{{ c.activeOut }}" hint-placeholder-val="{{ false }}">
+              <span onClick="{{ c.onPick }}" style="cursor:pointer;font-size:13px;font-weight:500;color:var(--casarena-dark-teal);background:transparent;border:1px solid var(--casarena-dark-teal);border-radius:999px;padding:5px 12px;text-decoration:line-through">{{ c.name }} · sin stock</span>
+            </sc-if>
+            <sc-if value="{{ c.idleOut }}" hint-placeholder-val="{{ false }}">
+              <span onClick="{{ c.onPick }}" style="cursor:pointer;font-size:13px;font-weight:400;color:var(--text-muted);border:1px dashed var(--border-hairline);border-radius:999px;padding:5px 12px;text-decoration:line-through;opacity:.6">{{ c.name }}</span>
             </sc-if>
           </sc-for>
         </div>
@@ -428,11 +434,17 @@ a:hover{color:var(--casarena-deep-turquoise)}
             <span style="font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-ocean-green)">Talle</span>
             <div style="display:flex;gap:8px">
               <sc-for list="{{ p.sizeChips }}" as="s" hint-placeholder-count="4">
-                <sc-if value="{{ s.active }}" hint-placeholder-val="{{ false }}">
+                <sc-if value="{{ s.activeOk }}" hint-placeholder-val="{{ false }}">
                   <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:500;color:var(--casarena-warm-white);background:var(--casarena-dark-teal);border:1px solid var(--casarena-dark-teal);border-radius:6px;padding:11px 12px">{{ s.name }}</span>
                 </sc-if>
-                <sc-if value="{{ s.idle }}" hint-placeholder-val="{{ true }}">
+                <sc-if value="{{ s.idleOk }}" hint-placeholder-val="{{ true }}">
                   <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:400;color:var(--text-body);border:1px solid var(--border-hairline);border-radius:6px;padding:11px 12px;transition:background 90ms var(--ease-shore)" style-hover="background:var(--casarena-sand)">{{ s.name }}</span>
+                </sc-if>
+                <sc-if value="{{ s.activeOut }}" hint-placeholder-val="{{ false }}">
+                  <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:500;color:var(--casarena-dark-teal);background:transparent;border:1px solid var(--casarena-dark-teal);border-radius:6px;padding:11px 12px;text-decoration:line-through">{{ s.name }}</span>
+                </sc-if>
+                <sc-if value="{{ s.idleOut }}" hint-placeholder-val="{{ false }}">
+                  <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:400;color:var(--text-muted);border:1px dashed var(--border-hairline);border-radius:6px;padding:11px 12px;text-decoration:line-through;opacity:.55">{{ s.name }}</span>
                 </sc-if>
               </sc-for>
             </div>
@@ -447,7 +459,13 @@ a:hover{color:var(--casarena-deep-turquoise)}
           </div>
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+          <sc-if value="{{ canAdd }}" hint-placeholder-val="{{ true }}">
           <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="primary" size="lg" onClick="{{ addToCart }}" hint-size="auto,56px">Agregar al pedido</x-import>
+          </sc-if>
+          <sc-if value="{{ cantAdd }}" hint-placeholder-val="{{ false }}">
+            <span style="display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 28px;border-radius:6px;background:var(--border-hairline);color:var(--text-muted);font-size:12px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;cursor:not-allowed">Sin stock</span>
+            <span style="font-size:13px;font-weight:500;color:var(--casarena-dark-teal)">{{ stockMsg }}</span>
+          </sc-if>
           <sc-if value="{{ justAdded }}" hint-placeholder-val="{{ false }}">
             <span style="font-size:13px;font-weight:500;color:var(--casarena-deep-turquoise)">Agregado. Ya está en tu pedido.</span>
           </sc-if>
@@ -782,11 +800,39 @@ class Component extends DCLogic {
   };
 
   componentDidMount() {
-    fetch("catalogo.json").then(r => r.json()).then(d => this.setState({ items: d.items || [] })).catch(() => {});
+    fetch("catalogo.json?v=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(d => this.setState({ items: d.items || [] })).catch(() => {});
     try {
       const raw = localStorage.getItem("casarena-pedido");
       if (raw) this.setState({ cart: JSON.parse(raw) || [] });
     } catch (e) {}
+  }
+
+  inStock(item, color, size) {
+    const m = item && item.stock && item.stock[color];
+    if (!m || !(size in m)) return true;
+    return !!m[size];
+  }
+
+  colorInStock(item, color) {
+    const m = item && item.stock && item.stock[color];
+    if (!m) return true;
+    return Object.keys(m).some(k => m[k]);
+  }
+
+  selColor(item) {
+    if (!item) return "";
+    const cols = Object.keys(item.photos || {});
+    return cols.length ? cols[Math.min(this.state.vi, cols.length - 1)] : ((item.colors || [])[0] || "A definir");
+  }
+
+  selSize(item) {
+    const sizes = (item && item.sizes) || ["85", "90", "95", "100"];
+    return sizes.indexOf(this.state.size) >= 0 ? this.state.size : sizes[0];
+  }
+
+  selOk(item) {
+    if (!item) return true;
+    return this.inStock(item, this.selColor(item), this.selSize(item));
   }
 
   saveCart(cart) {
@@ -926,14 +972,25 @@ class Component extends DCLogic {
         priceNote: "Precio mayorista por unidad",
         colorCount: cols.length === 1 ? "Un solo color" : cols.length + " colores",
         colorName: cols.length ? cols[vi] : (cur.colors[0] || ""),
-        sizeChips: ["85", "90", "95", "100"].map(s => ({
-          name: s, active: st.size === s, idle: st.size !== s,
-          onPick: () => this.setState({ size: s })
-        })),
-        colorChips: cols.map((c, i) => ({
-          name: c, active: i === vi, idle: i !== vi,
-          onPick: () => this.setState({ vi: i, gi: null })
-        })),
+        sizeChips: (cur.sizes || ["85", "90", "95", "100"]).map(s => {
+          const ok = this.inStock(cur, cols[vi], s);
+          const on = this.selSize(cur) === s;
+          return {
+            name: s, active: on, idle: !on,
+            activeOk: on && ok, idleOk: !on && ok,
+            activeOut: on && !ok, idleOut: !on && !ok,
+            onPick: () => this.setState({ size: s })
+          };
+        }),
+        colorChips: cols.map((c, i) => {
+          const ok = this.colorInStock(cur, c);
+          return {
+            name: c, active: i === vi, idle: i !== vi,
+            activeOk: i === vi && ok, idleOk: i !== vi && ok,
+            activeOut: i === vi && !ok, idleOut: i !== vi && !ok,
+            onPick: () => this.setState({ vi: i, gi: null })
+          };
+        }),
         hasGallery: gal.length > 0,
         galleryCount: gal.length + " fotos",
         gallery: gal.map(src => ({
@@ -992,11 +1049,14 @@ class Component extends DCLogic {
       justAdded: st.justAdded,
       qtyUp: () => this.setState(s => ({ qty: s.qty + 1 })),
       qtyDown: () => this.setState(s => ({ qty: Math.max(1, s.qty - 1) })),
+      canAdd: this.selOk(cur),
+      cantAdd: !this.selOk(cur),
+      stockMsg: cur && !this.colorInStock(cur, this.selColor(cur)) ? "Este color está sin stock. Elegí otro color." : "Este talle está sin stock en este color. Elegí otro talle.",
       addToCart: () => {
         if (!cur) return;
-        const cols = Object.keys(cur.photos || {});
-        const color = cols.length ? cols[Math.min(st.vi, cols.length - 1)] : (cur.colors[0] || "A definir");
-        this.addLine(cur, color, st.size, st.qty);
+        if (!this.selOk(cur)) return;
+        const color = this.selColor(cur);
+        this.addLine(cur, color, this.selSize(cur), st.qty);
       },
       sendOrder: () => {
         const url = "https://wa.me/5491172523960?text=" + encodeURIComponent(this.orderText());
