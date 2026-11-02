@@ -318,10 +318,10 @@
           "100": true
         },
         "Ivory / Verde báltico": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         },
         "Ivory / Azul oceano": {
           "85": true,
@@ -3029,10 +3029,10 @@
           "100": true
         },
         "Marron coco / Capuchino": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         },
         "Capuchino": {
           "85": true,
