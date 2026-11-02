@@ -191,6 +191,8 @@ a:hover{color:var(--casarena-deep-turquoise)}
         <article onClick="{{ p.onOpen }}" style="cursor:pointer;display:flex;flex-direction:column;background:var(--casarena-white);border:1px solid var(--border-hairline)">
           <div style="position:relative;width:100%;aspect-ratio:3/4;background:var(--casarena-sand)">
             {{ p.photo }}
+<sc-if value="{{ p.isNuevo }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;top:12px;left:12px;z-index:2;padding:6px 10px;border-radius:4px;background:var(--casarena-dark-teal);color:var(--casarena-warm-white);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase">Nuevo</span></sc-if>
+<sc-if value="{{ p.isUltimas }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;top:12px;left:12px;z-index:2;padding:6px 10px;border-radius:4px;background:#B4532A;color:#ffffff;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase">Últimas unidades</span></sc-if>
           </div>
           <div style="display:flex;flex-direction:column;gap:9px;padding:20px 20px 24px">
             
@@ -287,6 +289,8 @@ a:hover{color:var(--casarena-deep-turquoise)}
       <article onClick="{{ p.onOpen }}" style="cursor:pointer;display:flex;flex-direction:column;background:var(--casarena-white);border:1px solid var(--border-hairline)">
         <div style="position:relative;width:100%;aspect-ratio:3/4;background:var(--casarena-sand);display:flex;align-items:center;justify-content:center">
           {{ p.photo }}
+<sc-if value="{{ p.isNuevo }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;top:12px;left:12px;z-index:2;padding:6px 10px;border-radius:4px;background:var(--casarena-dark-teal);color:var(--casarena-warm-white);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase">Nuevo</span></sc-if>
+<sc-if value="{{ p.isUltimas }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;top:12px;left:12px;z-index:2;padding:6px 10px;border-radius:4px;background:#B4532A;color:#ffffff;font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase">Últimas unidades</span></sc-if>
           <sc-if value="{{ p.noPhoto }}" hint-placeholder-val="{{ false }}">
             <span style="font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--casarena-warm-stone)">Foto en camino</span>
           </sc-if>
@@ -377,38 +381,29 @@ a:hover{color:var(--casarena-deep-turquoise)}
         <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">Precio mayorista</span>
         <span style="font-size:24px;font-weight:300;letter-spacing:.04em;color:var(--text-strong)">{{ p.priceLabel }}</span>
         <span style="font-size:13px;font-weight:400;color:var(--text-muted)">{{ p.priceNote }}</span>
+        <span style="font-size:14px;font-weight:500;line-height:1.5;color:var(--casarena-deep-turquoise)">{{ p.resaleNote }}</span>
       </div>
       <div style="display:flex;flex-direction:column;gap:20px;padding:26px 0;border-top:1px solid var(--border-hairline);border-bottom:1px solid var(--border-hairline)">
         <span style="font-size:11px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--text-muted)">Sumar al pedido</span>
-        <div style="display:flex;flex-wrap:wrap;gap:22px;align-items:flex-end">
-          <div style="display:flex;flex-direction:column;gap:10px">
-            <span style="font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-ocean-green)">Talle</span>
-            <div style="display:flex;gap:8px">
-              <sc-for list="{{ p.sizeChips }}" as="s" hint-placeholder-count="4">
-                <sc-if value="{{ s.activeOk }}" hint-placeholder-val="{{ false }}">
-                  <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:500;color:var(--casarena-warm-white);background:var(--casarena-dark-teal);border:1px solid var(--casarena-dark-teal);border-radius:6px;padding:11px 12px">{{ s.name }}</span>
-                </sc-if>
-                <sc-if value="{{ s.idleOk }}" hint-placeholder-val="{{ true }}">
-                  <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:400;color:var(--text-body);border:1px solid var(--border-hairline);border-radius:6px;padding:11px 12px;transition:background 90ms var(--ease-shore)" style-hover="background:var(--casarena-sand)">{{ s.name }}</span>
-                </sc-if>
-                <sc-if value="{{ s.activeOut }}" hint-placeholder-val="{{ false }}">
-                  <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:500;color:var(--casarena-dark-teal);background:transparent;border:1px solid var(--casarena-dark-teal);border-radius:6px;padding:11px 12px;text-decoration:line-through">{{ s.name }}</span>
-                </sc-if>
-                <sc-if value="{{ s.idleOut }}" hint-placeholder-val="{{ false }}">
-                  <span onClick="{{ s.onPick }}" style="cursor:pointer;min-width:52px;text-align:center;font-size:14px;font-weight:400;color:var(--text-muted);border:1px dashed var(--border-hairline);border-radius:6px;padding:11px 12px;text-decoration:line-through;opacity:.55">{{ s.name }}</span>
-                </sc-if>
-              </sc-for>
+        <span style="font-size:13px;font-weight:400;line-height:1.5;color:var(--text-body)">Elegí cuántas unidades querés de cada talle en <strong style="font-weight:600">{{ p.colorName }}</strong> y agregalas juntas.</span>
+        <div style="display:flex;flex-direction:column;max-width:440px">
+          <sc-for list="{{ p.sizeRows }}" as="s" hint-placeholder-count="4">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 0;border-bottom:1px solid var(--border-hairline)">
+              <span style="font-size:15px;font-weight:500;color:var(--text-strong)">{{ s.label }}</span>
+              <sc-if value="{{ s.ok }}" hint-placeholder-val="{{ true }}">
+                <div style="display:flex;align-items:stretch;border:1px solid var(--border-hairline);border-radius:6px;overflow:hidden;background:var(--casarena-white)">
+                  <span onClick="{{ s.minus }}" style="cursor:pointer;user-select:none;width:44px;min-height:42px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--casarena-dark-teal);border-right:1px solid var(--border-hairline)" style-hover="background:var(--casarena-sand)">−</span>
+                  <span style="min-width:48px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:500;color:var(--text-strong)">{{ s.qty }}</span>
+                  <span onClick="{{ s.plus }}" style="cursor:pointer;user-select:none;width:44px;min-height:42px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--casarena-dark-teal);border-left:1px solid var(--border-hairline)" style-hover="background:var(--casarena-sand)">+</span>
+                </div>
+              </sc-if>
+              <sc-if value="{{ s.out }}" hint-placeholder-val="{{ false }}">
+                <span style="font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--text-muted)">Sin stock</span>
+              </sc-if>
             </div>
-          </div>
-          <div style="display:flex;flex-direction:column;gap:10px">
-            <span style="font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--casarena-ocean-green)">Cantidad</span>
-            <div style="display:flex;align-items:stretch;border:1px solid var(--border-hairline);border-radius:6px;overflow:hidden">
-              <span onClick="{{ qtyDown }}" style="cursor:pointer;user-select:none;width:44px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--casarena-dark-teal);border-right:1px solid var(--border-hairline)" style-hover="background:var(--casarena-sand)">−</span>
-              <span style="min-width:56px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:500;color:var(--text-strong)">{{ qty }}</span>
-              <span onClick="{{ qtyUp }}" style="cursor:pointer;user-select:none;width:44px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--casarena-dark-teal);border-left:1px solid var(--border-hairline)" style-hover="background:var(--casarena-sand)">+</span>
-            </div>
-          </div>
+          </sc-for>
         </div>
+        <span style="font-size:14px;font-weight:500;color:var(--text-strong)">{{ p.gridSummary }}</span>
         <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
           <sc-if value="{{ canAdd }}" hint-placeholder-val="{{ true }}">
           <x-import component-from-global-scope="CasarenaDesignSystem_f04e0f.Button" variant="primary" size="lg" onClick="{{ addToCart }}" hint-size="auto,56px">Agregar al pedido</x-import>
@@ -416,6 +411,9 @@ a:hover{color:var(--casarena-deep-turquoise)}
           <sc-if value="{{ cantAdd }}" hint-placeholder-val="{{ false }}">
             <span style="display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 28px;border-radius:6px;background:var(--border-hairline);color:var(--text-muted);font-size:12px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;cursor:not-allowed">Sin stock</span>
             <span style="font-size:13px;font-weight:500;color:var(--casarena-dark-teal)">{{ stockMsg }}</span>
+          </sc-if>
+          <sc-if value="{{ needQty }}" hint-placeholder-val="{{ false }}">
+            <span style="font-size:13px;font-weight:500;color:var(--casarena-dark-teal)">Sumá al menos una unidad en algún talle.</span>
           </sc-if>
           <sc-if value="{{ justAdded }}" hint-placeholder-val="{{ false }}">
             <span style="font-size:13px;font-weight:500;color:var(--casarena-deep-turquoise)">Agregado. Ya está en tu pedido.</span>
@@ -793,6 +791,8 @@ class Component extends DCLogic {
     formError: false,
     cart: [],
     qty: 1,
+    qtys: {},
+    needQty: false,
     size: "90",
     justAdded: false,
     menuOpen: false,
@@ -936,7 +936,7 @@ class Component extends DCLogic {
   }
 
   open(id) {
-    this.setState({ route: "producto", pid: id, vi: 0, gi: null });
+    this.setState({ route: "producto", pid: id, vi: 0, gi: null, qtys: {}, needQty: false });
     const it = this.state.items.filter(i => i.id === id)[0];
     if (it) {
       this.setHash("modelo/" + this.slugify(it.name || it.label));
@@ -980,6 +980,19 @@ class Component extends DCLogic {
     });
   }
 
+  gridUnits(item) {
+    const q = this.state.qtys || {};
+    return ((item && item.sizes) || []).reduce((n, s) => n + (q[s] || 0), 0);
+  }
+
+  resaleNote(i) {
+    if (!i || !i.price) return "";
+    const u = this.packUnits(i);
+    const unit = u ? i.price / u : i.price;
+    const sug = Math.round(unit * 2 / 100) * 100;
+    return "Precio sugerido de venta: " + this.money(sug) + " por bikini. Ganás " + this.money(Math.round(sug - unit)) + " en cada uno.";
+  }
+
   packUnits(i) {
     if (!i || !i.pack) return 0;
     const n = i.name || "";
@@ -998,7 +1011,9 @@ class Component extends DCLogic {
       photo: img ? photoEl(img, 18) : null,
       hasPhoto: !!img,
       noPhoto: !img,
-      onOpen: () => this.open(i.id)
+      onOpen: () => this.open(i.id),
+      isNuevo: !!i.nuevo,
+      isUltimas: !i.nuevo && !!i.ultimas
     };
   }
 
@@ -1034,6 +1049,17 @@ class Component extends DCLogic {
         priceNote: cur.pack ? ((cur.packNote || "Precio por pack") + (this.packUnits(cur) ? " · sale " + this.money(Math.round(cur.price / this.packUnits(cur))) + " cada bikini" : "")) : "Precio mayorista por unidad",
         colorCount: (cols.length === 1 && cols[0] === "Surtido") ? "Colores surtidos" : (cols.length === 1 ? "Un solo color" : cols.length + " colores"),
         colorName: cols.length ? cols[vi] : (cur.colors[0] || ""),
+        sizeRows: (cur.sizes || ["85", "90", "95", "100"]).map(s => {
+          const ok = this.inStock(cur, cols[vi], s) && this.colorInStock(cur, cols[vi]);
+          const q = st.qtys[s] || 0;
+          return {
+            label: s === "Surtido" ? "Surtido" : "Talle " + s, qty: q, ok, out: !ok,
+            plus: () => this.setState(z => ({ qtys: Object.assign({}, z.qtys, { [s]: (z.qtys[s] || 0) + 1 }), needQty: false })),
+            minus: () => this.setState(z => ({ qtys: Object.assign({}, z.qtys, { [s]: Math.max(0, (z.qtys[s] || 0) - 1) }) }))
+          };
+        }),
+        gridSummary: (() => { const u = this.gridUnits(cur); return u ? u + (u === 1 ? " unidad · " : " unidades · ") + this.money((cur.price || 0) * u) : ""; })(),
+        resaleNote: this.resaleNote(cur),
         sizeChips: (cur.sizes || ["85", "90", "95", "100"]).map(s => {
           const ok = this.inStock(cur, cols[vi], s);
           const on = this.selSize(cur) === s;
@@ -1050,7 +1076,7 @@ class Component extends DCLogic {
             name: c, active: i === vi, idle: i !== vi,
             activeOk: i === vi && ok, idleOk: i !== vi && ok,
             activeOut: i === vi && !ok, idleOut: i !== vi && !ok,
-            onPick: () => this.setState({ vi: i, gi: null })
+            onPick: () => this.setState({ vi: i, gi: null, qtys: {}, needQty: false })
           };
         }),
         hasGallery: gal.length > 0,
@@ -1061,7 +1087,7 @@ class Component extends DCLogic {
         })),
         variants: cols.map((c, i) => ({
           name: c, photo: photoEl(cur.photos[c], 6), active: i === vi && !st.gi,
-          onPick: () => this.setState({ vi: i, gi: null })
+          onPick: () => this.setState({ vi: i, gi: null, qtys: {}, needQty: false })
         })),
         photoLarge: mainImg ? photoEl(mainImg, 28) : null,
         hasPhoto: !!mainImg,
@@ -1111,15 +1137,20 @@ class Component extends DCLogic {
       justAdded: st.justAdded,
       qtyUp: () => this.setState(s => ({ qty: s.qty + 1 })),
       qtyDown: () => this.setState(s => ({ qty: Math.max(1, s.qty - 1) })),
-      canAdd: this.selOk(cur),
-      cantAdd: !this.selOk(cur),
+      canAdd: !cur || this.colorInStock(cur, this.selColor(cur)),
+      cantAdd: !!cur && !this.colorInStock(cur, this.selColor(cur)),
       stockMsg: cur && !this.colorInStock(cur, this.selColor(cur)) ? "Este color está sin stock. Elegí otro color." : "Este talle está sin stock en este color. Elegí otro talle.",
       addToCart: () => {
         if (!cur) return;
-        if (!this.selOk(cur)) return;
         const color = this.selColor(cur);
-        this.addLine(cur, color, this.selSize(cur), st.qty);
+        if (!this.colorInStock(cur, color)) return;
+        const q = st.qtys || {};
+        const rows = (cur.sizes || []).filter(s => (q[s] || 0) > 0 && this.inStock(cur, color, s));
+        if (!rows.length) { this.setState({ needQty: true }); return; }
+        rows.forEach(s => this.addLine(cur, color, s, q[s]));
+        this.setState({ qtys: {}, needQty: false });
       },
+      needQty: st.needQty,
       sendOrder: () => {
         const url = "https://wa.me/5491172523960?text=" + encodeURIComponent(this.orderText());
         this.track("InitiateCheckout", { value: this.cartTotal(), currency: "ARS", num_items: this.cartUnits() });
@@ -1135,7 +1166,7 @@ class Component extends DCLogic {
       goMarca: () => this.go("marca"),
       goMayoristas: () => this.go("mayoristas"),
       goContacto: () => this.go("contacto"),
-      featured: withPhotos.filter(i => ["Mar de las Pampas", "Miramar"].indexOf(i.name) < 0).slice(0, 8).map(i => this.card(i)),
+      featured: withPhotos.filter(i => !i.pack && ["Mar de las Pampas", "Miramar"].indexOf(i.name) < 0).map((i, k) => [i, k]).sort((a, b) => ((b[0].nuevo ? 1 : 0) - (a[0].nuevo ? 1 : 0)) || (a[1] - b[1])).map(x => x[0]).slice(0, 8).map(i => this.card(i)),
       products: list.map(i => this.card(i)),
       productGroups: ["Bikinis", "Packs y docenas", "Lencería"].map(g => {
         const its = list.filter(i => this.grupo(i) === g);
