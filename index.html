@@ -980,6 +980,14 @@ class Component extends DCLogic {
     });
   }
 
+  esNuevo(i) {
+    if (!i || !i.nuevo) return false;
+    if (!i.nuevoHasta) return true;
+    const d = new Date();
+    const hoy = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    return hoy <= i.nuevoHasta;
+  }
+
   gridUnits(item) {
     const q = this.state.qtys || {};
     return ((item && item.sizes) || []).reduce((n, s) => n + (q[s] || 0), 0);
@@ -1012,8 +1020,8 @@ class Component extends DCLogic {
       hasPhoto: !!img,
       noPhoto: !img,
       onOpen: () => this.open(i.id),
-      isNuevo: !!i.nuevo,
-      isUltimas: !i.nuevo && !!i.ultimas
+      isNuevo: this.esNuevo(i),
+      isUltimas: !this.esNuevo(i) && !!i.ultimas
     };
   }
 
@@ -1166,7 +1174,7 @@ class Component extends DCLogic {
       goMarca: () => this.go("marca"),
       goMayoristas: () => this.go("mayoristas"),
       goContacto: () => this.go("contacto"),
-      featured: withPhotos.filter(i => !i.pack && ["Mar de las Pampas", "Miramar"].indexOf(i.name) < 0).map((i, k) => [i, k]).sort((a, b) => ((b[0].nuevo ? 1 : 0) - (a[0].nuevo ? 1 : 0)) || (a[1] - b[1])).map(x => x[0]).slice(0, 8).map(i => this.card(i)),
+      featured: withPhotos.filter(i => !i.pack && ["Mar de las Pampas", "Miramar"].indexOf(i.name) < 0).map((i, k) => [i, k]).sort((a, b) => ((this.esNuevo(b[0]) ? 1 : 0) - (this.esNuevo(a[0]) ? 1 : 0)) || (a[1] - b[1])).map(x => x[0]).slice(0, 8).map(i => this.card(i)),
       products: list.map(i => this.card(i)),
       productGroups: ["Bikinis", "Packs y docenas", "Lencería"].map(g => {
         const its = list.filter(i => this.grupo(i) === g);
