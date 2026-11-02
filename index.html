@@ -923,7 +923,7 @@ class Component extends DCLogic {
     if (!h) return { route: "home" };
     const parts = h.split("/");
     if (parts[0] === "modelo") {
-      const it = this.state.items.filter(i => this.slugify(i.name || i.label) === parts[1] || String(i.id) === parts[1])[0];
+      const it = this.state.items.filter(i => this.slugify(i.name || i.label) === parts[1] || String(i.id) === parts[1] || i.alias === parts[1])[0];
       return it ? { route: "producto", pid: it.id, vi: 0, gi: null } : { route: "catalogo" };
     }
     return { route: ["catalogo", "marca", "mayoristas", "contacto", "pedido"].indexOf(parts[0]) >= 0 ? parts[0] : "home" };

@@ -4,7 +4,7 @@
       "id": "arroyo-seco",
       "art": "9050",
       "label": "Art - 9050 Tricot",
-      "name": "Arroyo Seco",
+      "name": "Arroyo",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -106,13 +106,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "arroyo-seco"
     },
     {
       "id": "art-4650",
       "art": "4650",
       "label": "Art - 4650",
-      "name": "Bahía Blanca",
+      "name": "Bahía",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -155,13 +156,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "bahia-blanca"
     },
     {
       "id": "285608017",
       "art": "4751",
       "label": "ART - 4751",
-      "name": "Cabo Corrientes",
+      "name": "Cabo",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -213,13 +215,14 @@
           "100": true
         }
       },
-      "ultimas": true
+      "ultimas": true,
+      "alias": "cabo-corrientes"
     },
     {
       "id": "art-8022",
       "art": "8022",
       "label": "Art - 8022",
-      "name": "Cabo Polonio",
+      "name": "Polonio",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -329,13 +332,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "cabo-polonio"
     },
     {
       "id": "camet-norte",
       "art": "5045",
       "label": "Art - 5045 Tricot",
-      "name": "Camet Norte",
+      "name": "Camet",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -437,7 +441,8 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "camet-norte"
     },
     {
       "id": "320260758",
@@ -500,7 +505,7 @@
       "id": "285805785",
       "art": "6071",
       "label": "Art - 6071 Microfibra Bicolor",
-      "name": "Costa Bonita",
+      "name": "Bonita",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -528,13 +533,14 @@
           "100": true
         }
       },
-      "ultimas": true
+      "ultimas": true,
+      "alias": "costa-bonita"
     },
     {
       "id": "costa-esmeralda",
       "art": "4750",
       "label": "Art - 4750 Bambula",
-      "name": "Costa Esmeralda",
+      "name": "Esmeralda",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -644,13 +650,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "costa-esmeralda"
     },
     {
       "id": "art-4825",
       "art": "4825",
       "label": "Art - 4825",
-      "name": "El Tordillo",
+      "name": "Tordillo",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -725,13 +732,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "el-tordillo"
     },
     {
       "id": "312772940",
       "art": "4735",
       "label": "Bikini art - 4735 Jacquard Malibu con accesorio",
-      "name": "Faro Querandí",
+      "name": "Querandí",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -782,13 +790,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "faro-querandi"
     },
     {
       "id": "la-caleta",
       "art": "6000",
       "label": "Art - 6000 Microfibra morley",
-      "name": "La Caleta",
+      "name": "Caleta",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -874,13 +883,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "la-caleta"
     },
     {
       "id": "las-grutas",
       "art": "9000",
       "label": "Art - 9000 Tenerife",
-      "name": "Las Grutas",
+      "name": "Grutas",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -934,13 +944,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "las-grutas"
     },
     {
       "id": "237767281",
       "art": "4735",
       "label": "Bikini Art - 4735 Jacquard Malibu",
-      "name": "Las Toninas",
+      "name": "Toninas",
       "rubro": "Bikinis",
       "temporada": "2024-2025",
       "pack": false,
@@ -1076,13 +1087,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "las-toninas"
     },
     {
       "id": "los-pocitos",
       "art": "130",
       "label": "Art - 130 Tricot",
-      "name": "Los Pocitos",
+      "name": "Pocitos",
       "rubro": "Enterizos",
       "temporada": "2026-2027",
       "pack": false,
@@ -1128,13 +1140,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "los-pocitos"
     },
     {
       "id": "293153494",
       "art": "4736",
       "label": "Bikini Art - 4736 Lurex",
-      "name": "Mar Azul",
+      "name": "Marazul",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -1201,13 +1214,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "mar-azul"
     },
     {
       "id": "234578916",
       "art": "4950",
       "label": "Bikini Art - 4950 Jacquard Malibu",
-      "name": "Mar Chiquita",
+      "name": "Chiquita",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -1362,13 +1376,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "mar-chiquita"
     },
     {
       "id": "mar-de-cobo",
       "art": "4735",
       "label": "Art - 4735 Maui",
-      "name": "Mar de Cobo",
+      "name": "Cobo",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -1470,13 +1485,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "mar-de-cobo"
     },
     {
       "id": "181273533",
       "art": "6055",
       "label": "Art - 6055",
-      "name": "Mar de las Pampas",
+      "name": "Pampas",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -1559,13 +1575,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "mar-de-las-pampas"
     },
     {
       "id": "art-9032",
       "art": "9032",
       "label": "Art - 9032",
-      "name": "Mar del Plata",
+      "name": "Mardel",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -1632,13 +1649,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "mar-del-plata"
     },
     {
       "id": "new-4738",
       "art": "4738",
       "label": "Art - 4738 Tricot Brilloso",
-      "name": "Mar del Sud",
+      "name": "Sud",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -1729,7 +1747,8 @@
           "95": true,
           "100": false
         }
-      }
+      },
+      "alias": "mar-del-sud"
     },
     {
       "id": "290002444",
@@ -1800,7 +1819,7 @@
       "id": "290007373",
       "art": "8032",
       "label": "Bikini Art - 8032 MAUI",
-      "name": "Monte Hermoso",
+      "name": "Monte",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -1867,7 +1886,8 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "monte-hermoso"
     },
     {
       "id": "293136689",
@@ -2236,7 +2256,7 @@
       "id": "293681317",
       "art": "8044",
       "label": "Bikini Art - 8044 MAUI",
-      "name": "Pehuen Có",
+      "name": "Pehuen",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -2311,7 +2331,8 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "pehuen-co"
     },
     {
       "id": "art-807",
@@ -2366,7 +2387,7 @@
       "id": "playa-serena",
       "art": "113",
       "label": "Art - 113 Tricot",
-      "name": "Playa Serena",
+      "name": "Serena",
       "rubro": "Enterizos",
       "temporada": "2026-2027",
       "pack": false,
@@ -2460,13 +2481,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "playa-serena"
     },
     {
       "id": "303258918",
       "art": "9054",
       "label": "Bikini Art - 9054 RIO",
-      "name": "Punta Alta",
+      "name": "Alta",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -2517,13 +2539,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "punta-alta"
     },
     {
       "id": "punta-hermengo",
       "art": "4846",
       "label": "Art - 4846 Rio",
-      "name": "Punta Hermengo",
+      "name": "Hermengo",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -2585,13 +2608,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "punta-hermengo"
     },
     {
       "id": "308454830",
       "art": "4757",
       "label": "Bikini Art - 4757",
-      "name": "Punta Médanos",
+      "name": "Médanos",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -2634,13 +2658,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "punta-medanos"
     },
     {
       "id": "281086807",
       "art": "4735",
       "label": "ART - 4735 BALI",
-      "name": "Punta Mogotes",
+      "name": "Mogotes",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -2689,13 +2714,14 @@
           "95": true,
           "100": false
         }
-      }
+      },
+      "alias": "punta-mogotes"
     },
     {
       "id": "332526841",
       "art": "6072",
       "label": "Art - 6072 Brusela",
-      "name": "Punta Rasa",
+      "name": "Rasa",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -2767,7 +2793,8 @@
         "assets/products/puntarasa-negro-modelo-2.webp",
         "assets/products/puntarasa-vison-modelo-2.webp",
         "assets/products/puntarasa-vison-modelo-3.webp"
-      ]
+      ],
+      "alias": "punta-rasa"
     },
     {
       "id": "art-9120",
@@ -2904,7 +2931,7 @@
       "id": "new-4845",
       "art": "4845",
       "label": "Art - 4845 Tenerife",
-      "name": "San Bernardo",
+      "name": "Bernardo",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -2995,13 +3022,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "san-bernardo"
     },
     {
       "id": "new-8085",
       "art": "8085",
       "label": "Art - 8085",
-      "name": "San Clemente",
+      "name": "Clemente",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -3044,13 +3072,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "san-clemente"
     },
     {
       "id": "san-eduardo",
       "art": "6071",
       "label": "Art - 6071 Tricot",
-      "name": "San Eduardo",
+      "name": "Eduardo",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -3112,13 +3141,14 @@
         }
       },
       "nuevo": true,
-      "nuevoHasta": "2026-11-17"
+      "nuevoHasta": "2026-11-17",
+      "alias": "san-eduardo"
     },
     {
       "id": "290039547",
       "art": "5020",
       "label": "Bikini Art - 5020 MAUI",
-      "name": "Santa Clara",
+      "name": "Clara",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -3177,13 +3207,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "santa-clara"
     },
     {
       "id": "297492388",
       "art": "6005",
       "label": "Bikini Art - 6005 MAUI",
-      "name": "Santa Teresita",
+      "name": "Teresita",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -3234,13 +3265,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "santa-teresita"
     },
     {
       "id": "new-4637",
       "art": "4737",
       "label": "Bikini Art - 4737 Foil Lurex",
-      "name": "Valeria del Mar",
+      "name": "Valeria",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -3292,13 +3324,14 @@
           "100": true
         }
       },
-      "ultimas": true
+      "ultimas": true,
+      "alias": "valeria-del-mar"
     },
     {
       "id": "304522119",
       "art": "4750",
       "label": "Bikini Art - 4750 con accesorio plateado Bambula",
-      "name": "Villa Gesell",
+      "name": "Gesell",
       "rubro": "Bikinis",
       "temporada": "2025-2026",
       "pack": false,
@@ -3350,13 +3383,14 @@
           "100": true
         }
       },
-      "ultimas": true
+      "ultimas": true,
+      "alias": "villa-gesell"
     },
     {
       "id": "art-4790",
       "art": "4790",
       "label": "Art - 4790 Reversible",
-      "name": "Villa Gesell Norte",
+      "name": "Duna",
       "rubro": "Bikinis",
       "temporada": "2026-2027",
       "pack": false,
@@ -3463,13 +3497,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "villa-gesell-norte"
     },
     {
       "id": "pack-x3-arroyo-seco",
       "art": "9050",
       "label": "Pack x3 - Art - 9050 Tricot",
-      "name": "Pack x3 Arroyo Seco",
+      "name": "Pack x3 Arroyo",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -3503,13 +3538,14 @@
           "95": true,
           "100": false
         }
-      }
+      },
+      "alias": "pack-x3-arroyo-seco"
     },
     {
       "id": "pack-x3-camet-norte",
       "art": "5045",
       "label": "Pack x3 - Art - 5045 Tricot",
-      "name": "Pack x3 Camet Norte",
+      "name": "Pack x3 Camet",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -3544,13 +3580,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "pack-x3-camet-norte"
     },
     {
       "id": "pack-x3-las-toninas",
       "art": "4735",
       "label": "Pack x3 - Bikini Art - 4735 Jacquard Malibu",
-      "name": "Pack x3 Las Toninas",
+      "name": "Pack x3 Toninas",
       "rubro": "Packs y docenas",
       "temporada": "2024-2025",
       "pack": true,
@@ -3585,13 +3622,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "pack-x3-las-toninas"
     },
     {
       "id": "pack-x3-mar-chiquita",
       "art": "4950",
       "label": "Pack x3 - Bikini Art - 4950 Jacquard Malibu",
-      "name": "Pack x3 Mar Chiquita",
+      "name": "Pack x3 Chiquita",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -3626,13 +3664,14 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "pack-x3-mar-chiquita"
     },
     {
       "id": "pack-x3-mar-de-las-pampas",
       "art": "6055",
       "label": "Pack x3 - Art - 6055",
-      "name": "Pack x3 Mar de las Pampas",
+      "name": "Pack x3 Pampas",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -3667,7 +3706,8 @@
           "95": true,
           "100": true
         }
-      }
+      },
+      "alias": "pack-x3-mar-de-las-pampas"
     },
     {
       "id": "pack-x3-necochea",
@@ -3714,7 +3754,7 @@
       "id": "pack-x6-el-tordillo",
       "art": "4825",
       "label": "Pack x6 - Art - 4825",
-      "name": "Pack x6 El Tordillo",
+      "name": "Pack x6 Tordillo",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -3743,13 +3783,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "pack-x6-el-tordillo"
     },
     {
       "id": "pack-x6-mar-chiquita",
       "art": "4950",
       "label": "Pack x6 - Bikini Art - 4950 Jacquard Malibu",
-      "name": "Pack x6 Mar Chiquita",
+      "name": "Pack x6 Chiquita",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -3778,13 +3819,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "pack-x6-mar-chiquita"
     },
     {
       "id": "pack-x6-mar-de-cobo",
       "art": "4735",
       "label": "Pack x6 - Art - 4735 Maui",
-      "name": "Pack x6 Mar de Cobo",
+      "name": "Pack x6 Cobo",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -3813,13 +3855,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "pack-x6-mar-de-cobo"
     },
     {
       "id": "pack-x6-mar-del-plata",
       "art": "9032",
       "label": "Pack x6 - Art - 9032",
-      "name": "Pack x6 Mar del Plata",
+      "name": "Pack x6 Mardel",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -3848,13 +3891,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "pack-x6-mar-del-plata"
     },
     {
       "id": "pack-x6-mar-del-sud",
       "art": "4738",
       "label": "Pack x6 - Art - 4738 Tricot Brilloso",
-      "name": "Pack x6 Mar del Sud",
+      "name": "Pack x6 Sud",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -3883,7 +3927,8 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "pack-x6-mar-del-sud"
     },
     {
       "id": "pack-x6-quequen",
@@ -3920,7 +3965,7 @@
       "id": "pack-x6-san-bernardo",
       "art": "4845",
       "label": "Pack x6 - Art - 4845 Tenerife",
-      "name": "Pack x6 San Bernardo",
+      "name": "Pack x6 Bernardo",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -3949,13 +3994,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "pack-x6-san-bernardo"
     },
     {
       "id": "pack-x6-villa-gesell-norte",
       "art": "4790",
       "label": "Pack x6 - Art - 4790 Reversible",
-      "name": "Pack x6 Villa Gesell Norte",
+      "name": "Pack x6 Duna",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -3984,13 +4030,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "pack-x6-villa-gesell-norte"
     },
     {
       "id": "docena-arroyo-seco",
       "art": "9050",
       "label": "Docena - Art - 9050 Tricot",
-      "name": "Docena Arroyo Seco",
+      "name": "Docena Arroyo",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4019,13 +4066,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-arroyo-seco"
     },
     {
       "id": "docena-bahia-blanca",
       "art": "4650",
       "label": "Docena - Art - 4650",
-      "name": "Docena Bahía Blanca",
+      "name": "Docena Bahía",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4051,13 +4099,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-bahia-blanca"
     },
     {
       "id": "docena-cabo-corrientes",
       "art": "4751",
       "label": "Docena - ART - 4751",
-      "name": "Docena Cabo Corrientes",
+      "name": "Docena Cabo",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4084,13 +4133,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-cabo-corrientes"
     },
     {
       "id": "docena-cabo-polonio",
       "art": "8022",
       "label": "Docena - Art - 8022",
-      "name": "Docena Cabo Polonio",
+      "name": "Docena Polonio",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4119,13 +4169,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-cabo-polonio"
     },
     {
       "id": "docena-camet-norte",
       "art": "5045",
       "label": "Docena - Art - 5045 Tricot",
-      "name": "Docena Camet Norte",
+      "name": "Docena Camet",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4154,13 +4205,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-camet-norte"
     },
     {
       "id": "docena-costa-bonita",
       "art": "6071",
       "label": "Docena - Art - 6071 Microfibra Bicolor",
-      "name": "Docena Costa Bonita",
+      "name": "Docena Bonita",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4183,13 +4235,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-costa-bonita"
     },
     {
       "id": "docena-costa-esmeralda",
       "art": "4750",
       "label": "Docena - Art - 4750 Bambula",
-      "name": "Docena Costa Esmeralda",
+      "name": "Docena Esmeralda",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4218,13 +4271,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-costa-esmeralda"
     },
     {
       "id": "docena-el-tordillo",
       "art": "4825",
       "label": "Docena - Art - 4825",
-      "name": "Docena El Tordillo",
+      "name": "Docena Tordillo",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4253,13 +4307,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-el-tordillo"
     },
     {
       "id": "docena-las-toninas",
       "art": "4735",
       "label": "Docena - Bikini Art - 4735 Jacquard Malibu",
-      "name": "Docena Las Toninas",
+      "name": "Docena Toninas",
       "rubro": "Packs y docenas",
       "temporada": "2024-2025",
       "pack": true,
@@ -4288,13 +4343,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-las-toninas"
     },
     {
       "id": "docena-los-pocitos",
       "art": "130",
       "label": "Docena - Art - 130 Tricot",
-      "name": "Docena Los Pocitos",
+      "name": "Docena Pocitos",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4320,13 +4376,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-los-pocitos"
     },
     {
       "id": "docena-mar-chiquita",
       "art": "4950",
       "label": "Docena - Bikini Art - 4950 Jacquard Malibu",
-      "name": "Docena Mar Chiquita",
+      "name": "Docena Chiquita",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4355,13 +4412,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-mar-chiquita"
     },
     {
       "id": "docena-mar-de-cobo",
       "art": "4735",
       "label": "Docena - Art - 4735 Maui",
-      "name": "Docena Mar de Cobo",
+      "name": "Docena Cobo",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4390,13 +4448,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-mar-de-cobo"
     },
     {
       "id": "docena-mar-de-las-pampas",
       "art": "6055",
       "label": "Docena - Art - 6055",
-      "name": "Docena Mar de las Pampas",
+      "name": "Docena Pampas",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4425,13 +4484,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-mar-de-las-pampas"
     },
     {
       "id": "docena-mar-del-plata",
       "art": "9032",
       "label": "Docena - Art - 9032",
-      "name": "Docena Mar del Plata",
+      "name": "Docena Mardel",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4460,13 +4520,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-mar-del-plata"
     },
     {
       "id": "docena-mar-del-sud",
       "art": "4738",
       "label": "Docena - Art - 4738 Tricot Brilloso",
-      "name": "Docena Mar del Sud",
+      "name": "Docena Sud",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4495,13 +4556,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-mar-del-sud"
     },
     {
       "id": "docena-monte-hermoso",
       "art": "8032",
       "label": "Docena - Bikini Art - 8032 MAUI",
-      "name": "Docena Monte Hermoso",
+      "name": "Docena Monte",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4530,7 +4592,8 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-monte-hermoso"
     },
     {
       "id": "docena-orense",
@@ -4606,7 +4669,7 @@
       "id": "docena-playa-serena",
       "art": "113",
       "label": "Docena - Art - 113 Tricot",
-      "name": "Docena Playa Serena",
+      "name": "Docena Serena",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4635,13 +4698,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-playa-serena"
     },
     {
       "id": "docena-punta-rasa",
       "art": "6072",
       "label": "Docena - Art - 6072 Brusela",
-      "name": "Docena Punta Rasa",
+      "name": "Docena Rasa",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4670,7 +4734,8 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-punta-rasa"
     },
     {
       "id": "docena-quequen",
@@ -4707,7 +4772,7 @@
       "id": "docena-san-bernardo",
       "art": "4845",
       "label": "Docena - Art - 4845 Tenerife",
-      "name": "Docena San Bernardo",
+      "name": "Docena Bernardo",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4736,13 +4801,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-san-bernardo"
     },
     {
       "id": "docena-san-clemente",
       "art": "8085",
       "label": "Docena - Art - 8085",
-      "name": "Docena San Clemente",
+      "name": "Docena Clemente",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4768,13 +4834,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-san-clemente"
     },
     {
       "id": "docena-san-eduardo",
       "art": "6071",
       "label": "Docena - Art - 6071 Tricot",
-      "name": "Docena San Eduardo",
+      "name": "Docena Eduardo",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4802,13 +4869,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-san-eduardo"
     },
     {
       "id": "docena-villa-gesell",
       "art": "4750",
       "label": "Docena - Bikini Art - 4750 con accesorio plateado Bambula",
-      "name": "Docena Villa Gesell",
+      "name": "Docena Gesell",
       "rubro": "Packs y docenas",
       "temporada": "2025-2026",
       "pack": true,
@@ -4835,13 +4903,14 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-villa-gesell"
     },
     {
       "id": "docena-villa-gesell-norte",
       "art": "4790",
       "label": "Docena - Art - 4790 Reversible",
-      "name": "Docena Villa Gesell Norte",
+      "name": "Docena Duna",
       "rubro": "Packs y docenas",
       "temporada": "2026-2027",
       "pack": true,
@@ -4870,7 +4939,8 @@
         "Surtido": {
           "Surtido": true
         }
-      }
+      },
+      "alias": "docena-villa-gesell-norte"
     }
   ]
 }
