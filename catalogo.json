@@ -3484,6 +3484,1488 @@
           "100": true
         }
       }
+    },
+    {
+      "id": "pack-x3-arroyo-seco",
+      "art": "9050",
+      "label": "Pack x3 - Art - 9050 Tricot",
+      "name": "Pack x3 Arroyo Seco",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por pack de 3 unidades",
+      "descripcion": "Top con corte en V al centro y vivo en contraste, con bombacha colaless de tiro alto. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "tela": "Tricot – Sin tazas.",
+      "colors": [
+        "Terracota - salmon / Azul fluor - celeste / Lila - violeta"
+      ],
+      "photos": {
+        "Terracota - salmon / Azul fluor - celeste / Lila - violeta": "assets/products/arroyo-seco-negro-borde-blanco.webp"
+      },
+      "gallery": [
+        "assets/products/arroyo-seco-lila-borde-violeta.webp",
+        "assets/products/arroyo-seco-violeta-borde-lila.webp",
+        "assets/products/arroyo-seco-celeste-borde-lila.webp",
+        "assets/products/arroyo-seco-salmon-borde-terracota.webp"
+      ],
+      "price": 47520,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Terracota - salmon / Azul fluor - celeste / Lila - violeta": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        }
+      }
+    },
+    {
+      "id": "pack-x3-camet-norte",
+      "art": "5045",
+      "label": "Pack x3 - Art - 5045 Tricot",
+      "name": "Pack x3 Camet Norte",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por pack de 3 unidades",
+      "descripcion": "Top para atar y bombacha colaless. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "tela": "Tricot – Tazas desmontables.",
+      "colors": [
+        "Salmón / Lavanda / Coral fluor",
+        "Ladrillo / Natural / Nude"
+      ],
+      "photos": {
+        "Salmón / Lavanda / Coral fluor": "assets/products/camet-norte-salmon.webp",
+        "Ladrillo / Natural / Nude": "assets/products/camet-norte-ladrillo.webp"
+      },
+      "gallery": [
+        "assets/products/camet-norte-natural.webp",
+        "assets/products/camet-norte-nude.webp",
+        "assets/products/camet-norte-coral-fluor.webp",
+        "assets/products/camet-norte-mango.webp"
+      ],
+      "price": 27000,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Salmón / Lavanda / Coral fluor": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ladrillo / Natural / Nude": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "id": "pack-x3-las-toninas",
+      "art": "4735",
+      "label": "Pack x3 - Bikini Art - 4735 Jacquard Malibu",
+      "name": "Pack x3 Las Toninas",
+      "rubro": "Packs y docenas",
+      "temporada": "2024-2025",
+      "pack": true,
+      "packNote": "Precio por pack de 3 unidades",
+      "descripcion": "Bikini triángulo de tiras finas regulables y bombacha colaless para atar a los costados. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "tela": "Jacquard Malibu – Tazas desmontables.",
+      "colors": [
+        "Negro / Natural / Cobre",
+        "Negro / Verde lima / Fucsia",
+        "Negro / Verde lima / Verde esmeralda",
+        "Verde esmeralda / Verde lima / Verde fluor",
+        "Aqua / Rosa - lila / Natural"
+      ],
+      "photos": {
+        "Negro / Natural / Cobre": "assets/products/toninas-negro-modelo.webp",
+        "Negro / Verde lima / Fucsia": "assets/products/toninas-negro-modelo.webp",
+        "Negro / Verde lima / Verde esmeralda": "assets/products/toninas-negro-modelo.webp",
+        "Verde esmeralda / Verde lima / Verde fluor": "assets/products/toninas-verde-esmeralda.webp",
+        "Aqua / Rosa - lila / Natural": "assets/products/toninas-aqua.webp"
+      },
+      "gallery": [
+        "assets/products/toninas-amarillo-fluor.webp",
+        "assets/products/toninas-natural-modelo.webp",
+        "assets/products/toninas-verde-fluor.webp",
+        "assets/products/toninas-verde-lima.webp"
+      ],
+      "price": 50400,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro / Natural / Cobre": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro / Verde lima / Fucsia": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": true
+        },
+        "Negro / Verde lima / Verde esmeralda": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde esmeralda / Verde lima / Verde fluor": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Aqua / Rosa - lila / Natural": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "id": "pack-x3-mar-chiquita",
+      "art": "4950",
+      "label": "Pack x3 - Bikini Art - 4950 Jacquard Malibu",
+      "name": "Pack x3 Mar Chiquita",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por pack de 3 unidades",
+      "descripcion": "Bikini corpiño triángulo con costuras al frente, tiras regulables y bombacha colaless con argollas al costado. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "tela": "Jacquard Malibu – Tazas desmontables.",
+      "colors": [
+        "Verde militar / Azul francia / Negro",
+        "Negro / Natural / Chocolate"
+      ],
+      "photos": {
+        "Verde militar / Azul francia / Negro": "assets/products/marchiquita-verde-militar-fit.png",
+        "Negro / Natural / Chocolate": "assets/products/marchiquita-negro-fit.png"
+      },
+      "gallery": [
+        "assets/products/marchiquita-coral-neon-fit.png",
+        "assets/products/marchiquita-verde-esmeralda-fit.png",
+        "assets/products/marchiquita-natural-fit.png",
+        "assets/products/marchiquita-verde-lima-fit.png"
+      ],
+      "price": 45000,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Verde militar / Azul francia / Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro / Natural / Chocolate": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "id": "pack-x3-mar-de-las-pampas",
+      "art": "6055",
+      "label": "Pack x3 - Art - 6055",
+      "name": "Pack x3 Mar de las Pampas",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por pack de 3 unidades",
+      "descripcion": "Bikini corpiño rectangular, bombacha y corpiño con tiras para atar. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "tela": "Bambula – Tazas desmontables.",
+      "colors": [
+        "Rosa / Verde manzana / Chocolate",
+        "Negro / Camel / Verde militar"
+      ],
+      "photos": {
+        "Rosa / Verde manzana / Chocolate": "assets/products/mar-de-las-pampas-rosa.webp",
+        "Negro / Camel / Verde militar": "assets/products/pampas-negro-fit.png"
+      },
+      "gallery": [
+        "assets/products/mar-de-las-pampas-azul-francia-modelo.webp",
+        "assets/products/pampas-verde-militar-fit.png",
+        "assets/products/pampas-camel-fit.png",
+        "assets/products/pampas-chocolate-fit.png"
+      ],
+      "price": 27000,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Rosa / Verde manzana / Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro / Camel / Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "id": "pack-x3-necochea",
+      "art": "4800",
+      "label": "Pack x3 - Bikini Art - 4800 Liso",
+      "name": "Pack x3 Necochea",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por pack de 3 unidades",
+      "descripcion": "Bikini unicolor triángulo con tiras regulables y bombacha colaless regulable. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "tela": "Tricot – Incluye tazas desmontables.",
+      "colors": [
+        "Lavanda / Turquesa / Naranja claro",
+        "Negro / Verde aceituna / Mostaza",
+        "Chocolate / Nude / Blanco",
+        "Turquesa / Celeste / Lavanda pastel"
+      ],
+      "photos": {
+        "Lavanda / Turquesa / Naranja claro": "assets/products/necochea-mostaza-fit.png",
+        "Negro / Verde aceituna / Mostaza": "assets/products/necochea-negro-fit.png",
+        "Chocolate / Nude / Blanco": "assets/products/necochea-chocolate-fit.png",
+        "Turquesa / Celeste / Lavanda pastel": "assets/products/necochea-turquesa-fit.png"
+      },
+      "gallery": [
+        "assets/products/necochea-verde-aceituna-fit.png",
+        "assets/products/necochea-violeta-fit.png",
+        "assets/products/necochea-rosa-bb-fit.png",
+        "assets/products/necochea-aqua-fit.png"
+      ],
+      "price": 43200,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Lavanda / Turquesa / Naranja claro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro / Verde aceituna / Mostaza": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Chocolate / Nude / Blanco": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Turquesa / Celeste / Lavanda pastel": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        }
+      }
+    },
+    {
+      "id": "pack-x6-el-tordillo",
+      "art": "4825",
+      "label": "Pack x6 - Art - 4825",
+      "name": "Pack x6 El Tordillo",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por pack de 6 unidades",
+      "descripcion": "Conjunto de bikini con corpiño con tiras regulables y accesorio en el centro. Bombachas colaless con tiras para atar. 6 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/tordillo-negro.png"
+      },
+      "gallery": [
+        "assets/products/tordillo-chocolate.png",
+        "assets/products/tordillo-camel.png",
+        "assets/products/tordillo-durazno.png",
+        "assets/products/tordillo-fucsia.png",
+        "assets/products/el-tordillo-turquesa-capri.webp"
+      ],
+      "price": 81000,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "pack-x6-mar-chiquita",
+      "art": "4950",
+      "label": "Pack x6 - Bikini Art - 4950 Jacquard Malibu",
+      "name": "Pack x6 Mar Chiquita",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por pack de 6 unidades",
+      "descripcion": "Bikini corpiño triángulo con costuras al frente, tiras regulables y bombacha colaless con argollas al costado. 6 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Jacquard Malibu – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/marchiquita-negro-fit.png"
+      },
+      "gallery": [
+        "assets/products/marchiquita-coral-neon-fit.png",
+        "assets/products/marchiquita-verde-esmeralda-fit.png",
+        "assets/products/marchiquita-natural-fit.png",
+        "assets/products/marchiquita-verde-lima-fit.png",
+        "assets/products/marchiquita-nude-fit.png"
+      ],
+      "price": 79920,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "pack-x6-mar-de-cobo",
+      "art": "4735",
+      "label": "Pack x6 - Art - 4735 Maui",
+      "name": "Pack x6 Mar de Cobo",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por pack de 6 unidades",
+      "descripcion": "Corpiño triángulo con tiras regulables para atar en la espalda y bombacha colaless con tiras laterales para atar. 6 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Maui.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/mar-de-cobo-turquesa.webp"
+      },
+      "gallery": [
+        "assets/products/mar-de-cobo-negro.webp",
+        "assets/products/mar-de-cobo-verde-baltico.webp",
+        "assets/products/mar-de-cobo-verde-oliva.webp",
+        "assets/products/mar-de-cobo-rosa.webp",
+        "assets/products/mar-de-cobo-ivory.webp"
+      ],
+      "price": 70200,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "pack-x6-mar-del-plata",
+      "art": "9032",
+      "label": "Pack x6 - Art - 9032",
+      "name": "Pack x6 Mar del Plata",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por pack de 6 unidades",
+      "descripcion": "Conjunto de bikini con corpiño en forma de top que se realza con un accesorio en el medio, y bombacha vedetina con accesorios en ambos lados. 6 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot brilloso.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/pinamar9032-negro.png"
+      },
+      "gallery": [
+        "assets/products/pinamar9032-nude.png",
+        "assets/products/pinamar9032-rosa-vintage.png",
+        "assets/products/pinamar9032-verde-esmeralda.png",
+        "assets/products/pinamar9032-azul-marino.png",
+        "assets/products/pinamar9032-vino.png"
+      ],
+      "price": 86400,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "pack-x6-mar-del-sud",
+      "art": "4738",
+      "label": "Pack x6 - Art - 4738 Tricot Brilloso",
+      "name": "Pack x6 Mar del Sud",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por pack de 6 unidades",
+      "descripcion": "Corpiño de formato triangular con tiras regulables y detalle metálico central. La bombacha tiene tiras laterales para atar y adaptarla al cuerpo. 6 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot brilloso: suave y con un brillo sutil que realza los colores.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/sud-negro-fit.png"
+      },
+      "gallery": [
+        "assets/products/sud-paprika-fit.png",
+        "assets/products/sud-nude-fit.png",
+        "assets/products/sud-verde-petroleo-fit.png",
+        "assets/products/sud-rosa-vintage-fit.png",
+        "assets/products/sud-azul-marino-fit.png"
+      ],
+      "price": 75600,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "pack-x6-quequen",
+      "art": "9120",
+      "label": "Pack x6 - Art - 9120",
+      "name": "Pack x6 Quequén",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por pack de 6 unidades",
+      "descripcion": "Un bikini que juega con dos tonos opuestos y los invierte: base negra con vivos blancos o base blanca con vivos negros. Corpiño de líneas rectas con breteles finos y bombacha colaless con terminaciones a contratono. 6 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/quequen-blanco.png"
+      },
+      "gallery": [
+        "assets/products/quequen-negro.png"
+      ],
+      "price": 70200,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "pack-x6-san-bernardo",
+      "art": "4845",
+      "label": "Pack x6 - Art - 4845 Tenerife",
+      "name": "Pack x6 San Bernardo",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por pack de 6 unidades",
+      "descripcion": "Conjunto de bikini con corpiño de tiras regulables y bombacha colaless. 6 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tenerife – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/bernardo-verde-oliva-fit.png"
+      },
+      "gallery": [
+        "assets/products/bernardo-arena-fit.png",
+        "assets/products/bernardo-violeta-fit.png",
+        "assets/products/bernardo-verde-ingles-fit.png",
+        "assets/products/bernardo-blanco-fit.png",
+        "assets/products/san-bernardo-negro.webp"
+      ],
+      "price": 75600,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "pack-x6-villa-gesell-norte",
+      "art": "4790",
+      "label": "Pack x6 - Art - 4790 Reversible",
+      "name": "Pack x6 Villa Gesell Norte",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por pack de 6 unidades",
+      "descripcion": "Conjunto de bikini reversible, corpiño forma de triángulo con tiras para atar. Bombacha colaless con tiras para atar. 6 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Bambula - Alo.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/carilo4790-lila.png"
+      },
+      "gallery": [
+        "assets/products/carilo4790-vino.png",
+        "assets/products/carilo4790-camel-crema.png",
+        "assets/products/carilo4790-azul.png",
+        "assets/products/carilo4790-chocolate-negro.png",
+        "assets/products/carilo4790-camel-negro.png"
+      ],
+      "price": 59400,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-arroyo-seco",
+      "art": "9050",
+      "label": "Docena - Art - 9050 Tricot",
+      "name": "Docena Arroyo Seco",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Top con corte en V al centro y vivo en contraste, con bombacha colaless de tiro alto. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot – Sin tazas.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/arroyo-seco-negro-borde-blanco.webp"
+      },
+      "gallery": [
+        "assets/products/arroyo-seco-lila-borde-violeta.webp",
+        "assets/products/arroyo-seco-violeta-borde-lila.webp",
+        "assets/products/arroyo-seco-celeste-borde-lila.webp",
+        "assets/products/arroyo-seco-salmon-borde-terracota.webp",
+        "assets/products/arroyo-seco-celeste-borde-azul-fluor.webp"
+      ],
+      "price": 151200,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-bahia-blanca",
+      "art": "4650",
+      "label": "Docena - Art - 4650",
+      "name": "Docena Bahía Blanca",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Conjunto de top con accesorio en el centro, con broche en la parte de la espalda y tiras para atar al cuello. Bombacha colaless con tiras a los laterales para atar. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/bahia-marron-coco.webp"
+      },
+      "gallery": [
+        "assets/products/bahia-celeste-hielo.webp",
+        "assets/products/bahia-turquesa-capri.webp"
+      ],
+      "price": 172800,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-cabo-corrientes",
+      "art": "4751",
+      "label": "Docena - ART - 4751",
+      "name": "Docena Cabo Corrientes",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini triángulo con aro de resina y bombacha colaless para atar. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/corrientes-negro-fit.png"
+      },
+      "gallery": [
+        "assets/products/corrientes-oliva-fit.png",
+        "assets/products/corrientes-durazno-fit.png",
+        "assets/products/corrientes-turquesa-fit.png"
+      ],
+      "price": 172800,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-cabo-polonio",
+      "art": "8022",
+      "label": "Docena - Art - 8022",
+      "name": "Docena Cabo Polonio",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Conjunto de bikini bicolor asimétrica. El corpiño presenta un diseño asimétrico de un solo hombro, con combinación de colores que continúa en la bombacha para completar el conjunto. Bombacha colaless. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/8022_3.webp"
+      },
+      "gallery": [
+        "assets/products/8022_4.webp",
+        "assets/products/8022_1.webp",
+        "assets/products/8022_5.webp",
+        "assets/products/8022_7.webp",
+        "assets/products/8022_8.webp"
+      ],
+      "price": 140400,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-camet-norte",
+      "art": "5045",
+      "label": "Docena - Art - 5045 Tricot",
+      "name": "Docena Camet Norte",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Top para atar y bombacha colaless. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/camet-norte-natural.webp"
+      },
+      "gallery": [
+        "assets/products/camet-norte-nude.webp",
+        "assets/products/camet-norte-salmon.webp",
+        "assets/products/camet-norte-coral-fluor.webp",
+        "assets/products/camet-norte-mango.webp",
+        "assets/products/camet-norte-azul-fluor.webp"
+      ],
+      "price": 108000,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-costa-bonita",
+      "art": "6071",
+      "label": "Docena - Art - 6071 Microfibra Bicolor",
+      "name": "Docena Costa Bonita",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini bandeau con aro y breteles al hombro para atar, en bicolor con vivos contrastados, y bombacha colaless de tiro alto al tono. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Microfibra bicolor – con aro, sin tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/claromeco6071-blanco-negro.png"
+      },
+      "gallery": [],
+      "price": 226800,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-costa-esmeralda",
+      "art": "4750",
+      "label": "Docena - Art - 4750 Bambula",
+      "name": "Docena Costa Esmeralda",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Corpiño triángulo y bombacha colaless para atar a los costados. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Bambula – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/costa-esmeralda-rosa.webp"
+      },
+      "gallery": [
+        "assets/products/costa-esmeralda-verde.webp",
+        "assets/products/costa-esmeralda-purpura.webp",
+        "assets/products/costa-esmeralda-verde-militar.webp",
+        "assets/products/costa-esmeralda-nude.webp",
+        "assets/products/costa-esmeralda-ivory.webp"
+      ],
+      "price": 129600,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-el-tordillo",
+      "art": "4825",
+      "label": "Docena - Art - 4825",
+      "name": "Docena El Tordillo",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Conjunto de bikini con corpiño con tiras regulables y accesorio en el centro. Bombachas colaless con tiras para atar. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/tordillo-negro.png"
+      },
+      "gallery": [
+        "assets/products/tordillo-chocolate.png",
+        "assets/products/tordillo-camel.png",
+        "assets/products/tordillo-durazno.png",
+        "assets/products/tordillo-fucsia.png",
+        "assets/products/el-tordillo-turquesa-capri.webp"
+      ],
+      "price": 162000,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-las-toninas",
+      "art": "4735",
+      "label": "Docena - Bikini Art - 4735 Jacquard Malibu",
+      "name": "Docena Las Toninas",
+      "rubro": "Packs y docenas",
+      "temporada": "2024-2025",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini triángulo de tiras finas regulables y bombacha colaless para atar a los costados. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Jacquard Malibu – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/toninas-amarillo-fluor.webp"
+      },
+      "gallery": [
+        "assets/products/toninas-natural-modelo.webp",
+        "assets/products/toninas-negro-modelo.webp",
+        "assets/products/toninas-verde-fluor.webp",
+        "assets/products/toninas-verde-lima.webp",
+        "assets/products/toninas-aqua.webp"
+      ],
+      "price": 172800,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-los-pocitos",
+      "art": "130",
+      "label": "Docena - Art - 130 Tricot",
+      "name": "Docena Los Pocitos",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Enteriza tipo vedetina con escote con abertura y moño central, breteles finos cruzados que se atan en la espalda y espalda descubierta. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/los-pocitos-negro.webp"
+      },
+      "gallery": [
+        "assets/products/los-pocitos-marron-coco.webp",
+        "assets/products/los-pocitos-chocolate.webp"
+      ],
+      "price": 194400,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-mar-chiquita",
+      "art": "4950",
+      "label": "Docena - Bikini Art - 4950 Jacquard Malibu",
+      "name": "Docena Mar Chiquita",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini corpiño triángulo con costuras al frente, tiras regulables y bombacha colaless con argollas al costado. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Jacquard Malibu – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/marchiquita-negro-fit.png"
+      },
+      "gallery": [
+        "assets/products/marchiquita-coral-neon-fit.png",
+        "assets/products/marchiquita-verde-esmeralda-fit.png",
+        "assets/products/marchiquita-natural-fit.png",
+        "assets/products/marchiquita-verde-lima-fit.png",
+        "assets/products/marchiquita-nude-fit.png"
+      ],
+      "price": 172800,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-mar-de-cobo",
+      "art": "4735",
+      "label": "Docena - Art - 4735 Maui",
+      "name": "Docena Mar de Cobo",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Corpiño triángulo con tiras regulables para atar en la espalda y bombacha colaless con tiras laterales para atar. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Maui.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/mar-de-cobo-turquesa.webp"
+      },
+      "gallery": [
+        "assets/products/mar-de-cobo-negro.webp",
+        "assets/products/mar-de-cobo-verde-baltico.webp",
+        "assets/products/mar-de-cobo-verde-oliva.webp",
+        "assets/products/mar-de-cobo-rosa.webp",
+        "assets/products/mar-de-cobo-ivory.webp"
+      ],
+      "price": 140400,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-mar-de-las-pampas",
+      "art": "6055",
+      "label": "Docena - Art - 6055",
+      "name": "Docena Mar de las Pampas",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini corpiño rectangular, bombacha y corpiño con tiras para atar. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Bambula – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/mar-de-las-pampas-azul-francia-modelo.webp"
+      },
+      "gallery": [
+        "assets/products/pampas-verde-militar-fit.png",
+        "assets/products/pampas-negro-fit.png",
+        "assets/products/pampas-camel-fit.png",
+        "assets/products/pampas-chocolate-fit.png",
+        "assets/products/pampas-fucsia-fit.png"
+      ],
+      "price": 108000,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-mar-del-plata",
+      "art": "9032",
+      "label": "Docena - Art - 9032",
+      "name": "Docena Mar del Plata",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Conjunto de bikini con corpiño en forma de top que se realza con un accesorio en el medio, y bombacha vedetina con accesorios en ambos lados. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot brilloso.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/pinamar9032-negro.png"
+      },
+      "gallery": [
+        "assets/products/pinamar9032-nude.png",
+        "assets/products/pinamar9032-rosa-vintage.png",
+        "assets/products/pinamar9032-verde-esmeralda.png",
+        "assets/products/pinamar9032-azul-marino.png",
+        "assets/products/pinamar9032-vino.png"
+      ],
+      "price": 172800,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-mar-del-sud",
+      "art": "4738",
+      "label": "Docena - Art - 4738 Tricot Brilloso",
+      "name": "Docena Mar del Sud",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Corpiño de formato triangular con tiras regulables y detalle metálico central. La bombacha tiene tiras laterales para atar y adaptarla al cuerpo. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot brilloso: suave y con un brillo sutil que realza los colores.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/sud-negro-fit.png"
+      },
+      "gallery": [
+        "assets/products/sud-paprika-fit.png",
+        "assets/products/sud-nude-fit.png",
+        "assets/products/sud-verde-petroleo-fit.png",
+        "assets/products/sud-rosa-vintage-fit.png",
+        "assets/products/sud-azul-marino-fit.png"
+      ],
+      "price": 151200,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-monte-hermoso",
+      "art": "8032",
+      "label": "Docena - Bikini Art - 8032 MAUI",
+      "name": "Docena Monte Hermoso",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini top de un hombro con tira doble y bombacha de tiro alto con recorte al costado. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Maui – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/montehermoso-blanco-fit.png"
+      },
+      "gallery": [
+        "assets/products/montehermoso-amarillo-fit.png",
+        "assets/products/montehermoso-lila-tulipan-fit.png",
+        "assets/products/montehermoso-naranja-fit.png",
+        "assets/products/montehermoso-rosa-chicle-fit.png",
+        "assets/products/montehermoso-verde-paraiso-fit.png"
+      ],
+      "price": 185760,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-orense",
+      "art": "9040",
+      "label": "Docena - Bikini Art - 9040 RIO",
+      "name": "Docena Orense",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini top deportivo de tiras regulables y bombacha de tiro alto. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Rio – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/orense-blanco-fit.png"
+      },
+      "gallery": [
+        "assets/products/orense-coral-fit.png",
+        "assets/products/orense-verde-militar-fit.png",
+        "assets/products/orense-negro-fit.png",
+        "assets/products/orense-celeste-fit.png",
+        "assets/products/orense-terracota-fit.png"
+      ],
+      "price": 159840,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-ostende",
+      "art": "4758",
+      "label": "Docena - ART - 4758",
+      "name": "Docena Ostende",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini con corpiño en forma de triángulo con accesorio en el centro y bombacha para atar. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Bambula.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/ostende-lima-fit.png"
+      },
+      "gallery": [
+        "assets/products/ostende-manteca-fit.png",
+        "assets/products/ostende-frambuesa-fit.png",
+        "assets/products/ostende-coral-fit.png",
+        "assets/products/ostende-negro-fit.png",
+        "assets/products/ostende-azul-marino-fit.png"
+      ],
+      "price": 136080,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-playa-serena",
+      "art": "113",
+      "label": "Docena - Art - 113 Tricot",
+      "name": "Docena Playa Serena",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Enteriza con tazas. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/playa-serena-salmon.webp"
+      },
+      "gallery": [
+        "assets/products/playa-serena-verde-aceituna.webp",
+        "assets/products/playa-serena-lila.webp",
+        "assets/products/playa-serena-negro.webp",
+        "assets/products/playa-serena-nude.webp",
+        "assets/products/playa-serena-cobre.webp"
+      ],
+      "price": 194400,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-punta-rasa",
+      "art": "6072",
+      "label": "Docena - Art - 6072 Brusela",
+      "name": "Docena Punta Rasa",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Top de un hombro con recorte asimétrico bicolor y bombacha de tiro alto combinada al tono. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Brusela.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/puntarasa-negro-modelo.webp"
+      },
+      "gallery": [
+        "assets/products/puntarasa-chocolate-modelo.webp",
+        "assets/products/puntarasa-vison-modelo.webp",
+        "assets/products/puntarasa-blanco-modelo.webp",
+        "assets/products/puntarasa-pistacho.webp",
+        "assets/products/puntarasa-verde-militar.webp"
+      ],
+      "price": 129600,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-quequen",
+      "art": "9120",
+      "label": "Docena - Art - 9120",
+      "name": "Docena Quequén",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Un bikini que juega con dos tonos opuestos y los invierte: base negra con vivos blancos o base blanca con vivos negros. Corpiño de líneas rectas con breteles finos y bombacha colaless con terminaciones a contratono. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/quequen-blanco.png"
+      },
+      "gallery": [
+        "assets/products/quequen-negro.png"
+      ],
+      "price": 140400,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-san-bernardo",
+      "art": "4845",
+      "label": "Docena - Art - 4845 Tenerife",
+      "name": "Docena San Bernardo",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Conjunto de bikini con corpiño de tiras regulables y bombacha colaless. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tenerife – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/bernardo-verde-oliva-fit.png"
+      },
+      "gallery": [
+        "assets/products/bernardo-arena-fit.png",
+        "assets/products/bernardo-violeta-fit.png",
+        "assets/products/bernardo-verde-ingles-fit.png",
+        "assets/products/bernardo-blanco-fit.png",
+        "assets/products/san-bernardo-negro.webp"
+      ],
+      "price": 151200,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-san-clemente",
+      "art": "8085",
+      "label": "Docena - Art - 8085",
+      "name": "Docena San Clemente",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Top de tiras arruchadas con accesorio en el centro y bombacha colaless con detalle arruchado a los laterales. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/sanclemente-verde-militar-fit.png"
+      },
+      "gallery": [
+        "assets/products/sanclemente-chocolate-fit.png",
+        "assets/products/san-clemente-verde-oceano.webp"
+      ],
+      "price": 216000,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-san-eduardo",
+      "art": "6071",
+      "label": "Docena - Art - 6071 Tricot",
+      "name": "Docena San Eduardo",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Corpiño con aro y bombacha colaless. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Tricot.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/san-eduardo-celeste.webp"
+      },
+      "gallery": [
+        "assets/products/san-eduardo-verde-lima.webp",
+        "assets/products/san-eduardo-negro.webp",
+        "assets/products/san-eduardo-lila.webp",
+        "assets/products/san-eduardo-fucsia.webp"
+      ],
+      "price": 280800,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-villa-gesell",
+      "art": "4750",
+      "label": "Docena - Bikini Art - 4750 con accesorio plateado Bambula",
+      "name": "Docena Villa Gesell",
+      "rubro": "Packs y docenas",
+      "temporada": "2025-2026",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Bikini triángulo con accesorio y bombacha tipo colaless para atar. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Bambula – Tazas desmontables.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/gesell-verde-militar-fit.png"
+      },
+      "gallery": [
+        "assets/products/gesell-nude-fit.png",
+        "assets/products/gesell-rosa-fit.png",
+        "assets/products/gesell-verde-fit.png"
+      ],
+      "price": 162000,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
+    },
+    {
+      "id": "docena-villa-gesell-norte",
+      "art": "4790",
+      "label": "Docena - Art - 4790 Reversible",
+      "name": "Docena Villa Gesell Norte",
+      "rubro": "Packs y docenas",
+      "temporada": "2026-2027",
+      "pack": true,
+      "packNote": "Precio por docena (12 unidades)",
+      "descripcion": "Conjunto de bikini reversible, corpiño forma de triángulo con tiras para atar. Bombacha colaless con tiras para atar. 12 unidades surtidas en talles y colores, según disponibilidad.",
+      "tela": "Bambula - Alo.",
+      "colors": [
+        "Surtido"
+      ],
+      "photos": {
+        "Surtido": "assets/products/carilo4790-lila.png"
+      },
+      "gallery": [
+        "assets/products/carilo4790-vino.png",
+        "assets/products/carilo4790-camel-crema.png",
+        "assets/products/carilo4790-azul.png",
+        "assets/products/carilo4790-chocolate-negro.png",
+        "assets/products/carilo4790-camel-negro.png"
+      ],
+      "price": 118800,
+      "hasPhotos": true,
+      "sizes": [
+        "Surtido"
+      ],
+      "stock": {
+        "Surtido": {
+          "Surtido": true
+        }
+      }
     }
   ]
 }
