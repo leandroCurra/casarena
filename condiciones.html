@@ -109,7 +109,7 @@ class Component extends DCLogic {
       arr.slice().sort((a, b) => (a.name || a.label).localeCompare(b.name || b.label)).forEach(i => {
         rows.push({
           name: i.name || i.label,
-          sub: i.name ? i.label : (i.temporada || grupo),
+          sub: grupo,
           grupo,
           colors: i.colors.length > 6 ? i.colors.length + " colores · " + i.colors.slice(0, 5).join(", ") + "…" : i.colors.join(", "),
           price: "$" + Number(i.price || 0).toLocaleString("es-AR")
@@ -119,7 +119,7 @@ class Component extends DCLogic {
     return {
       rows,
       intro: items.length
-        ? items.length + " artículos vigentes: " + bikinis.length + " bikinis, " + lenceria.length + " de lencería y " + packs.length + " packs y docenas. Los precios son mayoristas por unidad."
+        ? items.length + " artículos vigentes: " + [[bikinis.length, "bikinis"], [lenceria.length, "de lencería"], [packs.length, "packs y docenas"]].filter(x => x[0]).map(x => x[0] + " " + x[1]).join(", ").replace(/, ([^,]*)$/, " y $1") + ". Los precios son mayoristas por unidad."
         : "Cargando la lista vigente."
     };
   }
