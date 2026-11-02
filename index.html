@@ -1077,7 +1077,7 @@ class Component extends DCLogic {
         const its = list.filter(i => (i.rubro === "Lencería") === (g === "Lencería"));
         return { title: g, anchor: g === "Lencería" ? "sec-lenceria" : "sec-bikinis", count: its.length === 1 ? "1 artículo" : its.length + " artículos", items: its.map(i => this.card(i)) };
       }).filter(g => g.items.length),
-      jumpButtons: [["Bikinis", "sec-bikinis", "Bikinis"], ["Lencería", "sec-lenceria", "Lencería"]].map(([label, id, rub]) => ({
+      jumpButtons: [["Bikinis", "sec-bikinis", "Bikinis"], ["Lencería", "sec-lenceria", "Lencería"]].filter(([l, id, rub]) => rub === "Bikinis" || st.items.some(i => i.rubro === rub)).map(([label, id, rub]) => ({
         label,
         onClick: () => {
           const go = () => {
@@ -1090,7 +1090,7 @@ class Component extends DCLogic {
       isEmpty: st.items.length > 0 && list.length === 0,
       resultLabel: list.length === 1 ? "1 artículo" : list.length + " artículos",
       totalLabel: st.items.length + " artículos · " + withPhotos.length + " con foto",
-      rubroFilters: ["Todo", "Bikinis", "Lencería"].map(c => ({
+      rubroFilters: ["Todo", "Bikinis", "Lencería"].filter(c => c !== "Lencería" || st.items.some(i => i.rubro === "Lencería")).map(c => ({
         label: c, selected: st.rubro === c, onSelect: () => this.setState({ rubro: c })
       })),
       q: st.q,
