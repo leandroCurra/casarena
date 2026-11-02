@@ -1,6 +1,112 @@
 {
   "items": [
     {
+      "id": "arroyo-seco",
+      "art": "9050",
+      "label": "Art - 9050 Tricot",
+      "name": "Arroyo Seco",
+      "rubro": "Bikinis",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Top con corte en V al centro y vivo en contraste, con bombacha colaless de tiro alto.",
+      "tela": "Tricot – Sin tazas.",
+      "colors": [
+        "Negro borde blanco",
+        "Lila borde violeta",
+        "Violeta borde lila",
+        "Celeste borde lila",
+        "Salmon borde terracota",
+        "Celeste borde azul fluor",
+        "Celeste borde lavanda",
+        "Azul fluor borde celeste",
+        "Rosa coral borde lila",
+        "Celeste borde negro"
+      ],
+      "photos": {
+        "Negro borde blanco": "assets/products/arroyo-seco-negro-borde-blanco.webp",
+        "Lila borde violeta": "assets/products/arroyo-seco-lila-borde-violeta.webp",
+        "Violeta borde lila": "assets/products/arroyo-seco-violeta-borde-lila.webp",
+        "Celeste borde lila": "assets/products/arroyo-seco-celeste-borde-lila.webp",
+        "Salmon borde terracota": "assets/products/arroyo-seco-salmon-borde-terracota.webp",
+        "Celeste borde azul fluor": "assets/products/arroyo-seco-celeste-borde-azul-fluor.webp",
+        "Celeste borde lavanda": "assets/products/arroyo-seco-celeste-borde-lavanda.webp",
+        "Azul fluor borde celeste": "assets/products/arroyo-seco-azul-fluor-borde-celeste.webp",
+        "Rosa coral borde lila": "assets/products/arroyo-seco-rosa-coral-borde-lila.webp",
+        "Celeste borde negro": "assets/products/arroyo-seco-celeste-borde-negro.webp"
+      },
+      "gallery": [],
+      "price": 15840,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro borde blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila borde violeta": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Violeta borde lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Celeste borde lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Salmon borde terracota": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Celeste borde azul fluor": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Celeste borde lavanda": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Azul fluor borde celeste": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Rosa coral borde lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        },
+        "Celeste borde negro": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": false
+        }
+      }
+    },
+    {
       "id": "art-4650",
       "art": "4650",
       "label": "Art - 4650",
@@ -83,7 +189,7 @@
         "Negro": {
           "85": true,
           "90": false,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Verde aceituna": {
@@ -123,7 +229,10 @@
         "Verde báltico / Aqua",
         "Verde pistacho / Ivory",
         "Ivory / Verde pistacho",
-        "Ivory / Lila"
+        "Ivory / Lila",
+        "Ivory / Azul nautico",
+        "Ivory / Verde báltico",
+        "Ivory / Azul oceano"
       ],
       "price": 13500,
       "photos": {
@@ -133,7 +242,10 @@
         "Verde báltico / Aqua": "assets/products/8022_5.webp",
         "Verde pistacho / Ivory": "assets/products/8022_7.webp",
         "Ivory / Verde pistacho": "assets/products/8022_8.webp",
-        "Ivory / Lila": "assets/products/8022_9.webp"
+        "Ivory / Lila": "assets/products/8022_9.webp",
+        "Ivory / Azul nautico": "assets/products/cabo-polonio-ivory-azul-nautico.webp",
+        "Ivory / Verde báltico": "assets/products/cabo-polonio-ivory-verde-baltico.webp",
+        "Ivory / Azul oceano": "assets/products/cabo-polonio-ivory-azul-oceano.webp"
       },
       "hasPhotos": true,
       "gallery": [
@@ -195,6 +307,130 @@
           "90": true,
           "95": true,
           "100": true
+        },
+        "Ivory / Azul nautico": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory / Verde báltico": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Ivory / Azul oceano": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "id": "camet-norte",
+      "art": "5045",
+      "label": "Art - 5045 Tricot",
+      "name": "Camet Norte",
+      "rubro": "Bikinis",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Top para atar y bombacha colaless.",
+      "tela": "Tricot – Tazas desmontables.",
+      "colors": [
+        "Natural",
+        "Nude",
+        "Salmon",
+        "Coral fluor",
+        "Mango",
+        "Azul fluor",
+        "Ladrillo",
+        "Lavanda",
+        "Negro",
+        "Verde oliva"
+      ],
+      "photos": {
+        "Natural": "assets/products/camet-norte-natural.webp",
+        "Nude": "assets/products/camet-norte-nude.webp",
+        "Salmon": "assets/products/camet-norte-salmon.webp",
+        "Coral fluor": "assets/products/camet-norte-coral-fluor.webp",
+        "Mango": "assets/products/camet-norte-mango.webp",
+        "Azul fluor": "assets/products/camet-norte-azul-fluor.webp",
+        "Ladrillo": "assets/products/camet-norte-ladrillo.webp",
+        "Lavanda": "assets/products/camet-norte-lavanda.webp",
+        "Negro": "assets/products/camet-norte-negro.webp",
+        "Verde oliva": "assets/products/camet-norte-verde-oliva.webp"
+      },
+      "gallery": [],
+      "price": 14400,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Natural": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Nude": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Salmon": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Coral fluor": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Mango": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Azul fluor": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ladrillo": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lavanda": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": false,
+          "95": true,
+          "100": true
+        },
+        "Verde oliva": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
         }
       }
     },
@@ -249,8 +485,8 @@
         },
         "Negro borde blanco hueso": {
           "85": true,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": true
         }
       }
@@ -282,7 +518,121 @@
       "stock": {
         "Blanco y negro": {
           "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "id": "costa-esmeralda",
+      "art": "4750",
+      "label": "Art - 4750 Bambula",
+      "name": "Costa Esmeralda",
+      "rubro": "Bikinis",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Corpiño triángulo y bombacha colaless para atar a los costados.",
+      "tela": "Bambula – Tazas desmontables.",
+      "colors": [
+        "Rosa",
+        "Verde",
+        "Purpura",
+        "Verde militar",
+        "Nude",
+        "Ivory",
+        "Fucsia",
+        "Chocolate",
+        "Naranja",
+        "Azul francia",
+        "Camel"
+      ],
+      "photos": {
+        "Rosa": "assets/products/costa-esmeralda-rosa.webp",
+        "Verde": "assets/products/costa-esmeralda-verde.webp",
+        "Purpura": "assets/products/costa-esmeralda-purpura.webp",
+        "Verde militar": "assets/products/costa-esmeralda-verde-militar.webp",
+        "Nude": "assets/products/costa-esmeralda-nude.webp",
+        "Ivory": "assets/products/costa-esmeralda-ivory.webp",
+        "Fucsia": "assets/products/costa-esmeralda-fucsia.webp",
+        "Chocolate": "assets/products/costa-esmeralda-chocolate.webp",
+        "Naranja": "assets/products/costa-esmeralda-naranja.webp",
+        "Azul francia": "assets/products/costa-esmeralda-azul-francia.webp",
+        "Camel": "assets/products/costa-esmeralda-camel.webp"
+      },
+      "gallery": [],
+      "price": 12600,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Rosa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Purpura": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Nude": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory": {
+          "85": false,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Fucsia": {
+          "85": true,
           "90": false,
+          "95": false,
+          "100": true
+        },
+        "Chocolate": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Naranja": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Azul francia": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Camel": {
+          "85": true,
+          "90": true,
           "95": true,
           "100": true
         }
@@ -303,7 +653,9 @@
         "Chocolate",
         "Marron coco",
         "Durazno",
-        "Orquídea bombon"
+        "Orquídea bombon",
+        "Turquesa capri",
+        "Frutilla"
       ],
       "price": 15300,
       "photos": {
@@ -311,7 +663,9 @@
         "Chocolate": "assets/products/tordillo-chocolate.png",
         "Marron coco": "assets/products/tordillo-camel.png",
         "Durazno": "assets/products/tordillo-durazno.png",
-        "Orquídea bombon": "assets/products/tordillo-fucsia.png"
+        "Orquídea bombon": "assets/products/tordillo-fucsia.png",
+        "Turquesa capri": "assets/products/el-tordillo-turquesa-capri.webp",
+        "Frutilla": "assets/products/el-tordillo-frutilla.webp"
       },
       "hasPhotos": true,
       "sizes": [
@@ -346,6 +700,18 @@
           "100": true
         },
         "Orquídea bombon": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Turquesa capri": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Frutilla": {
           "85": true,
           "90": true,
           "95": true,
@@ -411,6 +777,154 @@
       }
     },
     {
+      "id": "la-caleta",
+      "art": "6000",
+      "label": "Art - 6000 Microfibra morley",
+      "name": "La Caleta",
+      "rubro": "Bikinis",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Top con abertura y aplique circular al centro, breteles regulables y bombacha colaless.",
+      "tela": "Microfibra morley – Tazas desmontables.",
+      "colors": [
+        "Negro",
+        "Celeste",
+        "Lila",
+        "Pistacho",
+        "Naranja",
+        "Blanco hueso",
+        "Blanco",
+        "Verde militar"
+      ],
+      "photos": {
+        "Negro": "assets/products/la-caleta-negro.webp",
+        "Celeste": "assets/products/la-caleta-celeste.webp",
+        "Lila": "assets/products/la-caleta-lila.webp",
+        "Pistacho": "assets/products/la-caleta-pistacho.webp",
+        "Naranja": "assets/products/la-caleta-naranja.webp",
+        "Blanco hueso": "assets/products/la-caleta-blanco-hueso.webp",
+        "Blanco": "assets/products/la-caleta-blanco.webp",
+        "Verde militar": "assets/products/la-caleta-verde-militar.webp"
+      },
+      "gallery": [],
+      "price": 19800,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Celeste": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Pistacho": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Naranja": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Blanco hueso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": false
+        }
+      }
+    },
+    {
+      "id": "las-grutas",
+      "art": "9000",
+      "label": "Art - 9000 Tenerife",
+      "name": "Las Grutas",
+      "rubro": "Bikinis",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Top y bombacha colaless de tiro alto.",
+      "tela": "Tenerife.",
+      "colors": [
+        "Chocolate",
+        "Verde baltico",
+        "Verde militar",
+        "Negro"
+      ],
+      "photos": {
+        "Chocolate": "assets/products/las-grutas-chocolate.webp",
+        "Verde baltico": "assets/products/las-grutas-verde-baltico.webp",
+        "Verde militar": "assets/products/las-grutas-verde-militar.webp",
+        "Negro": "assets/products/las-grutas-negro.webp"
+      },
+      "gallery": [],
+      "price": 17100,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde baltico": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
       "id": "237767281",
       "art": "4735",
       "label": "Bikini Art - 4735 Jacquard Malibu",
@@ -429,7 +943,6 @@
         "Durazno",
         "Golden kiwi",
         "Rosa lila",
-        "Vino",
         "Verde esmeralda",
         "Coral neón",
         "Cobre",
@@ -447,7 +960,6 @@
         "Durazno": "assets/products/toninas-durazno.webp",
         "Golden kiwi": "assets/products/toninas-golden-kiwi.webp",
         "Rosa lila": "assets/products/toninas-rosa-lila.webp",
-        "Vino": "assets/products/toninas-vino.webp",
         "Verde esmeralda": "assets/products/toninas-verde-esmeralda.webp",
         "Coral neón": "assets/products/toninas-coral-neon.webp",
         "Cobre": "assets/products/toninas-cobre.webp",
@@ -507,7 +1019,7 @@
         "Fucsia": {
           "85": false,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Durazno": {
@@ -527,12 +1039,6 @@
           "90": true,
           "95": true,
           "100": true
-        },
-        "Vino": {
-          "85": false,
-          "90": false,
-          "95": true,
-          "100": false
         },
         "Verde esmeralda": {
           "85": true,
@@ -561,6 +1067,60 @@
       }
     },
     {
+      "id": "los-pocitos",
+      "art": "130",
+      "label": "Art - 130 Tricot",
+      "name": "Los Pocitos",
+      "rubro": "Enterizos",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Enteriza tipo vedetina con escote con abertura y moño central, breteles finos cruzados que se atan en la espalda y espalda descubierta.",
+      "tela": "Tricot.",
+      "colors": [
+        "Negro",
+        "Marron coco",
+        "Chocolate"
+      ],
+      "photos": {
+        "Negro": "assets/products/los-pocitos-negro.webp",
+        "Marron coco": "assets/products/los-pocitos-marron-coco.webp",
+        "Chocolate": "assets/products/los-pocitos-chocolate.webp"
+      },
+      "gallery": [],
+      "price": 18900,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "stock": {
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Marron coco": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Chocolate": {
+          "85": false,
+          "90": false,
+          "95": true,
+          "100": true,
+          "105": true
+        }
+      }
+    },
+    {
       "id": "293153494",
       "art": "4736",
       "label": "Bikini Art - 4736 Lurex",
@@ -573,7 +1133,8 @@
         "Plata",
         "Verde manzana",
         "Fucsia",
-        "Rosa"
+        "Rosa",
+        "Blanco"
       ],
       "price": 13500,
       "photos": {
@@ -581,7 +1142,8 @@
         "Plata": "assets/products/marazul-plata-fit.png",
         "Verde manzana": "assets/products/marazul-verde-manzana-fit.png",
         "Fucsia": "assets/products/marazul-fucsia-fit.png",
-        "Rosa": "assets/products/marazul-rosa-fit.png"
+        "Rosa": "assets/products/marazul-rosa-fit.png",
+        "Blanco": "assets/products/mar-azul-blanco.webp"
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo con aro en el medio y tiras regulables, en conjunto con una bombacha tipo colaless.",
@@ -622,6 +1184,12 @@
           "90": true,
           "95": true,
           "100": true
+        },
+        "Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         }
       }
     },
@@ -640,7 +1208,6 @@
         "Natural",
         "Verde lima",
         "Nude",
-        "Rojo",
         "Rosa",
         "Durazno",
         "Azul francia",
@@ -661,7 +1228,6 @@
         "Natural": "assets/products/marchiquita-natural-fit.png",
         "Verde lima": "assets/products/marchiquita-verde-lima-fit.png",
         "Nude": "assets/products/marchiquita-nude-fit.png",
-        "Rojo": "assets/products/marchiquita-rojo-fit.png",
         "Rosa": "assets/products/marchiquita-rosa-fit.png",
         "Durazno": "assets/products/marchiquita-durazno-fit.png",
         "Azul francia": "assets/products/marchiquita-azul-francia-fit.png",
@@ -720,12 +1286,6 @@
           "95": true,
           "100": true
         },
-        "Rojo": {
-          "85": true,
-          "90": true,
-          "95": true,
-          "100": true
-        },
         "Rosa": {
           "85": true,
           "90": true,
@@ -752,9 +1312,9 @@
         },
         "Verde baltico": {
           "85": false,
-          "90": false,
+          "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Bicolor ( azul francia / azul electrico)": {
           "85": false,
@@ -775,10 +1335,10 @@
           "100": true
         },
         "Vino": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         },
         "Rosa fluor": {
           "85": true,
@@ -795,6 +1355,123 @@
       }
     },
     {
+      "id": "mar-de-cobo",
+      "art": "4735",
+      "label": "Art - 4735 Maui",
+      "name": "Mar de Cobo",
+      "rubro": "Bikinis",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Corpiño triángulo con tiras regulables para atar en la espalda y bombacha colaless con tiras laterales para atar.",
+      "tela": "Maui.",
+      "colors": [
+        "Turquesa",
+        "Negro",
+        "Verde báltico",
+        "Verde oliva",
+        "Rosa",
+        "Ivory",
+        "Capuchino",
+        "Lila",
+        "Verde paraiso",
+        "Naranja"
+      ],
+      "photos": {
+        "Turquesa": "assets/products/mar-de-cobo-turquesa.webp",
+        "Negro": "assets/products/mar-de-cobo-negro.webp",
+        "Verde báltico": "assets/products/mar-de-cobo-verde-baltico.webp",
+        "Verde oliva": "assets/products/mar-de-cobo-verde-oliva.webp",
+        "Rosa": "assets/products/mar-de-cobo-rosa.webp",
+        "Ivory": "assets/products/mar-de-cobo-ivory.webp",
+        "Capuchino": "assets/products/mar-de-cobo-capuchino.webp",
+        "Lila": "assets/products/mar-de-cobo-lila.webp",
+        "Verde paraiso": "assets/products/mar-de-cobo-verde-paraiso.webp",
+        "Naranja": "assets/products/mar-de-cobo-naranja.webp"
+      },
+      "gallery": [],
+      "price": 13500,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100",
+        "105"
+      ],
+      "stock": {
+        "Turquesa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Verde báltico": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Verde oliva": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Rosa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Capuchino": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": true
+        },
+        "Lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Verde paraiso": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Naranja": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        }
+      }
+    },
+    {
       "id": "181273533",
       "art": "6055",
       "label": "Art - 6055",
@@ -803,23 +1480,25 @@
       "temporada": "2025-2026",
       "pack": false,
       "colors": [
-        "Verde militar",
         "Azul francia",
+        "Verde militar",
         "Negro",
         "Camel",
         "Chocolate",
         "Fucsia",
-        "Verde manzana"
+        "Verde manzana",
+        "Rosa"
       ],
       "price": 9000,
       "photos": {
+        "Azul francia": "assets/products/mar-de-las-pampas-azul-francia-modelo.webp",
         "Verde militar": "assets/products/pampas-verde-militar-fit.png",
-        "Azul francia": "assets/products/pampas-azul-francia-fit.png",
         "Negro": "assets/products/pampas-negro-fit.png",
         "Camel": "assets/products/pampas-camel-fit.png",
         "Chocolate": "assets/products/pampas-chocolate-fit.png",
         "Fucsia": "assets/products/pampas-fucsia-fit.png",
-        "Verde manzana": "assets/products/pampas-verde-manzana-fit.png"
+        "Verde manzana": "assets/products/pampas-verde-manzana-fit.png",
+        "Rosa": "assets/products/mar-de-las-pampas-rosa.webp"
       },
       "hasPhotos": true,
       "descripcion": "Bikini corpiño rectangular, bombacha y corpiño con tiras para atar.",
@@ -831,13 +1510,13 @@
         "100"
       ],
       "stock": {
-        "Verde militar": {
+        "Azul francia": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
-        "Azul francia": {
+        "Verde militar": {
           "85": true,
           "90": true,
           "95": true,
@@ -864,10 +1543,16 @@
         "Fucsia": {
           "85": true,
           "90": true,
+          "95": false,
+          "100": false
+        },
+        "Verde manzana": {
+          "85": true,
+          "90": true,
           "95": true,
           "100": true
         },
-        "Verde manzana": {
+        "Rosa": {
           "85": true,
           "90": true,
           "95": true,
@@ -1056,17 +1741,17 @@
       "colors": [
         "Coral",
         "Aqua",
-        "Azul marino",
         "Blanco",
-        "Negro"
+        "Negro",
+        "Verde oliva"
       ],
       "price": 18000,
       "photos": {
         "Coral": "assets/products/miramar-1.jpg",
         "Aqua": "assets/products/miramar-3.jpg",
-        "Azul marino": "assets/products/miramar-5.jpg",
         "Blanco": "assets/products/miramar-2.jpg",
-        "Negro": "assets/products/miramar-4.jpg"
+        "Negro": "assets/products/miramar-4.jpg",
+        "Verde oliva": "assets/products/miramar-verde-oliva.webp"
       },
       "hasPhotos": true,
       "descripcion": "Bikini top sin costura con tira removible y bombacha V colaless.",
@@ -1081,17 +1766,11 @@
         "Coral": {
           "85": true,
           "90": false,
-          "95": false,
+          "95": true,
           "100": false
         },
         "Aqua": {
           "85": true,
-          "90": false,
-          "95": false,
-          "100": false
-        },
-        "Azul marino": {
-          "85": false,
           "90": false,
           "95": false,
           "100": false
@@ -1107,6 +1786,12 @@
           "90": false,
           "95": false,
           "100": false
+        },
+        "Verde oliva": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         }
       }
     },
@@ -1123,17 +1808,15 @@
         "Amarillo",
         "Lila tulipan",
         "Naranja",
-        "Negro",
         "Rosa chicle",
         "Verde paraiso"
       ],
-      "price": 18180,
+      "price": 18000,
       "photos": {
         "Blanco": "assets/products/montehermoso-blanco-fit.png",
         "Amarillo": "assets/products/montehermoso-amarillo-fit.png",
         "Lila tulipan": "assets/products/montehermoso-lila-tulipan-fit.png",
         "Naranja": "assets/products/montehermoso-naranja-fit.png",
-        "Negro": "assets/products/montehermoso-negro-fit.png",
         "Rosa chicle": "assets/products/montehermoso-rosa-chicle-fit.png",
         "Verde paraiso": "assets/products/montehermoso-verde-paraiso-fit.png"
       },
@@ -1152,7 +1835,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false,
+          "100": true,
           "105": false
         },
         "Amarillo": {
@@ -1164,8 +1847,8 @@
         },
         "Lila tulipan": {
           "85": true,
-          "90": false,
-          "95": false,
+          "90": true,
+          "95": true,
           "100": false,
           "105": false
         },
@@ -1174,14 +1857,7 @@
           "90": true,
           "95": true,
           "100": true,
-          "105": false
-        },
-        "Negro": {
-          "85": false,
-          "90": true,
-          "95": false,
-          "100": false,
-          "105": false
+          "105": true
         },
         "Rosa chicle": {
           "85": true,
@@ -1194,7 +1870,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false,
+          "100": true,
           "105": false
         }
       }
@@ -1215,7 +1891,6 @@
         "Negro",
         "Aqua",
         "Magenta",
-        "Rojo",
         "Naranja claro",
         "Nude",
         "Turquesa",
@@ -1223,7 +1898,9 @@
         "Verde",
         "Chocolate",
         "Blanco",
-        "Verde pastel"
+        "Verde pastel",
+        "Coral fluor",
+        "Lavanda pastel"
       ],
       "price": 15300,
       "photos": {
@@ -1234,7 +1911,6 @@
         "Negro": "assets/products/necochea-negro-fit.png",
         "Aqua": "assets/products/necochea-aqua-fit.png",
         "Magenta": "assets/products/necochea-magenta-fit.png",
-        "Rojo": "assets/products/necochea-rojo-fit.png",
         "Naranja claro": "assets/products/necochea-naranja-claro-fit.png",
         "Nude": "assets/products/necochea-nude-fit.png",
         "Turquesa": "assets/products/necochea-turquesa-fit.png",
@@ -1242,7 +1918,9 @@
         "Verde": "assets/products/necochea-verde-fit.png",
         "Chocolate": "assets/products/necochea-chocolate-fit.png",
         "Blanco": "assets/products/necochea-blanco-fit.png",
-        "Verde pastel": "assets/products/necochea-verde-pastel-fit.png"
+        "Verde pastel": "assets/products/necochea-verde-pastel-fit.png",
+        "Coral fluor": "assets/products/necochea-coral-fluor.webp",
+        "Lavanda pastel": "assets/products/necochea-lavanda-pastel.webp"
       },
       "hasPhotos": true,
       "descripcion": "Bikini unicolor triángulo con tiras regulables y bombacha colaless regulable.",
@@ -1280,7 +1958,7 @@
           "85": false,
           "90": true,
           "95": true,
-          "100": false,
+          "100": true,
           "105": false
         },
         "Negro": {
@@ -1300,15 +1978,8 @@
         "Magenta": {
           "85": false,
           "90": false,
-          "95": false,
-          "100": false,
-          "105": false
-        },
-        "Rojo": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false,
+          "95": true,
+          "100": true,
           "105": false
         },
         "Naranja claro": {
@@ -1320,10 +1991,10 @@
         },
         "Nude": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true,
-          "105": false
+          "105": true
         },
         "Turquesa": {
           "85": true,
@@ -1366,6 +2037,20 @@
           "95": true,
           "100": true,
           "105": false
+        },
+        "Coral fluor": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
+        },
+        "Lavanda pastel": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true,
+          "105": false
         }
       }
     },
@@ -1378,7 +2063,6 @@
       "temporada": "2025-2026",
       "pack": false,
       "colors": [
-        "Azul marino",
         "Blanco",
         "Coral",
         "Verde militar",
@@ -1389,7 +2073,6 @@
       ],
       "price": 16200,
       "photos": {
-        "Azul marino": "assets/products/orense-azul-marino-fit.png",
         "Blanco": "assets/products/orense-blanco-fit.png",
         "Coral": "assets/products/orense-coral-fit.png",
         "Verde militar": "assets/products/orense-verde-militar-fit.png",
@@ -1408,12 +2091,6 @@
         "100"
       ],
       "stock": {
-        "Azul marino": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
-        },
         "Blanco": {
           "85": true,
           "90": true,
@@ -1446,7 +2123,7 @@
         },
         "Terracota": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": false,
           "100": false
         },
@@ -1471,12 +2148,14 @@
         "Ivory",
         "Rosa",
         "Coral",
-        "Chocolate",
         "Negro",
         "Azul francia",
         "Ciruela",
         "Naranja",
-        "Fucsia"
+        "Fucsia",
+        "Turquesa",
+        "Verde militar",
+        "Lila"
       ],
       "price": 13500,
       "photos": {
@@ -1484,12 +2163,14 @@
         "Ivory": "assets/products/ostende-manteca-fit.png",
         "Rosa": "assets/products/ostende-frambuesa-fit.png",
         "Coral": "assets/products/ostende-coral-fit.png",
-        "Chocolate": "assets/products/ostende-chocolate-fit.png",
         "Negro": "assets/products/ostende-negro-fit.png",
         "Azul francia": "assets/products/ostende-azul-marino-fit.png",
         "Ciruela": "assets/products/ostende-uva-fit.png",
         "Naranja": "assets/products/ostende-naranja-fit.png",
-        "Fucsia": "assets/products/ostende-fucsia-fit.png"
+        "Fucsia": "assets/products/ostende-fucsia-fit.png",
+        "Turquesa": "assets/products/ostende-turquesa.webp",
+        "Verde militar": "assets/products/ostende-verde-militar.webp",
+        "Lila": "assets/products/ostende-lila.webp"
       },
       "hasPhotos": true,
       "descripcion": "Bikini con corpiño en forma de triángulo con accesorio en el centro y bombacha para atar.",
@@ -1525,12 +2206,6 @@
           "95": true,
           "100": true
         },
-        "Chocolate": {
-          "85": true,
-          "90": true,
-          "95": false,
-          "100": false
-        },
         "Negro": {
           "85": true,
           "90": true,
@@ -1557,6 +2232,24 @@
         },
         "Fucsia": {
           "85": false,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Turquesa": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde militar": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila": {
+          "85": true,
           "90": true,
           "95": true,
           "100": true
@@ -1655,13 +2348,13 @@
       "descripcion": "Enterizo de escote V profundo y tiras anchas al hombro, con espalda abierta en gota y bombacha colaless de tiro alto.",
       "tela": "Microfibra lisa – sin tazas desmontables.",
       "colors": [
-        "Camel",
+        "Marron coco",
         "Chocolate",
         "Negro"
       ],
       "price": 15300,
       "photos": {
-        "Camel": "assets/products/pinamar-camel.png",
+        "Marron coco": "assets/products/pinamar-camel.png",
         "Chocolate": "assets/products/pinamar-chocolate.png",
         "Negro": "assets/products/pinamar-negro.png"
       },
@@ -1673,11 +2366,11 @@
         "100"
       ],
       "stock": {
-        "Camel": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
+        "Marron coco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         },
         "Chocolate": {
           "85": true,
@@ -1690,6 +2383,104 @@
           "90": true,
           "95": true,
           "100": true
+        }
+      }
+    },
+    {
+      "id": "playa-serena",
+      "art": "113",
+      "label": "Art - 113 Tricot",
+      "name": "Playa Serena",
+      "rubro": "Enterizos",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Enteriza con tazas.",
+      "tela": "Tricot.",
+      "colors": [
+        "Salmon",
+        "Verde aceituna",
+        "Lila",
+        "Negro",
+        "Nude",
+        "Cobre",
+        "Chocolate",
+        "Marron",
+        "Natural"
+      ],
+      "photos": {
+        "Salmon": "assets/products/playa-serena-salmon.webp",
+        "Verde aceituna": "assets/products/playa-serena-verde-aceituna.webp",
+        "Lila": "assets/products/playa-serena-lila.webp",
+        "Negro": "assets/products/playa-serena-negro.webp",
+        "Nude": "assets/products/playa-serena-nude.webp",
+        "Cobre": "assets/products/playa-serena-cobre.webp",
+        "Chocolate": "assets/products/playa-serena-chocolate.webp",
+        "Marron": "assets/products/playa-serena-marron.webp",
+        "Natural": "assets/products/playa-serena-natural.webp"
+      },
+      "gallery": [],
+      "price": 18900,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Salmon": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde aceituna": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        },
+        "Nude": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": false
+        },
+        "Cobre": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": false
+        },
+        "Chocolate": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": true
+        },
+        "Marron": {
+          "85": true,
+          "90": true,
+          "95": false,
+          "100": true
+        },
+        "Natural": {
+          "85": true,
+          "90": false,
+          "95": false,
+          "100": false
         }
       }
     },
@@ -1730,7 +2521,7 @@
           "90": true,
           "95": true,
           "100": true,
-          "105": true
+          "105": false
         },
         "Coral": {
           "85": true,
@@ -1756,6 +2547,72 @@
       }
     },
     {
+      "id": "punta-hermengo",
+      "art": "4846",
+      "label": "Art - 4846 Rio",
+      "name": "Punta Hermengo",
+      "rubro": "Bikinis",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Corpiño triángulo con tiras regulables y bombacha colaless regulable.",
+      "tela": "Rio – Tazas desmontables.",
+      "colors": [
+        "Capuccino / Ivory",
+        "Verde báltico / Ivory",
+        "Ivory / Chocolate",
+        "Celeste / Ivory",
+        "Ivory / Negro"
+      ],
+      "photos": {
+        "Capuccino / Ivory": "assets/products/punta-hermengo-capuccino-ivory.webp",
+        "Verde báltico / Ivory": "assets/products/punta-hermengo-verde-baltico-ivory.webp",
+        "Ivory / Chocolate": "assets/products/punta-hermengo-ivory-chocolate.webp",
+        "Celeste / Ivory": "assets/products/punta-hermengo-celeste-ivory.webp",
+        "Ivory / Negro": "assets/products/punta-hermengo-ivory-negro.webp"
+      },
+      "gallery": [],
+      "price": 17100,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Capuccino / Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde báltico / Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory / Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Celeste / Ivory": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory / Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
       "id": "308454830",
       "art": "4757",
       "label": "Bikini Art - 4757",
@@ -1766,15 +2623,13 @@
       "colors": [
         "Negro",
         "Verde aceituna",
-        "Durazno",
-        "Rojo"
+        "Durazno"
       ],
       "price": 16200,
       "photos": {
         "Negro": "assets/products/medanos-negro-fit.png",
         "Verde aceituna": "assets/products/medanos-verde-aceituna-fit.png",
-        "Durazno": "assets/products/medanos-durazno-fit.png",
-        "Rojo": "assets/products/medanos-rojo-fit.png"
+        "Durazno": "assets/products/medanos-durazno-fit.png"
       },
       "hasPhotos": true,
       "descripcion": "Bikini triángulo con accesorio en forma de estrella y bombacha colaless para atar.",
@@ -1788,27 +2643,21 @@
       "stock": {
         "Negro": {
           "85": false,
-          "90": false,
-          "95": false,
+          "90": true,
+          "95": true,
           "100": false
         },
         "Verde aceituna": {
           "85": true,
-          "90": false,
-          "95": false,
-          "100": false
+          "90": true,
+          "95": true,
+          "100": true
         },
         "Durazno": {
           "85": true,
           "90": true,
           "95": true,
           "100": true
-        },
-        "Rojo": {
-          "85": false,
-          "90": false,
-          "95": true,
-          "100": false
         }
       }
     },
@@ -1916,8 +2765,8 @@
         },
         "Vison": {
           "85": true,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": true
         },
         "Blanco": {
@@ -1934,7 +2783,7 @@
         },
         "Verde militar": {
           "85": false,
-          "90": false,
+          "90": true,
           "95": false,
           "100": true
         }
@@ -1999,7 +2848,10 @@
         "Blanco",
         "Negro",
         "Verde militar",
-        "Aqua"
+        "Aqua",
+        "Celeste",
+        "Azul marino",
+        "Coral"
       ],
       "price": 15300,
       "photos": {
@@ -2007,7 +2859,10 @@
         "Blanco": "assets/products/reta-blanco-fit.png",
         "Negro": "assets/products/reta-negro-fit.png",
         "Verde militar": "assets/products/reta-verde-militar-fit.png",
-        "Aqua": "assets/products/reta-aqua-fit.png"
+        "Aqua": "assets/products/reta-aqua-fit.png",
+        "Celeste": "assets/products/reta-celeste.webp",
+        "Azul marino": "assets/products/reta-azul-marino.webp",
+        "Coral": "assets/products/reta-coral.webp"
       },
       "hasPhotos": true,
       "descripcion": "Bikini de un solo hombro con aro carey al costado y bombacha colaless.",
@@ -2027,23 +2882,41 @@
         },
         "Blanco": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
         "Negro": {
           "85": true,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": true
         },
         "Verde militar": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Aqua": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Celeste": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Azul marino": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Coral": {
           "85": true,
           "90": true,
           "95": true,
@@ -2066,7 +2939,11 @@
         "Ivory",
         "Lila",
         "Verde militar",
-        "Blanco"
+        "Blanco",
+        "Negro",
+        "Verde báltico",
+        "Marron coco / Capuchino",
+        "Capuchino"
       ],
       "price": 14400,
       "photos": {
@@ -2074,7 +2951,11 @@
         "Ivory": "assets/products/bernardo-arena-fit.png",
         "Lila": "assets/products/bernardo-violeta-fit.png",
         "Verde militar": "assets/products/bernardo-verde-ingles-fit.png",
-        "Blanco": "assets/products/bernardo-blanco-fit.png"
+        "Blanco": "assets/products/bernardo-blanco-fit.png",
+        "Negro": "assets/products/san-bernardo-negro.webp",
+        "Verde báltico": "assets/products/san-bernardo-verde-baltico.webp",
+        "Marron coco / Capuchino": "assets/products/san-bernardo-marron-coco-capuchino.webp",
+        "Capuchino": "assets/products/san-bernardo-capuchino.webp"
       },
       "hasPhotos": true,
       "sizes": [
@@ -2113,6 +2994,30 @@
           "90": true,
           "95": true,
           "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde báltico": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Marron coco / Capuchino": {
+          "85": false,
+          "90": false,
+          "95": false,
+          "100": false
+        },
+        "Capuchino": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         }
       }
     },
@@ -2128,12 +3033,14 @@
       "tela": "Tricot.",
       "colors": [
         "Verde aceituna",
-        "Chocolate"
+        "Chocolate",
+        "Verde oceano"
       ],
       "price": 19800,
       "photos": {
         "Verde aceituna": "assets/products/sanclemente-verde-militar-fit.png",
-        "Chocolate": "assets/products/sanclemente-chocolate-fit.png"
+        "Chocolate": "assets/products/sanclemente-chocolate-fit.png",
+        "Verde oceano": "assets/products/san-clemente-verde-oceano.webp"
       },
       "hasPhotos": true,
       "sizes": [
@@ -2150,6 +3057,78 @@
           "100": true
         },
         "Chocolate": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde oceano": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "id": "san-eduardo",
+      "art": "6071",
+      "label": "Art - 6071 Tricot",
+      "name": "San Eduardo",
+      "rubro": "Bikinis",
+      "temporada": "2026-2027",
+      "pack": false,
+      "descripcion": "Corpiño con aro y bombacha colaless.",
+      "tela": "Tricot.",
+      "colors": [
+        "Celeste",
+        "Verde lima",
+        "Negro",
+        "Lila",
+        "Fucsia"
+      ],
+      "photos": {
+        "Celeste": "assets/products/san-eduardo-celeste.webp",
+        "Verde lima": "assets/products/san-eduardo-verde-lima.webp",
+        "Negro": "assets/products/san-eduardo-negro.webp",
+        "Lila": "assets/products/san-eduardo-lila.webp",
+        "Fucsia": "assets/products/san-eduardo-fucsia.webp"
+      },
+      "gallery": [],
+      "price": 19800,
+      "hasPhotos": true,
+      "sizes": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "stock": {
+        "Celeste": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Verde lima": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Lila": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Fucsia": {
           "85": true,
           "90": true,
           "95": true,
@@ -2234,7 +3213,6 @@
         "Negro",
         "Lila tulipan",
         "Rosa chicle",
-        "Blanco",
         "Verde paraiso"
       ],
       "price": 15300,
@@ -2242,7 +3220,6 @@
         "Negro": "assets/products/teresita-8.webp",
         "Lila tulipan": "assets/products/teresita-10.webp",
         "Rosa chicle": "assets/products/teresita-9.webp",
-        "Blanco": "assets/products/teresita-11.webp",
         "Verde paraiso": "assets/products/teresita-7.webp"
       },
       "hasPhotos": true,
@@ -2270,12 +3247,6 @@
         "Rosa chicle": {
           "85": true,
           "90": true,
-          "95": false,
-          "100": false
-        },
-        "Blanco": {
-          "85": false,
-          "90": false,
           "95": false,
           "100": false
         },
@@ -2353,21 +3324,15 @@
       "temporada": "2025-2026",
       "pack": false,
       "colors": [
-        "Negro",
-        "Chocolate",
         "Verde militar",
         "Nude",
-        "Fucsia",
         "Rosa",
         "Verde"
       ],
       "price": 18000,
       "photos": {
-        "Negro": "assets/products/gesell-negro-fit.png",
-        "Chocolate": "assets/products/gesell-chocolate-fit.png",
         "Verde militar": "assets/products/gesell-verde-militar-fit.png",
         "Nude": "assets/products/gesell-nude-fit.png",
-        "Fucsia": "assets/products/gesell-fucsia-fit.png",
         "Rosa": "assets/products/gesell-rosa-fit.png",
         "Verde": "assets/products/gesell-verde-fit.png"
       },
@@ -2381,18 +3346,6 @@
         "100"
       ],
       "stock": {
-        "Negro": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
-        },
-        "Chocolate": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
-        },
         "Verde militar": {
           "85": true,
           "90": true,
@@ -2404,12 +3357,6 @@
           "90": true,
           "95": true,
           "100": true
-        },
-        "Fucsia": {
-          "85": false,
-          "90": false,
-          "95": false,
-          "100": false
         },
         "Rosa": {
           "85": true,
@@ -2443,7 +3390,10 @@
         "Chocolate / Negro",
         "Camel / Negro",
         "Chocolate / Crema",
-        "Blanco / Blanco"
+        "Blanco / Blanco",
+        "Verde militar / Negro",
+        "Aqua / Blanco",
+        "Ivory / Blanco"
       ],
       "price": 11700,
       "photos": {
@@ -2454,7 +3404,10 @@
         "Chocolate / Negro": "assets/products/carilo4790-chocolate-negro.png",
         "Camel / Negro": "assets/products/carilo4790-camel-negro.png",
         "Chocolate / Crema": "assets/products/carilo4790-chocolate-crema.png",
-        "Blanco / Blanco": "assets/products/carilo4790-crema.png"
+        "Blanco / Blanco": "assets/products/carilo4790-crema.png",
+        "Verde militar / Negro": "assets/products/villa-gesell-norte-verde-militar-negro.webp",
+        "Aqua / Blanco": "assets/products/villa-gesell-norte-aqua-blanco.webp",
+        "Ivory / Blanco": "assets/products/villa-gesell-norte-ivory-blanco.webp"
       },
       "hasPhotos": true,
       "sizes": [
@@ -2471,7 +3424,7 @@
           "100": true
         },
         "Fucsia / Rosa bebe": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -2511,6 +3464,24 @@
           "90": true,
           "95": false,
           "100": false
+        },
+        "Verde militar / Negro": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Aqua / Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
+        },
+        "Ivory / Blanco": {
+          "85": true,
+          "90": true,
+          "95": true,
+          "100": true
         }
       }
     }
