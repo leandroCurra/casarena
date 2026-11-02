@@ -973,7 +973,7 @@ class Component extends DCLogic {
         aviso2: "debido al proceso de confección, pueden presentarse leves variaciones en las medidas dentro de un mismo talle.",
         priceLabel: this.money(cur.price),
         priceNote: cur.pack ? (cur.packNote || "Precio por pack") : "Precio mayorista por unidad",
-        colorCount: cols.length === 1 ? "Un solo color" : cols.length + " colores",
+        colorCount: (cols.length === 1 && cols[0] === "Surtido") ? "Colores surtidos" : (cols.length === 1 ? "Un solo color" : cols.length + " colores"),
         colorName: cols.length ? cols[vi] : (cur.colors[0] || ""),
         sizeChips: (cur.sizes || ["85", "90", "95", "100"]).map(s => {
           const ok = this.inStock(cur, cols[vi], s);
