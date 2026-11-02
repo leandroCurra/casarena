@@ -105,7 +105,8 @@
           "100": false
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "art-4650",
@@ -435,7 +436,8 @@
           "100": true
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "320260758",
@@ -641,7 +643,8 @@
           "100": true
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "art-4825",
@@ -870,7 +873,8 @@
           "100": false
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "las-grutas",
@@ -929,7 +933,8 @@
           "100": true
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "237767281",
@@ -1126,7 +1131,8 @@
           "105": true
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "293153494",
@@ -1478,7 +1484,8 @@
           "105": false
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "181273533",
@@ -2492,7 +2499,8 @@
           "100": false
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "303258918",
@@ -2621,7 +2629,8 @@
           "100": true
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "308454830",
@@ -3147,7 +3156,8 @@
           "100": true
         }
       },
-      "nuevo": true
+      "nuevo": true,
+      "nuevoHasta": "2026-11-17"
     },
     {
       "id": "290039547",
