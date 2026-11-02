@@ -864,7 +864,7 @@ class Component extends DCLogic {
 
   orderText() {
     const lines = this.state.cart.map(l =>
-      "• " + l.name + " — " + l.color + " · talle " + l.size + " · " + l.qty + " u." +
+      "• " + l.name + " — " + l.color + (l.size === "Surtido" ? "" : " · talle " + l.size) + " · " + l.qty + " u." +
       (l.price ? " · " + this.money(l.price * l.qty) : "")
     );
     const total = this.cartTotal();
@@ -912,12 +912,15 @@ class Component extends DCLogic {
     return t + ".";
   }
 
+  grupo(i) {
+    return i.pack ? "Packs y docenas" : (i.rubro === "Lencería" ? "Lencería" : "Bikinis");
+  }
+
   filtered() {
     const { items, rubro, q, soloFoto } = this.state;
     const t = q.trim().toLowerCase();
     return items.filter(i => {
-      if (i.pack) return false;
-      if (rubro !== "Todo" && i.rubro !== rubro) return false;
+      if (rubro !== "Todo" && this.grupo(i) !== rubro) return false;
       if (soloFoto && !i.hasPhotos) return false;
       if (t && (i.label + " " + (i.name || "") + " " + i.colors.join(" ")).toLowerCase().indexOf(t) < 0) return false;
       return true;
@@ -969,7 +972,7 @@ class Component extends DCLogic {
         aviso: "La imagen corresponde al modelo. Tené en cuenta que los tonos pueden variar según la iluminación del momento.",
         aviso2: "debido al proceso de confección, pueden presentarse leves variaciones en las medidas dentro de un mismo talle.",
         priceLabel: this.money(cur.price),
-        priceNote: "Precio mayorista por unidad",
+        priceNote: cur.pack ? (cur.packNote || "Precio por pack") : "Precio mayorista por unidad",
         colorCount: cols.length === 1 ? "Un solo color" : cols.length + " colores",
         colorName: cols.length ? cols[vi] : (cur.colors[0] || ""),
         sizeChips: (cur.sizes || ["85", "90", "95", "100"]).map(s => {
@@ -1073,11 +1076,11 @@ class Component extends DCLogic {
       goContacto: () => this.go("contacto"),
       featured: withPhotos.filter(i => ["Mar de las Pampas", "Miramar"].indexOf(i.name) < 0).slice(0, 8).map(i => this.card(i)),
       products: list.map(i => this.card(i)),
-      productGroups: ["Bikinis", "Lencería"].map(g => {
-        const its = list.filter(i => (i.rubro === "Lencería") === (g === "Lencería"));
-        return { title: g, anchor: g === "Lencería" ? "sec-lenceria" : "sec-bikinis", count: its.length === 1 ? "1 artículo" : its.length + " artículos", items: its.map(i => this.card(i)) };
+      productGroups: ["Bikinis", "Packs y docenas", "Lencería"].map(g => {
+        const its = list.filter(i => this.grupo(i) === g);
+        return { title: g, anchor: g === "Lencería" ? "sec-lenceria" : (g === "Packs y docenas" ? "sec-packs" : "sec-bikinis"), count: its.length === 1 ? "1 artículo" : its.length + " artículos", items: its.map(i => this.card(i)) };
       }).filter(g => g.items.length),
-      jumpButtons: [["Bikinis", "sec-bikinis", "Bikinis"], ["Lencería", "sec-lenceria", "Lencería"]].filter(([l, id, rub]) => rub === "Bikinis" || st.items.some(i => i.rubro === rub)).map(([label, id, rub]) => ({
+      jumpButtons: [["Bikinis", "sec-bikinis", "Bikinis"], ["Packs y docenas", "sec-packs", "Packs y docenas"], ["Lencería", "sec-lenceria", "Lencería"]].filter(([l, id, rub]) => rub === "Bikinis" || st.items.some(i => this.grupo(i) === rub)).map(([label, id, rub]) => ({
         label,
         onClick: () => {
           const go = () => {
@@ -1090,7 +1093,7 @@ class Component extends DCLogic {
       isEmpty: st.items.length > 0 && list.length === 0,
       resultLabel: list.length === 1 ? "1 artículo" : list.length + " artículos",
       totalLabel: st.items.length + " artículos · " + withPhotos.length + " con foto",
-      rubroFilters: ["Todo", "Bikinis", "Lencería"].filter(c => c !== "Lencería" || st.items.some(i => i.rubro === "Lencería")).map(c => ({
+      rubroFilters: ["Todo", "Bikinis", "Packs y docenas", "Lencería"].filter(c => c === "Todo" || c === "Bikinis" || st.items.some(i => this.grupo(i) === c)).map(c => ({
         label: c, selected: st.rubro === c, onSelect: () => this.setState({ rubro: c })
       })),
       q: st.q,
