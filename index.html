@@ -229,8 +229,8 @@ a:hover{color:var(--casarena-deep-turquoise)}
     </div>
     <div data-hairgrid="2">
       <div style="display:flex;flex-direction:column;gap:12px">
-        <span style="font-size:clamp(28px,4vw,44px);font-weight:200;letter-spacing:.04em;color:var(--text-strong)">$100.000</span>
-        <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--text-muted)">Mínimo primer pedido</span>
+        <span style="font-size:clamp(28px,4vw,44px);font-weight:200;letter-spacing:.04em;color:var(--text-strong)">{{ minBig }}</span>
+        <span style="font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--text-muted)">{{ minBigLabel }}</span>
       </div>
       <div style="display:flex;flex-direction:column;gap:12px">
         <span style="font-size:clamp(28px,4vw,44px);font-weight:200;letter-spacing:.04em;color:var(--text-strong)">Envíos</span>
@@ -553,7 +553,7 @@ a:hover{color:var(--casarena-deep-turquoise)}
       <div style="display:flex;flex-direction:column;gap:24px;max-width:62ch">
         <p style="margin:0;font-size:clamp(18px,2.6vw,24px);font-weight:300;line-height:1.6;letter-spacing:.02em;color:var(--text-strong);text-wrap:pretty">Casarena es una marca mayorista de bikinis pensada para quienes hacen del verano su negocio.</p>
         <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Recorremos la temporada y elegimos los modelos, las telas y los colores que mejor se venden, para que tengas un catálogo listo para revender sin perder tiempo buscando.</p>
-        <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Trabajamos solo por mayor, con revendedoras, tiendas y showrooms de todo el país. Podés combinar modelos, colores, packs y docenas, en talles del 85 al 100, y tu primer pedido arranca en $100.000.</p>
+        <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Trabajamos solo por mayor, con revendedoras, tiendas y showrooms de todo el país. Podés combinar modelos, colores, packs y docenas, en talles del 85 al 100, {{ minQuienes }}</p>
         <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Te respondemos el mismo día por WhatsApp, armamos el pedido con vos, chequeamos el stock de cada talle y color, y lo despachamos en 48 horas hábiles.</p>
       </div>
       <div style="position:relative;width:100%;aspect-ratio:4/5;overflow:hidden">
@@ -576,7 +576,7 @@ a:hover{color:var(--casarena-deep-turquoise)}
           <p style="margin:0;font-size:17px;font-weight:400;line-height:1.65;color:var(--text-body)">Elegimos por vos: seleccionamos los modelos que más rotan en la temporada y mantenemos el stock actualizado, para que compres sobre seguro.</p>
         </div>
         <div style="display:flex;flex-direction:column;gap:12px;padding-left:clamp(24px,3vw,40px);border-left:1px solid var(--border-hairline)">
-          <p style="margin:0;font-size:17px;font-weight:400;line-height:1.65;color:var(--text-body)">Un mínimo accesible: tu primer pedido arranca en $100.000 y podés combinar modelos, colores, talles, packs y docenas como quieras.</p>
+          <p style="margin:0;font-size:17px;font-weight:400;line-height:1.65;color:var(--text-body)">{{ minMarca }}</p>
         </div>
         <div style="display:flex;flex-direction:column;gap:12px;padding-left:clamp(24px,3vw,40px);border-left:1px solid var(--border-hairline)">
           <p style="margin:0;font-size:17px;font-weight:400;line-height:1.65;color:var(--text-body)">Te acompañamos: atención en el día, pedido armado con vos, precio sugerido de venta y fotos para tus redes. Enviamos a todo el país.</p>
@@ -618,7 +618,7 @@ a:hover{color:var(--casarena-deep-turquoise)}
         <span style="font-size:clamp(22px,3vw,32px);font-weight:200;letter-spacing:.06em;color:var(--casarena-deep-turquoise)">02</span>
         <h3 style="margin:0;font-size:clamp(20px,3vw,28px);font-weight:400;letter-spacing:.06em;color:var(--text-strong)">Enviánoslo por WhatsApp</h3>
       </div>
-      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Cuando termines, tocá "Enviar pedido por WhatsApp": se abre el chat con tu lista ya escrita. Tu primer pedido tiene un mínimo de $100.000 (desde el segundo, $200.000) y podés combinar modelos, colores y talles hasta llegarle.</p>
+      <p style="margin:0;font-size:16px;font-weight:400;line-height:1.6;color:var(--text-body)">Cuando termines, tocá "Enviar pedido por WhatsApp": se abre el chat con tu lista ya escrita. {{ minComo }} y podés combinar modelos, colores y talles hasta llegarle.</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:clamp(16px,3vw,48px);padding:clamp(24px,4vw,40px) 0;border-top:1px solid var(--border-hairline)">
       <div style="display:flex;align-items:baseline;gap:18px">
@@ -980,6 +980,27 @@ class Component extends DCLogic {
     });
   }
 
+  promoMin() {
+    const d = new Date();
+    const hoy = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    return hoy <= "2026-11-08";
+  }
+
+  minTxt() {
+    const p = this.promoMin();
+    return {
+      monto: p ? 50000 : 100000,
+      big: p ? "$50.000" : "$100.000",
+      bigLabel: p ? "Mínimo hasta el domingo 8/11" : "Mínimo primer pedido",
+      quienes: p ? "y hasta el domingo 8/11 el mínimo de compra es de solo $50.000." : "y tu primer pedido arranca en $100.000.",
+      marca: p ? "Un mínimo accesible: hasta el domingo 8/11 tu pedido arranca en $50.000, y podés combinar modelos, colores, talles, packs y docenas como quieras." : "Un mínimo accesible: tu primer pedido arranca en $100.000 y podés combinar modelos, colores, talles, packs y docenas como quieras.",
+      como: p ? "Hasta el domingo 8/11 el mínimo de compra es de $50.000" : "Tu primer pedido tiene un mínimo de $100.000 (desde el segundo, $200.000)",
+      pack: p ? "Hasta el domingo 8/11 el mínimo de compra es de $50.000." : "Tu primer pedido mayorista tiene un mínimo de $100.000. Desde el segundo, el mínimo es de $200.000.",
+      ok: p ? "Llegás al mínimo de $50.000. Podés enviarlo." : "Llegás al mínimo de $100.000 para tu primer pedido. Podés enviarlo.",
+      falta: p ? " para el mínimo de $50.000 (vale hasta el domingo 8/11). Igual podés enviarlo y lo vemos juntos." : " para el mínimo de $100.000 del primer pedido. Igual podés enviarlo y lo vemos juntos."
+    };
+  }
+
   esNuevo(i) {
     if (!i || !i.nuevo) return false;
     if (!i.nuevoHasta) return true;
@@ -1101,7 +1122,7 @@ class Component extends DCLogic {
         hasPhoto: !!mainImg,
         noPhoto: !mainImg,
         minNote: "Podés combinar modelos y colores hasta llegar al mínimo.",
-        packLine: "Tu primer pedido mayorista tiene un mínimo de $100.000. Desde el segundo, el mínimo es de $200.000."
+        packLine: this.minTxt().pack
       };
     }
 
@@ -1127,9 +1148,14 @@ class Component extends DCLogic {
       cartEmpty: st.cart.length === 0,
       cartUnits: this.cartUnits() === 1 ? "1 unidad" : this.cartUnits() + " unidades",
       cartTotal: this.cartTotal() ? this.money(this.cartTotal()) : "A confirmar",
-      minStatus: this.cartTotal() >= 100000
-        ? "Llegás al mínimo de $100.000 para tu primer pedido. Podés enviarlo."
-        : "Te faltan " + this.money(100000 - this.cartTotal()) + " para el mínimo de $100.000 del primer pedido. Igual podés enviarlo y lo vemos juntos.",
+      minStatus: this.cartTotal() >= this.minTxt().monto
+        ? this.minTxt().ok
+        : "Te faltan " + this.money(this.minTxt().monto - this.cartTotal()) + this.minTxt().falta,
+      minBig: this.minTxt().big,
+      minBigLabel: this.minTxt().bigLabel,
+      minQuienes: this.minTxt().quienes,
+      minMarca: this.minTxt().marca,
+      minComo: this.minTxt().como,
       cartLines: st.cart.map(l => ({
         name: l.name,
         detail: l.color + " · Talle " + l.size,

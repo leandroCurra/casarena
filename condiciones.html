@@ -35,7 +35,7 @@ body{margin:0;font-family:var(--font-core);color:var(--casarena-dark-teal)}
   <p style="margin:14pt 0 0;font-size:11pt;font-weight:300;line-height:1.6;max-width:52ch">Casarena existe solo en temporada. Este documento resume cómo comprar por mayor y sirve de planilla para armar tu pedido: anotá las cantidades por talle y color y mandanos la hoja completa.</p>
 
   <h2 style="margin:26pt 0 0;font-size:13pt;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-deep-green)">Monto mínimo de compra</h2>
-  <p style="margin:8pt 0 0;font-size:11pt;line-height:1.6">Primer pedido: mínimo $100.000. A partir del segundo pedido, el mínimo es de $200.000. En todos los casos podés combinar modelos, colores y talles.</p>
+  <p style="margin:8pt 0 0;font-size:11pt;line-height:1.6">{{ minimo }} En todos los casos podés combinar modelos, colores y talles.</p>
 
   <h2 style="margin:22pt 0 0;font-size:13pt;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--casarena-deep-green)">Medios de pago</h2>
   <p style="margin:8pt 0 0;font-size:11pt;line-height:1.6">Aceptamos efectivo, transferencia bancaria y depósito bancario.</p>
@@ -101,7 +101,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const items = this.state.items;
-    const bikinis = items.filter(i => i.rubro === "Bikinis" && !i.pack);
+    const bikinis = items.filter(i => i.rubro !== "Lencería" && !i.pack);
     const lenceria = items.filter(i => i.rubro === "Lencería" && !i.pack);
     const packs = items.filter(i => i.pack);
     const rows = [];
@@ -116,7 +116,12 @@ class Component extends DCLogic {
         });
       });
     });
+    const d = new Date();
+    const hoy = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
     return {
+      minimo: hoy <= "2026-11-08"
+        ? "Hasta el domingo 8/11: mínimo de compra $50.000 en cualquier pedido. Desde el lunes 9/11: primer pedido mínimo $100.000; a partir del segundo, $200.000."
+        : "Primer pedido: mínimo $100.000. A partir del segundo pedido, el mínimo es de $200.000.",
       rows,
       intro: items.length
         ? items.length + " artículos vigentes: " + [[bikinis.length, "bikinis"], [lenceria.length, "de lencería"], [packs.length, "packs y docenas"]].filter(x => x[0]).map(x => x[0] + " " + x[1]).join(", ").replace(/, ([^,]*)$/, " y $1") + ". Los precios son mayoristas por unidad."
