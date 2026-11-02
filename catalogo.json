@@ -3494,13 +3494,13 @@
       "temporada": "2026-2027",
       "pack": true,
       "packNote": "Precio por pack de 3 unidades",
-      "descripcion": "Top con corte en V al centro y vivo en contraste, con bombacha colaless de tiro alto. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "descripcion": "Top con corte en V al centro y vivo en contraste, con bombacha colaless de tiro alto. Pack de 3 bikinis del mismo talle: vos elegís el talle y los colores van surtidos según el stock disponible al momento de armar tu pedido, por eso cada pack puede traer una combinación distinta.",
       "tela": "Tricot – Sin tazas.",
       "colors": [
-        "Terracota - salmon / Azul fluor - celeste / Lila - violeta"
+        "Surtido"
       ],
       "photos": {
-        "Terracota - salmon / Azul fluor - celeste / Lila - violeta": "assets/products/arroyo-seco-negro-borde-blanco.webp"
+        "Surtido": "assets/products/arroyo-seco-negro-borde-blanco.webp"
       },
       "gallery": [
         "assets/products/arroyo-seco-lila-borde-violeta.webp",
@@ -3517,7 +3517,7 @@
         "100"
       ],
       "stock": {
-        "Terracota - salmon / Azul fluor - celeste / Lila - violeta": {
+        "Surtido": {
           "85": true,
           "90": true,
           "95": true,
@@ -3534,17 +3534,16 @@
       "temporada": "2026-2027",
       "pack": true,
       "packNote": "Precio por pack de 3 unidades",
-      "descripcion": "Top para atar y bombacha colaless. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "descripcion": "Top para atar y bombacha colaless. Pack de 3 bikinis del mismo talle: vos elegís el talle y los colores van surtidos según el stock disponible al momento de armar tu pedido, por eso cada pack puede traer una combinación distinta.",
       "tela": "Tricot – Tazas desmontables.",
       "colors": [
-        "Salmón / Lavanda / Coral fluor",
-        "Ladrillo / Natural / Nude"
+        "Surtido"
       ],
       "photos": {
-        "Salmón / Lavanda / Coral fluor": "assets/products/camet-norte-salmon.webp",
-        "Ladrillo / Natural / Nude": "assets/products/camet-norte-ladrillo.webp"
+        "Surtido": "assets/products/camet-norte-salmon.webp"
       },
       "gallery": [
+        "assets/products/camet-norte-ladrillo.webp",
         "assets/products/camet-norte-natural.webp",
         "assets/products/camet-norte-nude.webp",
         "assets/products/camet-norte-coral-fluor.webp",
@@ -3559,13 +3558,7 @@
         "100"
       ],
       "stock": {
-        "Salmón / Lavanda / Coral fluor": {
-          "85": true,
-          "90": true,
-          "95": true,
-          "100": true
-        },
-        "Ladrillo / Natural / Nude": {
+        "Surtido": {
           "85": true,
           "90": true,
           "95": true,
@@ -3582,27 +3575,20 @@
       "temporada": "2024-2025",
       "pack": true,
       "packNote": "Precio por pack de 3 unidades",
-      "descripcion": "Bikini triángulo de tiras finas regulables y bombacha colaless para atar a los costados. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "descripcion": "Bikini triángulo de tiras finas regulables y bombacha colaless para atar a los costados. Pack de 3 bikinis del mismo talle: vos elegís el talle y los colores van surtidos según el stock disponible al momento de armar tu pedido, por eso cada pack puede traer una combinación distinta.",
       "tela": "Jacquard Malibu – Tazas desmontables.",
       "colors": [
-        "Negro / Natural / Cobre",
-        "Negro / Verde lima / Fucsia",
-        "Negro / Verde lima / Verde esmeralda",
-        "Verde esmeralda / Verde lima / Verde fluor",
-        "Aqua / Rosa - lila / Natural"
+        "Surtido"
       ],
       "photos": {
-        "Negro / Natural / Cobre": "assets/products/toninas-negro-modelo.webp",
-        "Negro / Verde lima / Fucsia": "assets/products/toninas-negro-modelo.webp",
-        "Negro / Verde lima / Verde esmeralda": "assets/products/toninas-negro-modelo.webp",
-        "Verde esmeralda / Verde lima / Verde fluor": "assets/products/toninas-verde-esmeralda.webp",
-        "Aqua / Rosa - lila / Natural": "assets/products/toninas-aqua.webp"
+        "Surtido": "assets/products/toninas-negro-modelo.webp"
       },
       "gallery": [
+        "assets/products/toninas-verde-esmeralda.webp",
+        "assets/products/toninas-aqua.webp",
         "assets/products/toninas-amarillo-fluor.webp",
         "assets/products/toninas-natural-modelo.webp",
-        "assets/products/toninas-verde-fluor.webp",
-        "assets/products/toninas-verde-lima.webp"
+        "assets/products/toninas-verde-fluor.webp"
       ],
       "price": 50400,
       "hasPhotos": true,
@@ -3613,31 +3599,7 @@
         "100"
       ],
       "stock": {
-        "Negro / Natural / Cobre": {
-          "85": true,
-          "90": true,
-          "95": true,
-          "100": true
-        },
-        "Negro / Verde lima / Fucsia": {
-          "85": true,
-          "90": true,
-          "95": false,
-          "100": true
-        },
-        "Negro / Verde lima / Verde esmeralda": {
-          "85": true,
-          "90": true,
-          "95": true,
-          "100": true
-        },
-        "Verde esmeralda / Verde lima / Verde fluor": {
-          "85": true,
-          "90": true,
-          "95": true,
-          "100": true
-        },
-        "Aqua / Rosa - lila / Natural": {
+        "Surtido": {
           "85": true,
           "90": true,
           "95": true,
@@ -3654,17 +3616,16 @@
       "temporada": "2025-2026",
       "pack": true,
       "packNote": "Precio por pack de 3 unidades",
-      "descripcion": "Bikini corpiño triángulo con costuras al frente, tiras regulables y bombacha colaless con argollas al costado. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "descripcion": "Bikini corpiño triángulo con costuras al frente, tiras regulables y bombacha colaless con argollas al costado. Pack de 3 bikinis del mismo talle: vos elegís el talle y los colores van surtidos según el stock disponible al momento de armar tu pedido, por eso cada pack puede traer una combinación distinta.",
       "tela": "Jacquard Malibu – Tazas desmontables.",
       "colors": [
-        "Verde militar / Azul francia / Negro",
-        "Negro / Natural / Chocolate"
+        "Surtido"
       ],
       "photos": {
-        "Verde militar / Azul francia / Negro": "assets/products/marchiquita-verde-militar-fit.png",
-        "Negro / Natural / Chocolate": "assets/products/marchiquita-negro-fit.png"
+        "Surtido": "assets/products/marchiquita-verde-militar-fit.png"
       },
       "gallery": [
+        "assets/products/marchiquita-negro-fit.png",
         "assets/products/marchiquita-coral-neon-fit.png",
         "assets/products/marchiquita-verde-esmeralda-fit.png",
         "assets/products/marchiquita-natural-fit.png",
@@ -3679,14 +3640,8 @@
         "100"
       ],
       "stock": {
-        "Verde militar / Azul francia / Negro": {
+        "Surtido": {
           "85": true,
-          "90": true,
-          "95": true,
-          "100": true
-        },
-        "Negro / Natural / Chocolate": {
-          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -3702,17 +3657,16 @@
       "temporada": "2025-2026",
       "pack": true,
       "packNote": "Precio por pack de 3 unidades",
-      "descripcion": "Bikini corpiño rectangular, bombacha y corpiño con tiras para atar. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "descripcion": "Bikini corpiño rectangular, bombacha y corpiño con tiras para atar. Pack de 3 bikinis del mismo talle: vos elegís el talle y los colores van surtidos según el stock disponible al momento de armar tu pedido, por eso cada pack puede traer una combinación distinta.",
       "tela": "Bambula – Tazas desmontables.",
       "colors": [
-        "Rosa / Verde manzana / Chocolate",
-        "Negro / Camel / Verde militar"
+        "Surtido"
       ],
       "photos": {
-        "Rosa / Verde manzana / Chocolate": "assets/products/mar-de-las-pampas-rosa.webp",
-        "Negro / Camel / Verde militar": "assets/products/pampas-negro-fit.png"
+        "Surtido": "assets/products/mar-de-las-pampas-rosa.webp"
       },
       "gallery": [
+        "assets/products/pampas-negro-fit.png",
         "assets/products/mar-de-las-pampas-azul-francia-modelo.webp",
         "assets/products/pampas-verde-militar-fit.png",
         "assets/products/pampas-camel-fit.png",
@@ -3727,13 +3681,7 @@
         "100"
       ],
       "stock": {
-        "Rosa / Verde manzana / Chocolate": {
-          "85": true,
-          "90": true,
-          "95": true,
-          "100": true
-        },
-        "Negro / Camel / Verde militar": {
+        "Surtido": {
           "85": true,
           "90": true,
           "95": true,
@@ -3750,25 +3698,20 @@
       "temporada": "2025-2026",
       "pack": true,
       "packNote": "Precio por pack de 3 unidades",
-      "descripcion": "Bikini unicolor triángulo con tiras regulables y bombacha colaless regulable. 3 bikinis del mismo talle en la combinación de colores que elijas.",
+      "descripcion": "Bikini unicolor triángulo con tiras regulables y bombacha colaless regulable. Pack de 3 bikinis del mismo talle: vos elegís el talle y los colores van surtidos según el stock disponible al momento de armar tu pedido, por eso cada pack puede traer una combinación distinta.",
       "tela": "Tricot – Incluye tazas desmontables.",
       "colors": [
-        "Lavanda / Turquesa / Naranja claro",
-        "Negro / Verde aceituna / Mostaza",
-        "Chocolate / Nude / Blanco",
-        "Turquesa / Celeste / Lavanda pastel"
+        "Surtido"
       ],
       "photos": {
-        "Lavanda / Turquesa / Naranja claro": "assets/products/necochea-mostaza-fit.png",
-        "Negro / Verde aceituna / Mostaza": "assets/products/necochea-negro-fit.png",
-        "Chocolate / Nude / Blanco": "assets/products/necochea-chocolate-fit.png",
-        "Turquesa / Celeste / Lavanda pastel": "assets/products/necochea-turquesa-fit.png"
+        "Surtido": "assets/products/necochea-mostaza-fit.png"
       },
       "gallery": [
+        "assets/products/necochea-negro-fit.png",
+        "assets/products/necochea-chocolate-fit.png",
+        "assets/products/necochea-turquesa-fit.png",
         "assets/products/necochea-verde-aceituna-fit.png",
-        "assets/products/necochea-violeta-fit.png",
-        "assets/products/necochea-rosa-bb-fit.png",
-        "assets/products/necochea-aqua-fit.png"
+        "assets/products/necochea-violeta-fit.png"
       ],
       "price": 43200,
       "hasPhotos": true,
@@ -3779,29 +3722,11 @@
         "100"
       ],
       "stock": {
-        "Lavanda / Turquesa / Naranja claro": {
+        "Surtido": {
           "85": true,
           "90": true,
           "95": true,
           "100": true
-        },
-        "Negro / Verde aceituna / Mostaza": {
-          "85": true,
-          "90": true,
-          "95": true,
-          "100": true
-        },
-        "Chocolate / Nude / Blanco": {
-          "85": false,
-          "90": false,
-          "95": true,
-          "100": true
-        },
-        "Turquesa / Celeste / Lavanda pastel": {
-          "85": true,
-          "90": true,
-          "95": true,
-          "100": false
         }
       }
     },
