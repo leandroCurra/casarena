@@ -477,7 +477,7 @@
       "stock": {
         "Pistacho borde blanco hueso": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1082,8 +1082,8 @@
           "100": true
         },
         "Chocolate": {
-          "85": false,
-          "90": false,
+          "85": true,
+          "90": true,
           "95": true,
           "100": true
         }
@@ -1337,7 +1337,7 @@
         "Verde baltico": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": false
         },
         "Bicolor ( azul francia / azul electrico)": {
@@ -1616,7 +1616,7 @@
         "Negro": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Champagne": {
@@ -2589,7 +2589,7 @@
           "100": true
         },
         "Ivory / Chocolate": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -2601,10 +2601,10 @@
           "100": true
         },
         "Ivory / Negro": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         }
       },
       "nuevo": true,
@@ -2768,7 +2768,7 @@
           "85": true,
           "90": false,
           "95": false,
-          "100": true
+          "100": false
         },
         "Blanco": {
           "85": true,
@@ -2831,8 +2831,8 @@
         },
         "Negro-Blanco": {
           "85": true,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": true
         }
       },
@@ -2970,7 +2970,7 @@
       "stock": {
         "Verde Oliva": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2988,7 +2988,7 @@
         },
         "Verde militar": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
