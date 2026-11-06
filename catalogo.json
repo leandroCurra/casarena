@@ -477,7 +477,7 @@
       "stock": {
         "Pistacho borde blanco hueso": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -1616,7 +1616,7 @@
         "Negro": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Champagne": {
@@ -1985,7 +1985,7 @@
         "Magenta": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Naranja claro": {
@@ -2115,7 +2115,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Terracota": {
           "85": true,
@@ -2831,8 +2831,8 @@
         },
         "Negro-Blanco": {
           "85": true,
-          "90": false,
-          "95": false,
+          "90": true,
+          "95": true,
           "100": true
         }
       },
@@ -2970,7 +2970,7 @@
       "stock": {
         "Verde Oliva": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -2988,7 +2988,7 @@
         },
         "Verde militar": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -3005,7 +3005,7 @@
           "100": true
         },
         "Verde báltico": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -3068,7 +3068,7 @@
         },
         "Verde oceano": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         }
