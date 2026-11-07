@@ -84,7 +84,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Azul fluor borde celeste": {
           "85": true,
@@ -3000,13 +3000,13 @@
         },
         "Negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
         "Verde báltico": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
