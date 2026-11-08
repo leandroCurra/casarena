@@ -1076,7 +1076,7 @@
           "100": true
         },
         "Cobre": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -1359,9 +1359,9 @@
           "100": true
         },
         "Vino": {
-          "85": false,
-          "90": false,
-          "95": false,
+          "85": true,
+          "90": true,
+          "95": true,
           "100": true
         },
         "Rosa fluor": {
@@ -1431,12 +1431,12 @@
         },
         "Negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
         "Verde báltico": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -1640,7 +1640,7 @@
         "Azul hierro": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Obispo imperial": {
@@ -2835,8 +2835,7 @@
           "95": true,
           "100": true
         }
-      },
-      "ultimas": true
+      }
     },
     {
       "id": "290040486",
@@ -3000,13 +2999,13 @@
         },
         "Negro": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
         "Verde báltico": {
-          "85": false,
-          "90": false,
+          "85": true,
+          "90": true,
           "95": true,
           "100": true
         },
