@@ -478,7 +478,7 @@
         "Pistacho borde blanco hueso": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Lila borde blanco hueso": {
@@ -1324,7 +1324,7 @@
         },
         "Azul francia": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1336,8 +1336,8 @@
         },
         "Verde baltico": {
           "85": false,
-          "90": false,
-          "95": false,
+          "90": true,
+          "95": true,
           "100": false
         },
         "Bicolor ( azul francia / azul electrico)": {
@@ -1431,7 +1431,7 @@
         },
         "Negro": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -1640,7 +1640,7 @@
         "Azul hierro": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Obispo imperial": {
@@ -2601,10 +2601,10 @@
           "100": true
         },
         "Ivory / Negro": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         }
       },
       "nuevo": true,
@@ -2772,7 +2772,7 @@
         },
         "Blanco": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
