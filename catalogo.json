@@ -148,7 +148,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Turquesa capri": {
           "85": true,
@@ -194,7 +194,7 @@
           "85": true,
           "90": false,
           "95": true,
-          "100": true
+          "100": false
         },
         "Verde aceituna": {
           "85": true,
@@ -476,9 +476,9 @@
       ],
       "stock": {
         "Pistacho borde blanco hueso": {
-          "85": true,
-          "90": true,
-          "95": false,
+          "85": false,
+          "90": false,
+          "95": true,
           "100": true
         },
         "Lila borde blanco hueso": {
@@ -494,10 +494,10 @@
           "100": true
         },
         "Negro borde blanco hueso": {
-          "85": true,
+          "85": false,
           "90": false,
           "95": false,
-          "100": true
+          "100": false
         }
       }
     },
@@ -596,7 +596,7 @@
         },
         "Purpura": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1017,7 +1017,7 @@
         },
         "Negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1311,7 +1311,7 @@
           "100": true
         },
         "Rosa": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -1323,8 +1323,8 @@
           "100": true
         },
         "Azul francia": {
-          "85": true,
-          "90": false,
+          "85": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -1954,7 +1954,7 @@
         },
         "Verde aceituna": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2107,7 +2107,7 @@
         },
         "Negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": false,
           "100": true
         },
@@ -2602,7 +2602,7 @@
         },
         "Ivory / Negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         }
@@ -2643,7 +2643,7 @@
         "Negro": {
           "85": false,
           "90": true,
-          "95": true,
+          "95": false,
           "100": false
         },
         "Verde aceituna": {
