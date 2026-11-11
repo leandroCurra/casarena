@@ -194,7 +194,7 @@
           "85": true,
           "90": false,
           "95": true,
-          "100": false
+          "100": true
         },
         "Verde aceituna": {
           "85": true,
@@ -837,7 +837,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         },
         "Celeste": {
           "85": true,
@@ -1017,7 +1017,7 @@
         },
         "Negro": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -1323,7 +1323,7 @@
           "100": true
         },
         "Azul francia": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
           "100": true
@@ -1360,8 +1360,8 @@
         },
         "Vino": {
           "85": true,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": true
         },
         "Rosa fluor": {
@@ -1954,7 +1954,7 @@
         },
         "Verde aceituna": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -2305,13 +2305,13 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         },
         "Naranja": {
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Lila tulipan": {
           "85": true,
@@ -2601,10 +2601,10 @@
           "100": true
         },
         "Ivory / Negro": {
-          "85": true,
+          "85": false,
           "90": false,
-          "95": true,
-          "100": true
+          "95": false,
+          "100": false
         }
       },
       "nuevo": true,
@@ -2765,7 +2765,7 @@
           "100": true
         },
         "Vison": {
-          "85": true,
+          "85": false,
           "90": false,
           "95": false,
           "100": false
@@ -2786,7 +2786,7 @@
           "85": false,
           "90": true,
           "95": false,
-          "100": true
+          "100": false
         }
       },
       "gallery": [
