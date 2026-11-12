@@ -627,7 +627,7 @@
         "Chocolate": {
           "85": true,
           "90": false,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Naranja": {
@@ -1360,8 +1360,8 @@
         },
         "Vino": {
           "85": true,
-          "90": false,
-          "95": false,
+          "90": true,
+          "95": true,
           "100": true
         },
         "Rosa fluor": {
@@ -1985,7 +1985,7 @@
         "Magenta": {
           "85": false,
           "90": false,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Naranja claro": {
@@ -2217,7 +2217,7 @@
         "Ciruela": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Naranja": {
@@ -2471,7 +2471,7 @@
           "85": true,
           "90": true,
           "95": false,
-          "100": true
+          "100": false
         },
         "Natural": {
           "85": true,
@@ -2602,8 +2602,8 @@
         },
         "Ivory / Negro": {
           "85": false,
-          "90": false,
-          "95": false,
+          "90": true,
+          "95": true,
           "100": false
         }
       },
@@ -2659,7 +2659,8 @@
           "100": true
         }
       },
-      "alias": "punta-medanos"
+      "alias": "punta-medanos",
+      "ultimas": true
     },
     {
       "id": "281086807",
@@ -2784,7 +2785,7 @@
         },
         "Verde militar": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": false,
           "100": false
         }
@@ -2832,7 +2833,7 @@
         "Negro-Blanco": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         }
       }
@@ -2915,7 +2916,7 @@
         "Azul marino": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Coral": {
@@ -3067,7 +3068,7 @@
         },
         "Verde oceano": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         }
@@ -3658,7 +3659,7 @@
       ],
       "stock": {
         "Surtido": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
