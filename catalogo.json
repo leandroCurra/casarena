@@ -1311,7 +1311,7 @@
           "100": true
         },
         "Rosa": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
           "100": true
@@ -1336,7 +1336,7 @@
         },
         "Verde baltico": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
           "100": false
         },
@@ -1876,7 +1876,7 @@
         },
         "Rosa chicle": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1966,7 +1966,7 @@
         },
         "Rosa bb": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1978,14 +1978,14 @@
         },
         "Aqua": {
           "85": false,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": false
         },
         "Magenta": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Naranja claro": {
@@ -2043,7 +2043,7 @@
           "100": true
         },
         "Lavanda pastel": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -2447,7 +2447,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         },
         "Nude": {
           "85": true,
@@ -2579,7 +2579,7 @@
         "Capuccino / Ivory": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Verde báltico / Ivory": {
@@ -2642,7 +2642,7 @@
       "stock": {
         "Negro": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": false,
           "100": false
         },
@@ -2779,7 +2779,7 @@
         },
         "Pistacho": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2833,7 +2833,7 @@
         "Negro-Blanco": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         }
       }
@@ -3659,7 +3659,7 @@
       ],
       "stock": {
         "Surtido": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
           "100": true
