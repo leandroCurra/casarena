@@ -142,13 +142,13 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         },
         "Celeste hielo": {
           "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         },
         "Turquesa capri": {
           "85": true,
@@ -476,7 +476,7 @@
       ],
       "stock": {
         "Pistacho borde blanco hueso": {
-          "85": false,
+          "85": true,
           "90": false,
           "95": true,
           "100": true
@@ -2107,7 +2107,7 @@
         },
         "Negro": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": false,
           "100": true
         },
@@ -2589,7 +2589,7 @@
           "100": true
         },
         "Ivory / Chocolate": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
           "100": true
@@ -2601,10 +2601,10 @@
           "100": true
         },
         "Ivory / Negro": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         }
       },
       "nuevo": true,
@@ -2642,7 +2642,7 @@
       "stock": {
         "Negro": {
           "85": false,
-          "90": false,
+          "90": true,
           "95": false,
           "100": false
         },
@@ -2659,8 +2659,7 @@
           "100": true
         }
       },
-      "alias": "punta-medanos",
-      "ultimas": true
+      "alias": "punta-medanos"
     },
     {
       "id": "281086807",
@@ -2886,7 +2885,7 @@
         "Blanco": {
           "85": true,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Negro": {
@@ -3005,7 +3004,7 @@
           "100": true
         },
         "Verde báltico": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
