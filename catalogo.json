@@ -1336,7 +1336,7 @@
         },
         "Verde baltico": {
           "85": false,
-          "90": false,
+          "90": true,
           "95": true,
           "100": false
         },
@@ -1359,7 +1359,7 @@
           "100": true
         },
         "Vino": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -1959,7 +1959,7 @@
           "100": true
         },
         "Violeta": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -2579,7 +2579,7 @@
         "Capuccino / Ivory": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Verde báltico / Ivory": {
@@ -2590,13 +2590,13 @@
         },
         "Ivory / Chocolate": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
         "Celeste / Ivory": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
