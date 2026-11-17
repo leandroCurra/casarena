@@ -142,7 +142,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Celeste hielo": {
           "85": true,
@@ -193,7 +193,7 @@
         "Negro": {
           "85": true,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Verde aceituna": {
@@ -276,7 +276,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Ivory / Chocolate": {
           "85": true,
@@ -928,7 +928,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Verde militar": {
           "85": true,
@@ -1077,12 +1077,12 @@
         },
         "Cobre": {
           "85": false,
-          "90": true,
-          "95": true,
-          "100": true
+          "90": false,
+          "95": false,
+          "100": false
         },
         "Chocolate": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -1354,7 +1354,7 @@
         },
         "Aqua": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1362,7 +1362,7 @@
           "85": false,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Rosa fluor": {
           "85": true,
@@ -1454,7 +1454,7 @@
           "100": true
         },
         "Ivory": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -2039,7 +2039,7 @@
         "Coral fluor": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Lavanda pastel": {
@@ -2379,7 +2379,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         }
       }
     },
@@ -2578,8 +2578,8 @@
       "stock": {
         "Capuccino / Ivory": {
           "85": true,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": true
         },
         "Verde báltico / Ivory": {
@@ -2591,8 +2591,8 @@
         "Ivory / Chocolate": {
           "85": false,
           "90": false,
-          "95": true,
-          "100": true
+          "95": false,
+          "100": false
         },
         "Celeste / Ivory": {
           "85": true,
@@ -2659,7 +2659,8 @@
           "100": true
         }
       },
-      "alias": "punta-medanos"
+      "alias": "punta-medanos",
+      "ultimas": true
     },
     {
       "id": "281086807",
@@ -2754,7 +2755,7 @@
       "stock": {
         "Negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2794,7 +2795,8 @@
         "assets/products/puntarasa-vison-modelo-2.webp",
         "assets/products/puntarasa-vison-modelo-3.webp"
       ],
-      "alias": "punta-rasa"
+      "alias": "punta-rasa",
+      "ultimas": true
     },
     {
       "id": "art-9120",
@@ -2975,7 +2977,7 @@
         },
         "Ivory": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2993,7 +2995,7 @@
         },
         "Blanco": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -3016,7 +3018,7 @@
           "100": true
         },
         "Capuchino": {
-          "85": true,
+          "85": false,
           "90": false,
           "95": true,
           "100": true
@@ -3438,7 +3440,7 @@
         },
         "Fucsia / Rosa bebe": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
