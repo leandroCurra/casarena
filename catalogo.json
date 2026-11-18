@@ -145,10 +145,10 @@
           "100": false
         },
         "Celeste hielo": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Turquesa capri": {
           "85": true,
@@ -193,7 +193,7 @@
         "Negro": {
           "85": true,
           "90": false,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Verde aceituna": {
@@ -699,7 +699,7 @@
         "Chocolate": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Marron coco": {
@@ -1082,7 +1082,7 @@
           "100": false
         },
         "Chocolate": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
           "100": true
@@ -1275,7 +1275,7 @@
       ],
       "stock": {
         "Negro": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -1337,7 +1337,7 @@
         "Verde baltico": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": false
         },
         "Bicolor ( azul francia / azul electrico)": {
@@ -1360,7 +1360,7 @@
         },
         "Vino": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
           "100": false
         },
@@ -2019,7 +2019,7 @@
           "100": true
         },
         "Chocolate": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -2774,7 +2774,7 @@
         "Blanco": {
           "85": true,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Pistacho": {
@@ -2834,10 +2834,11 @@
         "Negro-Blanco": {
           "85": true,
           "90": true,
-          "95": true,
-          "100": true
+          "95": false,
+          "100": false
         }
-      }
+      },
+      "ultimas": true
     },
     {
       "id": "290040486",
@@ -2881,7 +2882,7 @@
         "Terracota": {
           "85": true,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Blanco": {
@@ -3020,7 +3021,7 @@
         "Capuchino": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         }
       },
@@ -3065,7 +3066,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Verde oceano": {
           "85": true,
@@ -3452,7 +3453,7 @@
         },
         "Azul francia / Celeste bb": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
