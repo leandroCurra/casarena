@@ -145,7 +145,7 @@
           "100": false
         },
         "Celeste hielo": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
           "100": false
@@ -154,7 +154,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         }
       },
       "alias": "bahia-blanca",
@@ -211,7 +211,7 @@
         },
         "Turquesa": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         }
@@ -929,7 +929,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         },
         "Verde militar": {
           "85": true,
@@ -1289,7 +1289,7 @@
         },
         "Verde esmeralda": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -1326,7 +1326,7 @@
         "Azul francia": {
           "85": true,
           "90": false,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Verde militar": {
@@ -1354,8 +1354,8 @@
           "100": true
         },
         "Aqua": {
-          "85": false,
-          "90": false,
+          "85": true,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -1373,7 +1373,7 @@
         },
         "Chocolate": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         }
@@ -1438,7 +1438,7 @@
         },
         "Verde báltico": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1955,7 +1955,7 @@
         },
         "Verde aceituna": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -1998,7 +1998,7 @@
         "Nude": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Turquesa": {
@@ -2044,8 +2044,8 @@
           "100": true
         },
         "Lavanda pastel": {
-          "85": false,
-          "90": false,
+          "85": true,
+          "90": true,
           "95": true,
           "100": true
         }
@@ -2537,7 +2537,7 @@
         "Celeste": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         }
       },
@@ -2603,8 +2603,8 @@
         },
         "Ivory / Negro": {
           "85": true,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": true
         }
       },
@@ -2656,7 +2656,7 @@
         "Durazno": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         }
       },
@@ -2756,7 +2756,7 @@
       "stock": {
         "Negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2901,7 +2901,7 @@
           "85": true,
           "90": false,
           "95": false,
-          "100": true
+          "100": false
         },
         "Aqua": {
           "85": true,
@@ -2978,7 +2978,7 @@
         },
         "Ivory": {
           "85": false,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -2995,7 +2995,7 @@
           "100": true
         },
         "Blanco": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -3063,7 +3063,7 @@
           "100": true
         },
         "Chocolate": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
           "100": false
@@ -3454,7 +3454,7 @@
         "Azul francia / Celeste bb": {
           "85": true,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Chocolate / Negro": {
@@ -3662,7 +3662,7 @@
       "stock": {
         "Surtido": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         }
