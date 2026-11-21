@@ -211,7 +211,7 @@
         },
         "Turquesa": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         }
@@ -275,7 +275,7 @@
       "stock": {
         "Chocolate / Ivory": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": false
         },
@@ -294,7 +294,7 @@
         "Verde báltico / Aqua": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Verde pistacho / Ivory": {
@@ -1037,12 +1037,12 @@
         "Aqua": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Fucsia": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": false,
           "100": true
         },
@@ -1125,7 +1125,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Marron coco": {
           "85": false,
@@ -1642,7 +1642,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Obispo imperial": {
           "85": true,
@@ -1973,7 +1973,7 @@
         },
         "Negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2098,7 +2098,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Verde militar": {
           "85": true,
@@ -2585,7 +2585,7 @@
         },
         "Verde báltico / Ivory": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2651,12 +2651,12 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Durazno": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         }
       },
@@ -2700,7 +2700,7 @@
       "stock": {
         "Azul francia": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -2757,7 +2757,7 @@
         "Negro": {
           "85": true,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Chocolate": {
@@ -2781,7 +2781,7 @@
         "Pistacho": {
           "85": true,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Verde militar": {
@@ -2883,7 +2883,7 @@
           "85": true,
           "90": false,
           "95": false,
-          "100": true
+          "100": false
         },
         "Blanco": {
           "85": true,
@@ -2919,7 +2919,7 @@
           "85": true,
           "90": true,
           "95": false,
-          "100": true
+          "100": false
         },
         "Coral": {
           "85": true,
@@ -3019,8 +3019,8 @@
           "100": true
         },
         "Capuchino": {
-          "85": true,
-          "90": false,
+          "85": false,
+          "90": true,
           "95": true,
           "100": true
         }
@@ -3453,8 +3453,8 @@
         },
         "Azul francia / Celeste bb": {
           "85": true,
-          "90": false,
-          "95": false,
+          "90": true,
+          "95": true,
           "100": true
         },
         "Chocolate / Negro": {
