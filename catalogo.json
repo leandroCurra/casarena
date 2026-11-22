@@ -145,7 +145,7 @@
           "100": false
         },
         "Celeste hielo": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": false
@@ -789,10 +789,11 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         }
       },
-      "alias": "faro-querandi"
+      "alias": "faro-querandi",
+      "ultimas": true
     },
     {
       "id": "la-caleta",
@@ -941,7 +942,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         }
       },
       "nuevo": true,
@@ -1013,7 +1014,7 @@
         "Natural": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Negro": {
@@ -1042,7 +1043,7 @@
         },
         "Fucsia": {
           "85": false,
-          "90": false,
+          "90": true,
           "95": false,
           "100": true
         },
@@ -1061,7 +1062,7 @@
         "Rosa lila": {
           "85": false,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Verde esmeralda": {
@@ -1973,7 +1974,7 @@
         },
         "Negro": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -2108,15 +2109,15 @@
         },
         "Negro": {
           "85": true,
-          "90": false,
-          "95": false,
-          "100": false
+          "90": true,
+          "95": true,
+          "100": true
         },
         "Celeste": {
           "85": true,
           "90": true,
-          "95": false,
-          "100": false
+          "95": true,
+          "100": true
         },
         "Terracota": {
           "85": true,
@@ -2219,7 +2220,7 @@
           "85": false,
           "90": false,
           "95": false,
-          "100": true
+          "100": false
         },
         "Naranja": {
           "85": true,
@@ -2312,7 +2313,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         },
         "Lila tulipan": {
           "85": true,
@@ -2447,7 +2448,7 @@
         "Negro": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": false
         },
         "Nude": {
@@ -2520,7 +2521,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Coral": {
           "85": true,
@@ -2537,7 +2538,7 @@
         "Celeste": {
           "85": true,
           "90": true,
-          "95": false,
+          "95": true,
           "100": true
         }
       },
@@ -2581,7 +2582,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Verde báltico / Ivory": {
           "85": true,
@@ -2649,9 +2650,9 @@
         },
         "Verde aceituna": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
-          "100": false
+          "100": true
         },
         "Durazno": {
           "85": true,
@@ -2700,7 +2701,7 @@
       "stock": {
         "Azul francia": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -2756,15 +2757,15 @@
       "stock": {
         "Negro": {
           "85": true,
-          "90": false,
-          "95": false,
+          "90": true,
+          "95": true,
           "100": true
         },
         "Chocolate": {
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Vison": {
           "85": false,
@@ -2782,7 +2783,7 @@
           "85": true,
           "90": false,
           "95": false,
-          "100": true
+          "100": false
         },
         "Verde militar": {
           "85": false,
@@ -3373,10 +3374,10 @@
           "100": true
         },
         "Rosa": {
-          "85": true,
+          "85": false,
           "90": false,
           "95": true,
-          "100": true
+          "100": false
         },
         "Verde": {
           "85": true,
@@ -3477,7 +3478,7 @@
         },
         "Blanco / Blanco": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": false,
           "100": false
         },
