@@ -146,8 +146,8 @@
         },
         "Celeste hielo": {
           "85": false,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": false
         },
         "Turquesa capri": {
@@ -1126,7 +1126,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": false
+          "100": true
         },
         "Marron coco": {
           "85": false,
@@ -1649,7 +1649,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         }
       },
       "alias": "mar-del-plata"
@@ -1879,7 +1879,7 @@
         "Rosa chicle": {
           "85": true,
           "90": false,
-          "95": false,
+          "95": true,
           "100": false
         },
         "Verde paraiso": {
@@ -1987,7 +1987,7 @@
         "Magenta": {
           "85": false,
           "90": false,
-          "95": false,
+          "95": true,
           "100": true
         },
         "Naranja claro": {
@@ -2650,7 +2650,7 @@
         },
         "Verde aceituna": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         },
@@ -3248,7 +3248,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Lila tulipan": {
           "85": true,
@@ -3374,10 +3374,10 @@
           "100": true
         },
         "Rosa": {
-          "85": false,
+          "85": true,
           "90": false,
           "95": true,
-          "100": false
+          "100": true
         },
         "Verde": {
           "85": true,
@@ -3663,7 +3663,7 @@
       "stock": {
         "Surtido": {
           "85": true,
-          "90": false,
+          "90": true,
           "95": true,
           "100": true
         }
