@@ -54,7 +54,7 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Violeta borde lila": {
           "85": true,
@@ -100,7 +100,7 @@
         },
         "Celeste borde negro": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": false,
           "100": false
         }
@@ -1061,7 +1061,7 @@
         },
         "Rosa lila": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": false,
           "100": true
         },
@@ -1290,7 +1290,7 @@
         },
         "Verde esmeralda": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         },
@@ -1325,10 +1325,10 @@
           "100": true
         },
         "Azul francia": {
-          "85": true,
+          "85": false,
           "90": false,
-          "95": true,
-          "100": true
+          "95": false,
+          "100": false
         },
         "Verde militar": {
           "85": true,
@@ -1351,7 +1351,7 @@
         "Bicolor (azul electrico / azul marino)": {
           "85": true,
           "90": true,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Aqua": {
@@ -1362,8 +1362,8 @@
         },
         "Vino": {
           "85": true,
-          "90": true,
-          "95": true,
+          "90": false,
+          "95": false,
           "100": true
         },
         "Rosa fluor": {
@@ -1426,7 +1426,7 @@
       ],
       "stock": {
         "Turquesa": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -1955,7 +1955,7 @@
           "100": true
         },
         "Verde aceituna": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": true
@@ -1987,7 +1987,7 @@
         "Magenta": {
           "85": false,
           "90": false,
-          "95": true,
+          "95": false,
           "100": true
         },
         "Naranja claro": {
@@ -2467,7 +2467,7 @@
           "85": true,
           "90": false,
           "95": false,
-          "100": true
+          "100": false
         },
         "Marron": {
           "85": true,
@@ -2520,8 +2520,8 @@
         "Negro": {
           "85": true,
           "90": true,
-          "95": true,
-          "100": false
+          "95": false,
+          "100": true
         },
         "Coral": {
           "85": true,
@@ -2579,7 +2579,7 @@
       ],
       "stock": {
         "Capuccino / Ivory": {
-          "85": true,
+          "85": false,
           "90": true,
           "95": true,
           "100": false
@@ -2603,9 +2603,9 @@
           "100": true
         },
         "Ivory / Negro": {
-          "85": true,
+          "85": false,
           "90": false,
-          "95": false,
+          "95": true,
           "100": true
         }
       },
@@ -2780,7 +2780,7 @@
           "100": true
         },
         "Pistacho": {
-          "85": true,
+          "85": false,
           "90": false,
           "95": false,
           "100": false
@@ -2978,7 +2978,7 @@
           "100": true
         },
         "Ivory": {
-          "85": false,
+          "85": true,
           "90": true,
           "95": true,
           "100": true
@@ -3005,13 +3005,13 @@
           "85": true,
           "90": true,
           "95": true,
-          "100": true
+          "100": false
         },
         "Verde báltico": {
           "85": false,
-          "90": true,
+          "90": false,
           "95": true,
-          "100": true
+          "100": false
         },
         "Marron coco / Capuchino": {
           "85": true,
@@ -3663,7 +3663,7 @@
       "stock": {
         "Surtido": {
           "85": true,
-          "90": true,
+          "90": false,
           "95": true,
           "100": true
         }
